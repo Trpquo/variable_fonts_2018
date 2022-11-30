@@ -3,7 +3,7 @@ console.log("Pokrečem...");
 
 function fetchFont(familyName, url, format, axis) {
     const fontFaceRules = document.getElementById("font-face");
-    const fontFaceRule = '@font-face{font-family:"' + familyName + '"; src:url("variabilni fontovi/fontovi/woff/' + url + '") format("' + format + '");} ';
+    const fontFaceRule = '@font-face{font-family:"' + familyName + '"; src:url("fontovi/woff/' + url + '") format("' + format + '");} ';
     fontFaceRules.innerHTML += fontFaceRule;
 }
 
