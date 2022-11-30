@@ -1,0 +1,427 @@
+﻿@font-face {
+    font-family: 'serifni';
+    src: url('../materijali/pisma/LeituraNews-Roman 2.otf') format('opentype');
+}
+
+@font-face {
+    font-family: 'serifni';
+    src: url('../materijali/pisma/LeituraNews-Roman 4.otf') format('opentype');
+    font-weight: bold;
+}
+
+
+/* FF Meta Variable Demo Font */
+
+@font-face {
+    font-family: 'besserifni';
+    src: url('https://variablefonts.monotype.com/MetaVariableDemo-Set.woff2') format('woff2');
+    font-display: swap;
+    font-style: normal italic;
+    font-weight: 100 900;
+}
+
+
+/* @font-face {
+    font-family: 'besserifni';
+    src: url('../materijali/pisma/LeituraSans-Grot 2.otf') format('opentype');
+}
+
+@font-face {
+    font-family: 'besserifni';
+    src: url('../materijali/pisma/LeituraSans-Italic 2.otf') format('opentype');
+    font-style: italic;
+}
+
+@font-face {
+    font-family: 'besserifni';
+    src: url('../materijali/pisma/LeituraSans-Grot 4.otf') format('opentype');
+    font-weight: bold;
+}
+
+@font-face {
+    font-family: 'besserifni';
+    src: url('../materijali/pisma/LeituraSans-Italic 4.otf') format('opentype');
+    font-style: italic;
+    font-weight: bold;
+} */
+
+@font-face {
+    font-family: 'masni';
+    src: url('../materijali/pisma/LeituraHeadline-Sans.otf') format('opentype');
+}
+
+@font-face {
+    font-family: 'krasni';
+    src: url('../materijali/pisma/LeituraDisplay-Swashes.otf') format('opentype');
+}
+
+@font-face {
+    font-family: 'ukrasni';
+    src: url('../materijali/pisma/LeituraSymbols-Arrows.otf') format('opentype');
+}
+
+
+/* ############################################################################################################## */
+
+@font-face {
+    font-family: 'Decovar';
+    src: url('../materijali/pisma/DecovarAlpha-VF.woff2') format('woff2');
+}
+
+#VFinterakcije {
+    font-family: Decovar;
+    font-variation-settings: 'BLDA' 0, 'TRMD' 0, 'TRMC' 0, 'SKLD' 0, 'TRML' 0, 'SKLA' 0, 'TRMF' 0, 'BLDB' 0, 'WMX2' 0, 'TRMB' 1000, 'TRMA' 0, 'SKLB' 0, 'TRMG' 0, 'TRME' 0;
+    cursor: pointer;
+    transition: .5s;
+    letter-spacing: .1em;
+    font-weight: 500;
+}
+
+#VFinterakcije:hover {
+    font-variation-settings: 'BLDA' 0, 'TRMD' 0, 'TRMC' 1000, 'SKLD' 0, 'TRML' 0, 'SKLA' 0, 'TRMF' 0, 'BLDB' 0, 'WMX2' 0, 'TRMB' 0, 'TRMA' 0, 'SKLB' 0, 'TRMG' 0, 'TRME' 0;
+}
+
+#VFinterakcije:active {
+    font-variation-settings: 'BLDA' 0, 'TRMD' 0, 'TRMC' 0, 'SKLD' 240, 'TRML' 0, 'SKLA' 430, 'TRMF' 0, 'BLDB' 0, 'WMX2' 0, 'TRMB' 0, 'TRMA' 0, 'SKLB' 0, 'TRMG' 0, 'TRME' 0;
+    transition: 1s;
+    /* color: firebrick; */
+}
+
+@font-face {
+    font-family: 'Compressa';
+    src: url('../materijali/pisma/CompressaPRO-GX.woff2') format('woff2');
+}
+
+#VFanimacija span:first-child {
+    font-family: Compressa;
+    font-weight: 400;
+    font-variation-settings: "wght" 200, "wdth" 10, "ital" 0;
+    animation: tanki 2s alternate infinite;
+}
+
+#VFanimacija span:last-child {
+    font-family: Compressa;
+    font-weight: 400;
+    font-variation-settings: "wght" 800, "wdth" 10, "ital" 0;
+    animation: debeli 2s alternate infinite;
+}
+
+@keyframes tanki {
+    from {
+        font-variation-settings: "wght" 200, "wdth" 10, "ital" 0;
+    }
+    to {
+        font-variation-settings: "wght" 800, "wdth" 10, "ital" 0;
+    }
+}
+
+@keyframes debeli {
+    from {
+        font-variation-settings: "wght" 800, "wdth" 10, "ital" 0;
+    }
+    to {
+        font-variation-settings: "wght" 200, "wdth" 10, "ital" 0;
+    }
+}
+
+@font-face {
+    font-family: 'Grade';
+    src: url('../materijali/pisma/GradeGX4-GX-fixed-axis-name.woff2') format('woff2');
+}
+
+#VFaccess {
+    font-family: Grade;
+    font-size: 1.2em;
+    line-height: 1.5em;
+    resize: both;
+    overflow: auto;
+    border: 2px solid #999;
+    padding: 1em;
+}
+
+#VFaccessSlider {
+    width: 50%;
+}
+
+@font-face {
+    font-family: 'Dunbar';
+    src: url('../materijali/pisma/Dunbar_series_ap.woff2') format('woff2');
+}
+
+#VFreadability {
+    font-family: Dunbar;
+    font-size: 0.8em;
+    line-height: 1.5em;
+    border: 2px solid #999;
+    padding: 1em;
+    font-weight: 400;
+    font-variation-settings: "wght" 400, "xhgt" 400;
+}
+
+
+/* ///////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////// */
+
+
+/*
+    BOJE
+
+    zelena #129193
+    žuta #fc0
+    'crna' #484f58
+    'bijela' #efefef
+    crvena #e04800
+
+*/
+
+
+/* osnovni stil */
+
+body {
+    font: normal normal 24px/1.3em besserifni, Verdana, sans-serif;
+    word-spacing: .05em;
+    letter-spacing: .015em;
+    background: #efefef;
+    color: #484f58;
+}
+
+
+/* naslovi */
+
+.otvorniNaslov {
+    font-weight: bold;
+    font-size: 2em;
+    line-height: 1.2em;
+    color: #e04800;
+    /* text-transform: uppercase; */
+    position: absolute;
+    bottom: 1em;
+    min-width: 12em;
+}
+
+h1,
+h2,
+h3,
+h4 {
+    position: relative;
+    margin: 0 0 1em;
+    letter-spacing: .08em;
+    word-spacing: -.1em;
+    /*z-index: -200;*/
+}
+
+h1 {
+    font-size: 1.2em;
+}
+
+h1 span {
+    display: inline-block;
+    word-break: keep-all;
+    min-width: 10em;
+}
+
+h1 small {
+    color: #484f58;
+    font-size: .618em;
+    /* text-transform: lowercase; */
+}
+
+h1 .običanTekst {
+    font: normal normal 18px/1.3em besserifni, Verdana, sans-serif;
+    color: #484f58;
+    /*text-transform: lowercase;*/
+}
+
+.krepak {
+    font-weight: normal;
+}
+
+.masni {
+    font-size: 1.7em;
+    font-family: masni, besserifni, sans-serif;
+}
+
+.poanta {
+    font-family: serifni;
+    font-weight: bold;
+    font-size: 1.75em;
+}
+
+.zrno {
+    font-family: besserifni;
+    font-weight: bold;
+    font-size: 1em;
+    margin: 0 .25em;
+    color: #e04800;
+}
+
+.flah {
+    color: #bbb;
+}
+
+.brojćek {
+    font-family: ukrasni;
+    color: #127173;
+}
+
+code,
+.crveni {
+    color: #e04800;
+}
+
+.središnji {
+    font-size: 1.25em;
+    font-weight: bold;
+    margin-top: 3em;
+    text-align: center;
+}
+
+.kardinal {
+    font-family: krasni;
+    font-size: 3em;
+    text-align: center;
+    margin: 5em 0 .5em;
+}
+
+.kardinal+p {
+    text-align: center;
+    margin-left: -.5em;
+}
+
+.zatvor {
+    width: 20%;
+    font-family: serifni, serif;
+    position: absolute;
+    top: 50%;
+    left: 40%;
+    text-align: center;
+    border-bottom: 4px solid #fc0;
+}
+
+
+/* tekst */
+
+hr {
+    width: 25%;
+    display: inline-block;
+    margin-top: .5em;
+}
+
+p,
+blockquote,
+h1,
+h2,
+h3,
+h4 {
+    width: 100%;
+}
+
+a {
+    font-family: serifni, serif;
+    color: #484f58;
+    text-decoration: none;
+    transition: color 1s ease-in;
+}
+
+a.uklopljena {
+    font-family: besserifni, sans-serif;
+}
+
+h4 a {
+    font-family: besserifni, sans-serif;
+}
+
+a:hover {
+    font-style: italic;
+    color: #e04800;
+}
+
+.uvlaka {
+    margin-left: 1em;
+}
+
+
+/* liste i podliste */
+
+ul {
+    list-style-type: none;
+    padding-top: .25em;
+}
+
+.dvojna-lista {
+    display: block;
+    width: 35%;
+    margin: 8em 1em;
+    float: left;
+}
+
+.trojna-lista {
+    display: block;
+    width: 22%;
+    margin: 8em 1em;
+    float: left;
+}
+
+table.tri-stupca {
+    margin-top: 3em;
+    font-size: .8em;
+    border-collapse: collapse;
+    width: 100%;
+}
+
+.tri-stupca td,
+.tri-stupca th {
+    padding: .35em 3em .35em .35em;
+    vertical-align: text-top;
+    text-align: left;
+    border-bottom: 1px solid #fc0;
+}
+
+.tri-stupca tr:hover {
+    background: #eaeaea;
+}
+
+.tri-stupca td:empty {
+    background: #efefef;
+    border-bottom: 0;
+}
+
+.tri-stupca tr:last-child td {
+    border-bottom: 0;
+}
+
+td.zasebni {
+    border-bottom: 1px solid #fc0;
+    border-top: 3px solid #fc0;
+}
+
+
+/* slikovni potpisi */
+
+.cijeliEkran figcaption {
+    font-family: serifni, serif;
+    margin-top: .5em;
+    font-size: .85em;
+    display: block;
+    width: 100%;
+}
+
+
+/* navigacija broja vježbe */
+
+.navigacija {
+    position: absolute;
+    bottom: 0;
+    right: -3em;
+}
+
+.prije,
+.poslije {
+    font-family: ukrasni;
+    font-weight: bold !important;
+    cursor: pointer;
+}
+
+.prije:hover,
+.poslije:hover {
+    font-style: normal !important;
+}

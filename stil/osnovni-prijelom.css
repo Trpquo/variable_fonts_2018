@@ -1,0 +1,512 @@
+﻿html,
+body,
+header,
+main,
+div,
+section,
+article,
+h1,
+h2,
+h3,
+h4,
+h5,
+p,
+nav,
+aside,
+figure {
+    display: block;
+    margin: 0;
+    padding: 0;
+}
+
+a:hover {
+    cursor: pointer !important;
+}
+
+html,
+body,
+main,
+article {
+    height: 100%;
+}
+
+body {
+    background: #efefef;
+    overflow: hidden;
+}
+
+main {
+    margin: 0 auto;
+    vertical-align: bottom;
+}
+
+article {
+    display: none;
+}
+
+article.aktualna {
+    display: block;
+}
+
+section {
+    position: relative;
+    padding: 40px 60px;
+    height: 80%;
+    height: calc(100% - 80px);
+    width: 80%;
+    width: calc(100% - 120px);
+    max-width: 75%;
+    /* širina slideova */
+    margin: 0 auto;
+    display: none;
+}
+
+figure {
+    margin-top: 2em;
+}
+
+figure img {
+    width: 100%;
+    height: auto;
+}
+
+section.puniEkran {
+    max-width: 80%;
+    /* širina slideova */
+    max-width: calc(100% - 120px);
+}
+
+.puniEkran h4 {
+    position: absolute;
+    color: white;
+    z-index: 500;
+    margin-left: calc(5% + 60px);
+}
+
+.puniEkran.svijetli h4 {
+    color: #484f58;
+}
+
+.puniEkran figure {
+    margin: -40px 0 0 -60px;
+    width: 120%;
+    width: calc(100% + 120px);
+    height: 120%;
+    height: calc(100% + 80px);
+    ;
+}
+
+.puniEkran img {
+    height: 100%;
+    width: auto;
+}
+
+.puniEkran img.skraćeni {
+    height: calc(100% - 3em);
+    width: auto;
+}
+
+.puniEkran figcaption {
+    margin: 10px 60px;
+    width: 80%;
+    width: calc(100% - 240px);
+}
+
+.uspravni-format {
+    height: 100%;
+    width: 100%;
+}
+
+.uspravni-format img {
+    height: 100%;
+    width: auto;
+    margin: 0 60px;
+    float: right;
+}
+
+.na-dno {
+    position: absolute;
+    bottom: 0;
+}
+
+#slide0 {
+    background: url(../materijali/vj1/420px-Globe_icon_siva.png) no-repeat;
+    background-position: center right;
+    background-size: 75%;
+}
+
+img {
+    /*position: relative;
+    z-index: -199;*/
+}
+
+.triptih {
+    display: block;
+    width: 90%;
+    margin: 3em auto 0;
+    overflow: hidden;
+}
+
+.triptih img,
+.triptih div {
+    display: block;
+    width: 30%;
+    float: left;
+    margin: 0 1%;
+}
+
+.triptih img:first-of-type,
+.triptih div:first-of-type {
+    margin-left: 2%;
+}
+
+.triptih img:last-of-type,
+.triptih div:last-of-type {
+    margin-right: 2%;
+}
+
+section canvas {
+    margin: 60px .66em 0 0;
+}
+
+section canvas+canvas,
+section br+canvas {
+    display: inline-block;
+    margin-top: 1.5em;
+}
+
+video {
+    display: block;
+    margin: 3em auto;
+}
+
+
+/* /////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////// */
+
+#razlikaPoložaja4 {
+    margin-right: 0;
+}
+
+#patkice,
+#OCD {
+    width: 95%;
+    position: absolute;
+    top: 4em;
+}
+
+#harmonije {
+    margin: 0;
+}
+
+#dinamikaGif {
+    position: absolute;
+    width: 15%;
+    max-width: 200px;
+    height: auto;
+    cursor: pointer;
+}
+
+#primjerČlanka {
+    display: block;
+    width: 70%;
+    height: 70%;
+    overflow: auto;
+    padding: 1em 6em 2em 2em;
+    margin-top: 2em;
+    background: #ec0;
+}
+
+#primjerČlanka h4 {
+    font-size: .75em;
+}
+
+#primjerČlanka h3 {
+    font-size: .9em;
+    text-transform: uppercase;
+    margin-top: 32px;
+    margin-bottom: -16px;
+}
+
+#primjerČlanka h1 {
+    margin-top: .5em;
+    font-size: 1.66em;
+    line-height: 1em;
+}
+
+#primjerČlanka .auktor {
+    font-size: .75em;
+    line-height: 1em;
+    margin-bottom: 1em;
+}
+
+#primjerČlanka p {
+    margin-top: 16px;
+    text-indent: 32px;
+}
+
+#primjerČlanka p:first-of-type,
+#primjerČlanka p:first-of-type+p,
+#primjerČlanka h3+p {
+    text-indent: 0;
+}
+
+#primjerČlanka p:first-of-type+p:first-letter {
+    display: block;
+    float: left;
+    font-size: 4.8em;
+    margin-top: .3em;
+    margin-left: -.05em;
+}
+
+#primjerČlanka.besmisleniKod {
+    color: #f05810;
+    font-weight: bold;
+    background: #484f58;
+    padding: 4em;
+    height: calc(70% - 8em);
+}
+
+#primjerČlanka.besmisleniKod code {
+    color: #cf0;
+    font-weight: normal;
+    font-size: .7em;
+    text-align: justify;
+    line-height: 1.2em;
+}
+
+#primjerČlanka.besmisleniKod .kvač {
+    color: #7df;
+    font-weight: normal;
+    font-size: 1.3em;
+}
+
+.tabla {
+    width: 45%;
+    float: left;
+    margin: 2em 2em 0 0;
+}
+
+
+/* ///////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////// */
+
+#kursor {
+    position: absolute;
+    z-index: -100;
+    top: 0;
+    left: 0;
+    transition: opacity 1.5s ease-in;
+}
+
+figure.cijeliEkran img,
+#slikaUslici,
+#turingSearle img {
+    cursor: pointer;
+}
+
+
+/* zadatak i ocjenjivane */
+
+#zadatak {
+    height: 600px;
+    width: 800px;
+    margin-top: 25px;
+    letter-spacing: .1em;
+}
+
+#zadatak div {
+    width: 300px;
+    height: 100%;
+    float: left;
+    margin-right: 100px;
+    background: lightblue;
+    cursor: pointer;
+}
+
+#zadatak div div {
+    height: 100px;
+    line-height: 100px;
+    text-align: center;
+    font-weight: bold;
+    color: white;
+}
+
+#zadatak #OWS div:nth-child(2n) {
+    background-color: #127173;
+}
+
+#zadatak #OWS div:nth-child(2n-1) {
+    background-color: #e04800;
+}
+
+#zadatak #OWS div:nth-child(4) {
+    background-color: darkmagenta;
+}
+
+#zadatak #OWS div:nth-child(3) {
+    font-size: .75em;
+}
+
+#zadatak #ZWS div:nth-child(2n) {
+    background-color: darkslategray;
+}
+
+#zadatak #ZWS div:nth-child(2n-1) {
+    background-color: darkgray;
+}
+
+#ocjenjivanje {
+    margin-top: 50px;
+}
+
+#ukupno {
+    clear: both;
+    margin-top: 125px;
+    width: 1000px;
+    min-height: 55px;
+    background: lightsteelblue;
+    position: relative;
+}
+
+#bodPredavanja {
+    position: absolute;
+    color: darkslategray;
+    font-weight: bold;
+    text-align: center;
+    width: 300px;
+    height: 100%;
+    line-height: 55px;
+    right: 0;
+    background: #fc0;
+}
+
+#ocjenjivanje span,
+#ukupno span {
+    display: block;
+    float: left;
+    padding: 10px 0;
+    border: 2px solid white;
+    color: white;
+    font-weight: bold;
+    text-align: center;
+    cursor: pointer;
+}
+
+.dolazak {
+    background: #127173;
+    width: 8px;
+}
+
+.zadatak {
+    background: #e04800;
+    width: 8px;
+}
+
+.prezentacija {
+    background: darkmagenta;
+    width: 76px;
+}
+
+.predaja {
+    background: darkslategray;
+    width: 191px;
+}
+
+
+/* *************************************** */
+
+.triptih {
+    display: block;
+    width: 90%;
+    margin: 3em auto 0;
+    overflow: hidden;
+}
+
+.triptih img {
+    display: block;
+    width: 30%;
+    float: left;
+    margin: 0 1%;
+}
+
+.triptih img:first-of-type {
+    margin-left: 2%;
+}
+
+.triptih img:last-of-type {
+    margin-right: 2%;
+}
+
+section canvas {
+    margin: 60px .66em 0 0;
+}
+
+section canvas+canvas,
+section br+canvas {
+    display: inline-block;
+    margin-top: 1.5em;
+}
+
+video {
+    display: block;
+    margin: 3em auto;
+}
+
+
+/* /////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////// */
+
+#repozitorij,
+#repozitorij>ul>li {
+    margin: 1em;
+    background-color: rgba(252, 200, 31, 0.3);
+}
+
+#repozitorij>ul>li {
+    width: 30%;
+    padding: 1em;
+    float: left;
+}
+
+#repozitorij>ul>li:nth-child(3n) {
+    clear: both;
+}
+
+#htmlDokument,
+#htmlDokument>div,
+#htmlDokument>div>div {
+    background-color: rgb(250, 200, 30);
+    margin: 10px 0;
+}
+
+#htmlDokument>div>div {
+    background-color: rgb(200, 250, 30);
+    width: calc(100% - 2em);
+}
+
+#htmlDokument>div>div>div {
+    background-color: rgb(200, 100, 250);
+    width: calc(100% - 2em);
+}
+
+#osnovniHTML {
+    height: 80%;
+    overflow: auto;
+}
+
+#osnovniHTML>div {
+    width: 40%;
+    margin-right: 3em;
+    float: left;
+    font-size: .8em;
+}
+
+#osnovniHTML dt {
+    font-weight: bold;
+    float: left;
+    margin-right: .2em;
+    color: #e04800;
+}
+
+#osnovniHTML dd {
+    font-size: .8em;
+    margin-bottom: .5em;
+}

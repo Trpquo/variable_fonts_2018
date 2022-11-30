@@ -1,0 +1,114 @@
+{
+    "Amstelvar": {
+        "fileName": "AmstelvarAlpha-VF.woff2",
+        "format": "woff2",
+        "axis": [
+            {
+                "axname": "Weight",
+                "axcode": "wght",
+                "min": 38,
+                "max": 250,
+                "default": 86
+            }, 
+            {
+                "axname": "Width",
+                "axcode": "wdth",
+                "min": 60,
+                "max": 402,
+                "default": 402
+            }, 
+            {
+                "axname": "Optical size",
+                "axcode": "opsz",
+                "min": 10,
+                "max": 72,
+                "default": 14
+            }
+        ],
+        "desc": ""
+    },
+    "Compressa": {
+        "fileName": "CompressaPRO-GX.woff2",
+        "format": "woff2",
+        "axis": "",
+        "desc": ""
+    },
+    "Decovar": {
+        "fileName": "DecovarAlpha-VF.woff2",
+        "format": "woff2",
+        "axis": "",
+        "desc": ""
+    },
+    "Dunbar": {
+        "fileName": "Dunbar_series_ap.woff2",
+        "format": "woff2",
+        "axis": "",
+        "desc": ""
+    },
+    "Fit": {
+        "fileName": "Fit-VF.woff2",
+        "format": "woff2",
+        "axis": "",
+        "desc": ""
+    },
+    "Gimlet": {
+        "fileName": "Gimlet_Italics-VF.woff2",
+        "format": "woff2",
+        "axis": "",
+        "desc": ""
+    },
+    "Jam": {
+        "fileName": "JamRegular.woff2",
+        "format": "woff2",
+        "axis": "",
+        "desc": ""
+    },
+    "CairosSans": {
+        "fileName": "KairosSans_Variable.woff2",
+        "format": "woff2",
+        "axis": "",
+        "desc": ""
+    },
+    "Lab-DJR": {
+        "fileName": "Lab-DJR.woff2",
+        "format": "woff2",
+        "axis": "",
+        "desc": ""
+    },
+    "MuybridgeGX": {
+        "fileName": "MuybridgeGX.woff2",
+        "format": "woff2",
+        "axis": "",
+        "desc": ""
+    },
+    "Sealwik": {
+        "fileName": "Selawik-variable.woff2",
+        "format": "woff2",
+        "axis": "",
+        "desc": ""
+    },
+    "TabletGothicGX": {
+        "fileName": "TabletGothicGX.woff2",
+        "format": "woff2",
+        "axis": "",
+        "desc": ""
+    },
+    "VotoSerifGX": {
+        "fileName": "VotoSerifGX.latin1.woff2",
+        "format": "woff2",
+        "axis": "",
+        "desc": ""
+    },
+    "Zeitung": {
+        "fileName": "ZeitungProBeta.woff2",
+        "format": "woff2",
+        "axis": "",
+        "desc": ""
+    },
+    "Zycon": {
+        "fileName": "Zycon.woff2",
+        "format": "woff2",
+        "axis": "",
+        "desc": ""
+    }
+}

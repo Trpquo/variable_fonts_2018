@@ -1,0 +1,5283 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ttFont sfntVersion="\x00\x01\x00\x00" ttLibVersion="3.29">
+
+  <GlyphOrder>
+    <!-- The 'id' attribute is only for humans; it is ignored when parsed. -->
+    <GlyphID id="0" name=".notdef"/>
+    <GlyphID id="1" name="space"/>
+    <GlyphID id="2" name="A"/>
+    <GlyphID id="3" name="B"/>
+    <GlyphID id="4" name="C"/>
+    <GlyphID id="5" name="D"/>
+    <GlyphID id="6" name="E"/>
+    <GlyphID id="7" name="F"/>
+    <GlyphID id="8" name="G"/>
+    <GlyphID id="9" name="H"/>
+    <GlyphID id="10" name="I"/>
+    <GlyphID id="11" name="J"/>
+    <GlyphID id="12" name="K"/>
+    <GlyphID id="13" name="L"/>
+    <GlyphID id="14" name="M"/>
+    <GlyphID id="15" name="N"/>
+    <GlyphID id="16" name="O"/>
+    <GlyphID id="17" name="P"/>
+    <GlyphID id="18" name="Q"/>
+    <GlyphID id="19" name="R"/>
+    <GlyphID id="20" name="S"/>
+    <GlyphID id="21" name="T"/>
+    <GlyphID id="22" name="U"/>
+    <GlyphID id="23" name="V"/>
+    <GlyphID id="24" name="W"/>
+    <GlyphID id="25" name="X"/>
+    <GlyphID id="26" name="Y"/>
+    <GlyphID id="27" name="Z"/>
+    <GlyphID id="28" name="quotedblleft"/>
+    <GlyphID id="29" name="quotedblright"/>
+    <GlyphID id="30" name="quotesinglbase"/>
+    <GlyphID id="31" name="quotedblbase"/>
+    <GlyphID id="32" name="period"/>
+    <GlyphID id="33" name="comma"/>
+    <GlyphID id="34" name="colon"/>
+    <GlyphID id="35" name="semicolon"/>
+  </GlyphOrder>
+
+  <head>
+    <!-- Most of this table will be recalculated by the compiler -->
+    <tableVersion value="1.0"/>
+    <fontRevision value="1.002"/>
+    <checkSumAdjustment value="0xc3649ade"/>
+    <magicNumber value="0x5f0f3cf5"/>
+    <flags value="00001000 00000011"/>
+    <unitsPerEm value="1000"/>
+    <created value="Mon Nov  6 08:12:35 2017"/>
+    <modified value="Mon Nov  6 08:12:36 2017"/>
+    <xMin value="20"/>
+    <yMin value="-200"/>
+    <xMax value="501"/>
+    <yMax value="710"/>
+    <macStyle value="00000000 00000000"/>
+    <lowestRecPPEM value="6"/>
+    <fontDirectionHint value="2"/>
+    <indexToLocFormat value="0"/>
+    <glyphDataFormat value="0"/>
+  </head>
+
+  <hhea>
+    <tableVersion value="0x00010000"/>
+    <ascent value="800"/>
+    <descent value="-200"/>
+    <lineGap value="200"/>
+    <advanceWidthMax value="521"/>
+    <minLeftSideBearing value="20"/>
+    <minRightSideBearing value="20"/>
+    <xMaxExtent value="501"/>
+    <caretSlopeRise value="1"/>
+    <caretSlopeRun value="0"/>
+    <caretOffset value="0"/>
+    <reserved0 value="0"/>
+    <reserved1 value="0"/>
+    <reserved2 value="0"/>
+    <reserved3 value="0"/>
+    <metricDataFormat value="0"/>
+    <numberOfHMetrics value="36"/>
+  </hhea>
+
+  <maxp>
+    <!-- Most of this table will be recalculated by the compiler -->
+    <tableVersion value="0x10000"/>
+    <numGlyphs value="36"/>
+    <maxPoints value="52"/>
+    <maxContours value="4"/>
+    <maxCompositePoints value="16"/>
+    <maxCompositeContours value="2"/>
+    <maxZones value="1"/>
+    <maxTwilightPoints value="0"/>
+    <maxStorage value="0"/>
+    <maxFunctionDefs value="0"/>
+    <maxInstructionDefs value="0"/>
+    <maxStackElements value="512"/>
+    <maxSizeOfInstructions value="1023"/>
+    <maxComponentElements value="2"/>
+    <maxComponentDepth value="1"/>
+  </maxp>
+
+  <OS_2>
+    <!-- The fields 'usFirstCharIndex' and 'usLastCharIndex'
+         will be recalculated by the compiler -->
+    <version value="3"/>
+    <xAvgCharWidth value="383"/>
+    <usWeightClass value="400"/>
+    <usWidthClass value="5"/>
+    <fsType value="00000000 00000100"/>
+    <ySubscriptXSize value="650"/>
+    <ySubscriptYSize value="600"/>
+    <ySubscriptXOffset value="0"/>
+    <ySubscriptYOffset value="75"/>
+    <ySuperscriptXSize value="650"/>
+    <ySuperscriptYSize value="600"/>
+    <ySuperscriptXOffset value="0"/>
+    <ySuperscriptYOffset value="350"/>
+    <yStrikeoutSize value="0"/>
+    <yStrikeoutPosition value="300"/>
+    <sFamilyClass value="0"/>
+    <panose>
+      <bFamilyType value="0"/>
+      <bSerifStyle value="0"/>
+      <bWeight value="0"/>
+      <bProportion value="0"/>
+      <bContrast value="0"/>
+      <bStrokeVariation value="0"/>
+      <bArmStyle value="0"/>
+      <bLetterForm value="0"/>
+      <bMidline value="0"/>
+      <bXHeight value="0"/>
+    </panose>
+    <ulUnicodeRange1 value="00000000 00000000 00000000 00000000"/>
+    <ulUnicodeRange2 value="00000000 00000000 00000000 00000000"/>
+    <ulUnicodeRange3 value="00000000 00000000 00000000 00000000"/>
+    <ulUnicodeRange4 value="00000000 00000000 00000000 00000000"/>
+    <achVendID value="LTTR"/>
+    <fsSelection value="00000000 01000000"/>
+    <usFirstCharIndex value="32"/>
+    <usLastCharIndex value="8222"/>
+    <sTypoAscender value="800"/>
+    <sTypoDescender value="-200"/>
+    <sTypoLineGap value="200"/>
+    <usWinAscent value="870"/>
+    <usWinDescent value="130"/>
+    <ulCodePageRange1 value="00000000 00000000 00000000 00000001"/>
+    <ulCodePageRange2 value="00000000 00000000 00000000 00000000"/>
+    <sxHeight value="500"/>
+    <sCapHeight value="700"/>
+    <usDefaultChar value="0"/>
+    <usBreakChar value="32"/>
+    <usMaxContext value="2"/>
+  </OS_2>
+
+  <hmtx>
+    <mtx name=".notdef" width="500" lsb="50"/>
+    <mtx name="A" width="400" lsb="20"/>
+    <mtx name="B" width="433" lsb="60"/>
+    <mtx name="C" width="499" lsb="50"/>
+    <mtx name="D" width="453" lsb="60"/>
+    <mtx name="E" width="400" lsb="60"/>
+    <mtx name="F" width="400" lsb="60"/>
+    <mtx name="G" width="509" lsb="50"/>
+    <mtx name="H" width="460" lsb="60"/>
+    <mtx name="I" width="320" lsb="60"/>
+    <mtx name="J" width="383" lsb="60"/>
+    <mtx name="K" width="427" lsb="60"/>
+    <mtx name="L" width="370" lsb="60"/>
+    <mtx name="M" width="490" lsb="60"/>
+    <mtx name="N" width="460" lsb="60"/>
+    <mtx name="O" width="503" lsb="50"/>
+    <mtx name="P" width="393" lsb="60"/>
+    <mtx name="Q" width="503" lsb="50"/>
+    <mtx name="R" width="404" lsb="60"/>
+    <mtx name="S" width="397" lsb="50"/>
+    <mtx name="T" width="440" lsb="30"/>
+    <mtx name="U" width="463" lsb="60"/>
+    <mtx name="V" width="400" lsb="20"/>
+    <mtx name="W" width="521" lsb="20"/>
+    <mtx name="X" width="400" lsb="20"/>
+    <mtx name="Y" width="420" lsb="20"/>
+    <mtx name="Z" width="440" lsb="60"/>
+    <mtx name="colon" width="170" lsb="60"/>
+    <mtx name="comma" width="171" lsb="60"/>
+    <mtx name="period" width="170" lsb="60"/>
+    <mtx name="quotedblbase" width="301" lsb="60"/>
+    <mtx name="quotedblleft" width="301" lsb="60"/>
+    <mtx name="quotedblright" width="301" lsb="60"/>
+    <mtx name="quotesinglbase" width="171" lsb="60"/>
+    <mtx name="semicolon" width="171" lsb="60"/>
+    <mtx name="space" width="250" lsb="0"/>
+  </hmtx>
+
+  <cmap>
+    <tableVersion version="0"/>
+    <cmap_format_4 platformID="0" platEncID="3" language="0">
+      <map code="0x20" name="space"/><!-- SPACE -->
+      <map code="0x2c" name="comma"/><!-- COMMA -->
+      <map code="0x2e" name="period"/><!-- FULL STOP -->
+      <map code="0x3a" name="colon"/><!-- COLON -->
+      <map code="0x3b" name="semicolon"/><!-- SEMICOLON -->
+      <map code="0x41" name="A"/><!-- LATIN CAPITAL LETTER A -->
+      <map code="0x42" name="B"/><!-- LATIN CAPITAL LETTER B -->
+      <map code="0x43" name="C"/><!-- LATIN CAPITAL LETTER C -->
+      <map code="0x44" name="D"/><!-- LATIN CAPITAL LETTER D -->
+      <map code="0x45" name="E"/><!-- LATIN CAPITAL LETTER E -->
+      <map code="0x46" name="F"/><!-- LATIN CAPITAL LETTER F -->
+      <map code="0x47" name="G"/><!-- LATIN CAPITAL LETTER G -->
+      <map code="0x48" name="H"/><!-- LATIN CAPITAL LETTER H -->
+      <map code="0x49" name="I"/><!-- LATIN CAPITAL LETTER I -->
+      <map code="0x4a" name="J"/><!-- LATIN CAPITAL LETTER J -->
+      <map code="0x4b" name="K"/><!-- LATIN CAPITAL LETTER K -->
+      <map code="0x4c" name="L"/><!-- LATIN CAPITAL LETTER L -->
+      <map code="0x4d" name="M"/><!-- LATIN CAPITAL LETTER M -->
+      <map code="0x4e" name="N"/><!-- LATIN CAPITAL LETTER N -->
+      <map code="0x4f" name="O"/><!-- LATIN CAPITAL LETTER O -->
+      <map code="0x50" name="P"/><!-- LATIN CAPITAL LETTER P -->
+      <map code="0x51" name="Q"/><!-- LATIN CAPITAL LETTER Q -->
+      <map code="0x52" name="R"/><!-- LATIN CAPITAL LETTER R -->
+      <map code="0x53" name="S"/><!-- LATIN CAPITAL LETTER S -->
+      <map code="0x54" name="T"/><!-- LATIN CAPITAL LETTER T -->
+      <map code="0x55" name="U"/><!-- LATIN CAPITAL LETTER U -->
+      <map code="0x56" name="V"/><!-- LATIN CAPITAL LETTER V -->
+      <map code="0x57" name="W"/><!-- LATIN CAPITAL LETTER W -->
+      <map code="0x58" name="X"/><!-- LATIN CAPITAL LETTER X -->
+      <map code="0x59" name="Y"/><!-- LATIN CAPITAL LETTER Y -->
+      <map code="0x5a" name="Z"/><!-- LATIN CAPITAL LETTER Z -->
+      <map code="0x201a" name="quotesinglbase"/><!-- SINGLE LOW-9 QUOTATION MARK -->
+      <map code="0x201c" name="quotedblleft"/><!-- LEFT DOUBLE QUOTATION MARK -->
+      <map code="0x201d" name="quotedblright"/><!-- RIGHT DOUBLE QUOTATION MARK -->
+      <map code="0x201e" name="quotedblbase"/><!-- DOUBLE LOW-9 QUOTATION MARK -->
+    </cmap_format_4>
+    <cmap_format_0 platformID="1" platEncID="0" language="0">
+      <map code="0x9" name="space"/>
+      <map code="0xd" name="space"/>
+      <map code="0x20" name="space"/>
+      <map code="0x2c" name="comma"/>
+      <map code="0x2e" name="period"/>
+      <map code="0x3a" name="colon"/>
+      <map code="0x3b" name="semicolon"/>
+      <map code="0x41" name="A"/>
+      <map code="0x42" name="B"/>
+      <map code="0x43" name="C"/>
+      <map code="0x44" name="D"/>
+      <map code="0x45" name="E"/>
+      <map code="0x46" name="F"/>
+      <map code="0x47" name="G"/>
+      <map code="0x48" name="H"/>
+      <map code="0x49" name="I"/>
+      <map code="0x4a" name="J"/>
+      <map code="0x4b" name="K"/>
+      <map code="0x4c" name="L"/>
+      <map code="0x4d" name="M"/>
+      <map code="0x4e" name="N"/>
+      <map code="0x4f" name="O"/>
+      <map code="0x50" name="P"/>
+      <map code="0x51" name="Q"/>
+      <map code="0x52" name="R"/>
+      <map code="0x53" name="S"/>
+      <map code="0x54" name="T"/>
+      <map code="0x55" name="U"/>
+      <map code="0x56" name="V"/>
+      <map code="0x57" name="W"/>
+      <map code="0x58" name="X"/>
+      <map code="0x59" name="Y"/>
+      <map code="0x5a" name="Z"/>
+      <map code="0xd2" name="quotedblleft"/>
+      <map code="0xd3" name="quotedblright"/>
+      <map code="0xe2" name="quotesinglbase"/>
+      <map code="0xe3" name="quotedblbase"/>
+    </cmap_format_0>
+    <cmap_format_4 platformID="3" platEncID="1" language="0">
+      <map code="0x20" name="space"/><!-- SPACE -->
+      <map code="0x2c" name="comma"/><!-- COMMA -->
+      <map code="0x2e" name="period"/><!-- FULL STOP -->
+      <map code="0x3a" name="colon"/><!-- COLON -->
+      <map code="0x3b" name="semicolon"/><!-- SEMICOLON -->
+      <map code="0x41" name="A"/><!-- LATIN CAPITAL LETTER A -->
+      <map code="0x42" name="B"/><!-- LATIN CAPITAL LETTER B -->
+      <map code="0x43" name="C"/><!-- LATIN CAPITAL LETTER C -->
+      <map code="0x44" name="D"/><!-- LATIN CAPITAL LETTER D -->
+      <map code="0x45" name="E"/><!-- LATIN CAPITAL LETTER E -->
+      <map code="0x46" name="F"/><!-- LATIN CAPITAL LETTER F -->
+      <map code="0x47" name="G"/><!-- LATIN CAPITAL LETTER G -->
+      <map code="0x48" name="H"/><!-- LATIN CAPITAL LETTER H -->
+      <map code="0x49" name="I"/><!-- LATIN CAPITAL LETTER I -->
+      <map code="0x4a" name="J"/><!-- LATIN CAPITAL LETTER J -->
+      <map code="0x4b" name="K"/><!-- LATIN CAPITAL LETTER K -->
+      <map code="0x4c" name="L"/><!-- LATIN CAPITAL LETTER L -->
+      <map code="0x4d" name="M"/><!-- LATIN CAPITAL LETTER M -->
+      <map code="0x4e" name="N"/><!-- LATIN CAPITAL LETTER N -->
+      <map code="0x4f" name="O"/><!-- LATIN CAPITAL LETTER O -->
+      <map code="0x50" name="P"/><!-- LATIN CAPITAL LETTER P -->
+      <map code="0x51" name="Q"/><!-- LATIN CAPITAL LETTER Q -->
+      <map code="0x52" name="R"/><!-- LATIN CAPITAL LETTER R -->
+      <map code="0x53" name="S"/><!-- LATIN CAPITAL LETTER S -->
+      <map code="0x54" name="T"/><!-- LATIN CAPITAL LETTER T -->
+      <map code="0x55" name="U"/><!-- LATIN CAPITAL LETTER U -->
+      <map code="0x56" name="V"/><!-- LATIN CAPITAL LETTER V -->
+      <map code="0x57" name="W"/><!-- LATIN CAPITAL LETTER W -->
+      <map code="0x58" name="X"/><!-- LATIN CAPITAL LETTER X -->
+      <map code="0x59" name="Y"/><!-- LATIN CAPITAL LETTER Y -->
+      <map code="0x5a" name="Z"/><!-- LATIN CAPITAL LETTER Z -->
+      <map code="0x201a" name="quotesinglbase"/><!-- SINGLE LOW-9 QUOTATION MARK -->
+      <map code="0x201c" name="quotedblleft"/><!-- LEFT DOUBLE QUOTATION MARK -->
+      <map code="0x201d" name="quotedblright"/><!-- RIGHT DOUBLE QUOTATION MARK -->
+      <map code="0x201e" name="quotedblbase"/><!-- DOUBLE LOW-9 QUOTATION MARK -->
+    </cmap_format_4>
+  </cmap>
+
+  <loca>
+    <!-- The 'loca' table will be calculated by the compiler -->
+  </loca>
+
+  <glyf>
+
+    <!-- The xMin, yMin, xMax and yMax values
+         will be recalculated by the compiler. -->
+
+    <TTGlyph name=".notdef" xMin="50" yMin="-200" xMax="450" yMax="700">
+      <contour>
+        <pt x="50" y="-200" on="1"/>
+        <pt x="450" y="-200" on="1"/>
+        <pt x="450" y="700" on="1"/>
+        <pt x="50" y="700" on="1"/>
+      </contour>
+      <contour>
+        <pt x="100" y="-150" on="1"/>
+        <pt x="100" y="650" on="1"/>
+        <pt x="400" y="650" on="1"/>
+        <pt x="400" y="-150" on="1"/>
+      </contour>
+      <instructions/>
+    </TTGlyph>
+
+    <TTGlyph name="A" xMin="20" yMin="0" xMax="380" yMax="700">
+      <contour>
+        <pt x="20" y="0" on="1"/>
+        <pt x="60" y="0" on="1"/>
+        <pt x="190" y="700" on="1"/>
+        <pt x="155" y="700" on="1"/>
+      </contour>
+      <contour>
+        <pt x="75" y="164" on="1"/>
+        <pt x="325" y="164" on="1"/>
+        <pt x="325" y="200" on="1"/>
+        <pt x="75" y="200" on="1"/>
+      </contour>
+      <contour>
+        <pt x="332" y="0" on="1"/>
+        <pt x="380" y="0" on="1"/>
+        <pt x="245" y="700" on="1"/>
+        <pt x="202" y="700" on="1"/>
+      </contour>
+      <contour>
+        <pt x="165" y="661" on="1"/>
+        <pt x="235" y="661" on="1"/>
+        <pt x="235" y="700" on="1"/>
+        <pt x="165" y="700" on="1"/>
+      </contour>
+      <instructions/>
+    </TTGlyph>
+
+    <TTGlyph name="B" xMin="60" yMin="0" xMax="403" yMax="700">
+      <contour>
+        <pt x="60" y="0" on="1"/>
+        <pt x="100" y="0" on="1"/>
+        <pt x="100" y="700" on="1"/>
+        <pt x="60" y="700" on="1"/>
+      </contour>
+      <contour>
+        <pt x="80" y="333" on="1"/>
+        <pt x="190" y="333" on="1"/>
+        <pt x="279" y="333" on="0"/>
+        <pt x="364" y="248" on="0"/>
+        <pt x="364" y="183" on="1"/>
+        <pt x="364" y="119" on="0"/>
+        <pt x="279" y="36" on="0"/>
+        <pt x="190" y="36" on="1"/>
+        <pt x="80" y="36" on="1"/>
+        <pt x="80" y="0" on="1"/>
+        <pt x="180" y="0" on="1"/>
+        <pt x="260" y="0" on="0"/>
+        <pt x="358" y="50" on="0"/>
+        <pt x="403" y="133" on="0"/>
+        <pt x="403" y="183" on="1"/>
+        <pt x="403" y="251" on="0"/>
+        <pt x="317" y="349" on="0"/>
+        <pt x="225" y="361" on="1"/>
+        <pt x="225" y="350" on="1"/>
+        <pt x="296" y="370" on="0"/>
+        <pt x="363" y="459" on="0"/>
+        <pt x="363" y="517" on="1"/>
+        <pt x="363" y="593" on="0"/>
+        <pt x="260" y="700" on="0"/>
+        <pt x="140" y="700" on="1"/>
+        <pt x="80" y="700" on="1"/>
+        <pt x="80" y="664" on="1"/>
+        <pt x="150" y="664" on="1"/>
+        <pt x="239" y="664" on="0"/>
+        <pt x="324" y="582" on="0"/>
+        <pt x="324" y="517" on="1"/>
+        <pt x="324" y="453" on="0"/>
+        <pt x="239" y="368" on="0"/>
+        <pt x="150" y="368" on="1"/>
+        <pt x="80" y="368" on="1"/>
+      </contour>
+      <instructions/>
+    </TTGlyph>
+
+    <TTGlyph name="C" xMin="50" yMin="-10" xMax="449" yMax="710">
+      <contour>
+        <pt x="410" y="264" on="1"/>
+        <pt x="400" y="130" on="0"/>
+        <pt x="319" y="26" on="0"/>
+        <pt x="257" y="26" on="1"/>
+        <pt x="246" y="26" on="1"/>
+        <pt x="176" y="26" on="0"/>
+        <pt x="90" y="166" on="0"/>
+        <pt x="90" y="352" on="1"/>
+        <pt x="90" y="537" on="0"/>
+        <pt x="176" y="674" on="0"/>
+        <pt x="246" y="674" on="1"/>
+        <pt x="257" y="674" on="1"/>
+        <pt x="319" y="674" on="0"/>
+        <pt x="400" y="574" on="0"/>
+        <pt x="410" y="442" on="1"/>
+        <pt x="449" y="447" on="1"/>
+        <pt x="436" y="590" on="0"/>
+        <pt x="335" y="710" on="0"/>
+        <pt x="257" y="710" on="1"/>
+        <pt x="246" y="710" on="1"/>
+        <pt x="155" y="710" on="0"/>
+        <pt x="50" y="549" on="0"/>
+        <pt x="50" y="352" on="1"/>
+        <pt x="50" y="154" on="0"/>
+        <pt x="155" y="-10" on="0"/>
+        <pt x="246" y="-10" on="1"/>
+        <pt x="257" y="-10" on="1"/>
+        <pt x="336" y="-10" on="0"/>
+        <pt x="437" y="113" on="0"/>
+        <pt x="449" y="258" on="1"/>
+      </contour>
+      <instructions/>
+    </TTGlyph>
+
+    <TTGlyph name="D" xMin="60" yMin="0" xMax="403" yMax="700">
+      <contour>
+        <pt x="60" y="0" on="1"/>
+        <pt x="100" y="0" on="1"/>
+        <pt x="100" y="700" on="1"/>
+        <pt x="60" y="700" on="1"/>
+      </contour>
+      <contour>
+        <pt x="86" y="664" on="1"/>
+        <pt x="167" y="664" on="1"/>
+        <pt x="252" y="664" on="0"/>
+        <pt x="363" y="537" on="0"/>
+        <pt x="363" y="352" on="1"/>
+        <pt x="363" y="166" on="0"/>
+        <pt x="252" y="36" on="0"/>
+        <pt x="167" y="36" on="1"/>
+        <pt x="86" y="36" on="1"/>
+        <pt x="86" y="0" on="1"/>
+        <pt x="167" y="0" on="1"/>
+        <pt x="271" y="0" on="0"/>
+        <pt x="403" y="154" on="0"/>
+        <pt x="403" y="352" on="1"/>
+        <pt x="403" y="549" on="0"/>
+        <pt x="271" y="700" on="0"/>
+        <pt x="167" y="700" on="1"/>
+        <pt x="86" y="700" on="1"/>
+      </contour>
+      <instructions/>
+    </TTGlyph>
+
+    <TTGlyph name="E" xMin="60" yMin="0" xMax="340" yMax="700">
+      <contour>
+        <pt x="60" y="0" on="1"/>
+        <pt x="100" y="0" on="1"/>
+        <pt x="100" y="700" on="1"/>
+        <pt x="60" y="700" on="1"/>
+      </contour>
+      <contour>
+        <pt x="80" y="664" on="1"/>
+        <pt x="340" y="664" on="1"/>
+        <pt x="340" y="700" on="1"/>
+        <pt x="80" y="700" on="1"/>
+      </contour>
+      <contour>
+        <pt x="80" y="0" on="1"/>
+        <pt x="340" y="0" on="1"/>
+        <pt x="340" y="36" on="1"/>
+        <pt x="80" y="36" on="1"/>
+      </contour>
+      <contour>
+        <pt x="80" y="334" on="1"/>
+        <pt x="320" y="334" on="1"/>
+        <pt x="320" y="370" on="1"/>
+        <pt x="80" y="370" on="1"/>
+      </contour>
+      <instructions/>
+    </TTGlyph>
+
+    <TTGlyph name="F" xMin="60" yMin="0" xMax="340" yMax="700">
+      <contour>
+        <pt x="60" y="0" on="1"/>
+        <pt x="100" y="0" on="1"/>
+        <pt x="100" y="700" on="1"/>
+        <pt x="60" y="700" on="1"/>
+      </contour>
+      <contour>
+        <pt x="80" y="664" on="1"/>
+        <pt x="340" y="664" on="1"/>
+        <pt x="340" y="700" on="1"/>
+        <pt x="80" y="700" on="1"/>
+      </contour>
+      <contour>
+        <pt x="80" y="314" on="1"/>
+        <pt x="320" y="314" on="1"/>
+        <pt x="320" y="350" on="1"/>
+        <pt x="80" y="350" on="1"/>
+      </contour>
+      <instructions/>
+    </TTGlyph>
+
+    <TTGlyph name="G" xMin="50" yMin="-10" xMax="449" yMax="710">
+      <contour>
+        <pt x="250" y="300" on="1"/>
+        <pt x="409" y="300" on="1"/>
+        <pt x="409" y="216" on="1"/>
+        <pt x="418" y="0" on="1"/>
+        <pt x="446" y="0" on="1"/>
+        <pt x="446" y="335" on="1"/>
+        <pt x="250" y="335" on="1"/>
+      </contour>
+      <contour>
+        <pt x="410" y="264" on="1"/>
+        <pt x="400" y="130" on="0"/>
+        <pt x="319" y="26" on="0"/>
+        <pt x="257" y="26" on="1"/>
+        <pt x="246" y="26" on="1"/>
+        <pt x="176" y="26" on="0"/>
+        <pt x="90" y="166" on="0"/>
+        <pt x="90" y="352" on="1"/>
+        <pt x="90" y="537" on="0"/>
+        <pt x="185" y="674" on="0"/>
+        <pt x="255" y="674" on="1"/>
+        <pt x="266" y="674" on="1"/>
+        <pt x="328" y="674" on="0"/>
+        <pt x="400" y="574" on="0"/>
+        <pt x="410" y="442" on="1"/>
+        <pt x="449" y="447" on="1"/>
+        <pt x="436" y="590" on="0"/>
+        <pt x="344" y="710" on="0"/>
+        <pt x="266" y="710" on="1"/>
+        <pt x="255" y="710" on="1"/>
+        <pt x="164" y="710" on="0"/>
+        <pt x="50" y="549" on="0"/>
+        <pt x="50" y="352" on="1"/>
+        <pt x="50" y="154" on="0"/>
+        <pt x="155" y="-10" on="0"/>
+        <pt x="246" y="-10" on="1"/>
+        <pt x="257" y="-10" on="1"/>
+        <pt x="336" y="-10" on="0"/>
+        <pt x="430" y="113" on="0"/>
+        <pt x="434" y="258" on="1"/>
+      </contour>
+      <instructions/>
+    </TTGlyph>
+
+    <TTGlyph name="H" xMin="60" yMin="0" xMax="400" yMax="700">
+      <contour>
+        <pt x="60" y="0" on="1"/>
+        <pt x="100" y="0" on="1"/>
+        <pt x="100" y="700" on="1"/>
+        <pt x="60" y="700" on="1"/>
+      </contour>
+      <contour>
+        <pt x="80" y="334" on="1"/>
+        <pt x="380" y="334" on="1"/>
+        <pt x="380" y="370" on="1"/>
+        <pt x="80" y="370" on="1"/>
+      </contour>
+      <contour>
+        <pt x="360" y="0" on="1"/>
+        <pt x="400" y="0" on="1"/>
+        <pt x="400" y="700" on="1"/>
+        <pt x="360" y="700" on="1"/>
+      </contour>
+      <instructions/>
+    </TTGlyph>
+
+    <TTGlyph name="I" xMin="60" yMin="0" xMax="260" yMax="700">
+      <contour>
+        <pt x="140" y="0" on="1"/>
+        <pt x="180" y="0" on="1"/>
+        <pt x="180" y="700" on="1"/>
+        <pt x="140" y="700" on="1"/>
+      </contour>
+      <contour>
+        <pt x="60" y="664" on="1"/>
+        <pt x="260" y="664" on="1"/>
+        <pt x="260" y="700" on="1"/>
+        <pt x="60" y="700" on="1"/>
+      </contour>
+      <contour>
+        <pt x="60" y="0" on="1"/>
+        <pt x="260" y="0" on="1"/>
+        <pt x="260" y="36" on="1"/>
+        <pt x="60" y="36" on="1"/>
+      </contour>
+      <instructions/>
+    </TTGlyph>
+
+    <TTGlyph name="J" xMin="60" yMin="-10" xMax="323" yMax="700">
+      <contour>
+        <pt x="122" y="-10" on="1"/>
+        <pt x="216" y="-10" on="0"/>
+        <pt x="323" y="92" on="0"/>
+        <pt x="323" y="222" on="1"/>
+        <pt x="323" y="700" on="1"/>
+        <pt x="283" y="700" on="1"/>
+        <pt x="283" y="222" on="1"/>
+        <pt x="283" y="107" on="0"/>
+        <pt x="197" y="26" on="0"/>
+        <pt x="122" y="26" on="1"/>
+        <pt x="109" y="26" on="0"/>
+        <pt x="83" y="29" on="0"/>
+        <pt x="72" y="32" on="1"/>
+        <pt x="60" y="-3" on="1"/>
+        <pt x="74" y="-7" on="0"/>
+        <pt x="106" y="-10" on="0"/>
+      </contour>
+      <instructions/>
+    </TTGlyph>
+
+    <TTGlyph name="K" xMin="60" yMin="0" xMax="407" yMax="700">
+      <contour>
+        <pt x="60" y="0" on="1"/>
+        <pt x="100" y="0" on="1"/>
+        <pt x="100" y="700" on="1"/>
+        <pt x="60" y="700" on="1"/>
+      </contour>
+      <contour>
+        <pt x="74" y="334" on="1"/>
+        <pt x="145" y="334" on="1"/>
+        <pt x="358" y="0" on="1"/>
+        <pt x="407" y="0" on="1"/>
+        <pt x="160" y="370" on="1"/>
+        <pt x="154" y="370" on="1"/>
+        <pt x="74" y="370" on="1"/>
+      </contour>
+      <contour>
+        <pt x="124" y="353" on="1"/>
+        <pt x="151" y="338" on="1"/>
+        <pt x="399" y="700" on="1"/>
+        <pt x="353" y="700" on="1"/>
+      </contour>
+      <instructions/>
+    </TTGlyph>
+
+    <TTGlyph name="L" xMin="60" yMin="0" xMax="340" yMax="700">
+      <contour>
+        <pt x="60" y="0" on="1"/>
+        <pt x="100" y="0" on="1"/>
+        <pt x="100" y="700" on="1"/>
+        <pt x="60" y="700" on="1"/>
+      </contour>
+      <contour>
+        <pt x="80" y="0" on="1"/>
+        <pt x="340" y="0" on="1"/>
+        <pt x="340" y="36" on="1"/>
+        <pt x="80" y="36" on="1"/>
+      </contour>
+      <instructions/>
+    </TTGlyph>
+
+    <TTGlyph name="M" xMin="60" yMin="0" xMax="430" yMax="700">
+      <contour>
+        <pt x="60" y="0" on="1"/>
+        <pt x="100" y="0" on="1"/>
+        <pt x="100" y="700" on="1"/>
+        <pt x="60" y="700" on="1"/>
+      </contour>
+      <contour>
+        <pt x="430" y="0" on="1"/>
+        <pt x="430" y="700" on="1"/>
+        <pt x="390" y="700" on="1"/>
+        <pt x="390" y="0" on="1"/>
+      </contour>
+      <contour>
+        <pt x="414" y="646" on="1"/>
+        <pt x="390" y="700" on="1"/>
+        <pt x="233" y="342" on="1"/>
+        <pt x="257" y="342" on="1"/>
+        <pt x="100" y="700" on="1"/>
+        <pt x="76" y="646" on="1"/>
+        <pt x="231" y="294" on="1"/>
+        <pt x="259" y="294" on="1"/>
+      </contour>
+      <instructions/>
+    </TTGlyph>
+
+    <TTGlyph name="N" xMin="60" yMin="0" xMax="400" yMax="700">
+      <contour>
+        <pt x="60" y="0" on="1"/>
+        <pt x="95" y="0" on="1"/>
+        <pt x="95" y="700" on="1"/>
+        <pt x="60" y="700" on="1"/>
+      </contour>
+      <contour>
+        <pt x="76" y="646" on="1"/>
+        <pt x="365" y="0" on="1"/>
+        <pt x="384" y="54" on="1"/>
+        <pt x="95" y="700" on="1"/>
+      </contour>
+      <contour>
+        <pt x="365" y="0" on="1"/>
+        <pt x="400" y="0" on="1"/>
+        <pt x="400" y="700" on="1"/>
+        <pt x="365" y="700" on="1"/>
+      </contour>
+      <instructions/>
+    </TTGlyph>
+
+    <TTGlyph name="O" xMin="50" yMin="-10" xMax="453" yMax="710">
+      <contour>
+        <pt x="246" y="-10" on="1"/>
+        <pt x="257" y="-10" on="1"/>
+        <pt x="347" y="-10" on="0"/>
+        <pt x="453" y="154" on="0"/>
+        <pt x="453" y="352" on="1"/>
+        <pt x="453" y="549" on="0"/>
+        <pt x="347" y="710" on="0"/>
+        <pt x="257" y="710" on="1"/>
+        <pt x="246" y="710" on="1"/>
+        <pt x="155" y="710" on="0"/>
+        <pt x="50" y="549" on="0"/>
+        <pt x="50" y="352" on="1"/>
+        <pt x="50" y="154" on="0"/>
+        <pt x="155" y="-10" on="0"/>
+      </contour>
+      <contour>
+        <pt x="246" y="26" on="1"/>
+        <pt x="176" y="26" on="0"/>
+        <pt x="90" y="166" on="0"/>
+        <pt x="90" y="352" on="1"/>
+        <pt x="90" y="537" on="0"/>
+        <pt x="176" y="674" on="0"/>
+        <pt x="246" y="674" on="1"/>
+        <pt x="257" y="674" on="1"/>
+        <pt x="328" y="674" on="0"/>
+        <pt x="413" y="537" on="0"/>
+        <pt x="413" y="352" on="1"/>
+        <pt x="413" y="166" on="0"/>
+        <pt x="328" y="26" on="0"/>
+        <pt x="257" y="26" on="1"/>
+      </contour>
+      <instructions/>
+    </TTGlyph>
+
+    <TTGlyph name="P" xMin="60" yMin="0" xMax="363" yMax="700">
+      <contour>
+        <pt x="60" y="0" on="1"/>
+        <pt x="100" y="0" on="1"/>
+        <pt x="100" y="700" on="1"/>
+        <pt x="60" y="700" on="1"/>
+      </contour>
+      <contour>
+        <pt x="80" y="660" on="1"/>
+        <pt x="150" y="660" on="1"/>
+        <pt x="239" y="660" on="0"/>
+        <pt x="324" y="532" on="0"/>
+        <pt x="324" y="432" on="1"/>
+        <pt x="324" y="332" on="0"/>
+        <pt x="239" y="205" on="0"/>
+        <pt x="150" y="205" on="1"/>
+        <pt x="80" y="205" on="1"/>
+        <pt x="80" y="165" on="1"/>
+        <pt x="140" y="165" on="1"/>
+        <pt x="220" y="165" on="0"/>
+        <pt x="318" y="238" on="0"/>
+        <pt x="363" y="359" on="0"/>
+        <pt x="363" y="432" on="1"/>
+        <pt x="363" y="506" on="0"/>
+        <pt x="318" y="628" on="0"/>
+        <pt x="220" y="700" on="0"/>
+        <pt x="140" y="700" on="1"/>
+        <pt x="80" y="700" on="1"/>
+      </contour>
+      <instructions/>
+    </TTGlyph>
+
+    <TTGlyph name="Q" xMin="50" yMin="-130" xMax="453" yMax="710">
+      <contour>
+        <pt x="330" y="-130" on="1"/>
+        <pt x="374" y="-130" on="1"/>
+        <pt x="275" y="13" on="1"/>
+        <pt x="243" y="-5" on="1"/>
+      </contour>
+      <contour>
+        <pt x="246" y="-10" on="1"/>
+        <pt x="257" y="-10" on="1"/>
+        <pt x="347" y="-10" on="0"/>
+        <pt x="453" y="154" on="0"/>
+        <pt x="453" y="352" on="1"/>
+        <pt x="453" y="549" on="0"/>
+        <pt x="347" y="710" on="0"/>
+        <pt x="257" y="710" on="1"/>
+        <pt x="246" y="710" on="1"/>
+        <pt x="155" y="710" on="0"/>
+        <pt x="50" y="549" on="0"/>
+        <pt x="50" y="352" on="1"/>
+        <pt x="50" y="154" on="0"/>
+        <pt x="155" y="-10" on="0"/>
+      </contour>
+      <contour>
+        <pt x="246" y="26" on="1"/>
+        <pt x="176" y="26" on="0"/>
+        <pt x="90" y="166" on="0"/>
+        <pt x="90" y="352" on="1"/>
+        <pt x="90" y="537" on="0"/>
+        <pt x="176" y="674" on="0"/>
+        <pt x="246" y="674" on="1"/>
+        <pt x="257" y="674" on="1"/>
+        <pt x="328" y="674" on="0"/>
+        <pt x="413" y="537" on="0"/>
+        <pt x="413" y="352" on="1"/>
+        <pt x="413" y="166" on="0"/>
+        <pt x="328" y="26" on="0"/>
+        <pt x="257" y="26" on="1"/>
+      </contour>
+      <instructions/>
+    </TTGlyph>
+
+    <TTGlyph name="R" xMin="60" yMin="0" xMax="374" yMax="700">
+      <contour>
+        <pt x="330" y="0" on="1"/>
+        <pt x="374" y="0" on="1"/>
+        <pt x="280" y="138" on="1"/>
+        <pt x="259" y="169" on="0"/>
+        <pt x="229" y="195" on="0"/>
+        <pt x="212" y="195" on="1"/>
+        <pt x="193" y="195" on="1"/>
+      </contour>
+      <contour>
+        <pt x="60" y="0" on="1"/>
+        <pt x="100" y="0" on="1"/>
+        <pt x="100" y="700" on="1"/>
+        <pt x="60" y="700" on="1"/>
+      </contour>
+      <contour>
+        <pt x="80" y="660" on="1"/>
+        <pt x="150" y="660" on="1"/>
+        <pt x="239" y="660" on="0"/>
+        <pt x="324" y="532" on="0"/>
+        <pt x="324" y="432" on="1"/>
+        <pt x="324" y="332" on="0"/>
+        <pt x="239" y="205" on="0"/>
+        <pt x="150" y="205" on="1"/>
+        <pt x="80" y="205" on="1"/>
+        <pt x="80" y="165" on="1"/>
+        <pt x="140" y="165" on="1"/>
+        <pt x="220" y="165" on="0"/>
+        <pt x="318" y="238" on="0"/>
+        <pt x="363" y="359" on="0"/>
+        <pt x="363" y="432" on="1"/>
+        <pt x="363" y="506" on="0"/>
+        <pt x="318" y="628" on="0"/>
+        <pt x="220" y="700" on="0"/>
+        <pt x="140" y="700" on="1"/>
+        <pt x="80" y="700" on="1"/>
+      </contour>
+      <instructions/>
+    </TTGlyph>
+
+    <TTGlyph name="S" xMin="50" yMin="-10" xMax="348" yMax="710">
+      <contour>
+        <pt x="347" y="157" on="1"/>
+        <pt x="347" y="196" on="0"/>
+        <pt x="320" y="260" on="0"/>
+        <pt x="273" y="315" on="0"/>
+        <pt x="242" y="340" on="1"/>
+        <pt x="180" y="391" on="1"/>
+        <pt x="149" y="417" on="0"/>
+        <pt x="109" y="460" on="0"/>
+        <pt x="90" y="509" on="0"/>
+        <pt x="90" y="544" on="1"/>
+        <pt x="90" y="606" on="0"/>
+        <pt x="160" y="673" on="0"/>
+        <pt x="215" y="673" on="1"/>
+        <pt x="223" y="673" on="1"/>
+        <pt x="253" y="673" on="0"/>
+        <pt x="300" y="658" on="0"/>
+        <pt x="334" y="640" on="1"/>
+        <pt x="347" y="676" on="1"/>
+        <pt x="329" y="685" on="0"/>
+        <pt x="295" y="701" on="0"/>
+        <pt x="253" y="710" on="0"/>
+        <pt x="223" y="710" on="1"/>
+        <pt x="216" y="710" on="1"/>
+        <pt x="163" y="710" on="0"/>
+        <pt x="89" y="662" on="0"/>
+        <pt x="50" y="586" on="0"/>
+        <pt x="50" y="543" on="1"/>
+        <pt x="50" y="472" on="0"/>
+        <pt x="101" y="403" on="0"/>
+        <pt x="150" y="362" on="1"/>
+        <pt x="216" y="308" on="1"/>
+        <pt x="266" y="268" on="0"/>
+        <pt x="306" y="211" on="0"/>
+        <pt x="306" y="156" on="1"/>
+        <pt x="306" y="116" on="0"/>
+        <pt x="279" y="58" on="0"/>
+        <pt x="228" y="28" on="0"/>
+        <pt x="192" y="28" on="1"/>
+        <pt x="184" y="28" on="1"/>
+        <pt x="161" y="28" on="0"/>
+        <pt x="122" y="35" on="0"/>
+        <pt x="85" y="49" on="0"/>
+        <pt x="63" y="61" on="1"/>
+        <pt x="50" y="24" on="1"/>
+        <pt x="69" y="15" on="0"/>
+        <pt x="109" y="-1" on="0"/>
+        <pt x="157" y="-10" on="0"/>
+        <pt x="188" y="-10" on="1"/>
+        <pt x="195" y="-10" on="1"/>
+        <pt x="246" y="-10" on="0"/>
+        <pt x="314" y="38" on="0"/>
+        <pt x="348" y="114" on="0"/>
+      </contour>
+      <instructions/>
+    </TTGlyph>
+
+    <TTGlyph name="T" xMin="30" yMin="0" xMax="410" yMax="700">
+      <contour>
+        <pt x="200" y="0" on="1"/>
+        <pt x="240" y="0" on="1"/>
+        <pt x="240" y="700" on="1"/>
+        <pt x="200" y="700" on="1"/>
+      </contour>
+      <contour>
+        <pt x="30" y="664" on="1"/>
+        <pt x="410" y="664" on="1"/>
+        <pt x="410" y="700" on="1"/>
+        <pt x="30" y="700" on="1"/>
+      </contour>
+      <instructions/>
+    </TTGlyph>
+
+    <TTGlyph name="U" xMin="60" yMin="-10" xMax="403" yMax="700">
+      <contour>
+        <pt x="232" y="-10" on="1"/>
+        <pt x="312" y="-10" on="0"/>
+        <pt x="403" y="74" on="0"/>
+        <pt x="403" y="182" on="1"/>
+        <pt x="403" y="700" on="1"/>
+        <pt x="363" y="700" on="1"/>
+        <pt x="363" y="182" on="1"/>
+        <pt x="363" y="91" on="0"/>
+        <pt x="293" y="26" on="0"/>
+        <pt x="232" y="26" on="1"/>
+        <pt x="171" y="26" on="0"/>
+        <pt x="100" y="91" on="0"/>
+        <pt x="100" y="182" on="1"/>
+        <pt x="100" y="700" on="1"/>
+        <pt x="60" y="700" on="1"/>
+        <pt x="60" y="182" on="1"/>
+        <pt x="60" y="74" on="0"/>
+        <pt x="151" y="-10" on="0"/>
+      </contour>
+      <instructions/>
+    </TTGlyph>
+
+    <TTGlyph name="V" xMin="20" yMin="0" xMax="380" yMax="700">
+      <contour>
+        <pt x="380" y="700" on="1"/>
+        <pt x="335" y="700" on="1"/>
+        <pt x="205" y="0" on="1"/>
+        <pt x="245" y="0" on="1"/>
+      </contour>
+      <contour>
+        <pt x="65" y="700" on="1"/>
+        <pt x="20" y="700" on="1"/>
+        <pt x="155" y="0" on="1"/>
+        <pt x="195" y="0" on="1"/>
+      </contour>
+      <contour>
+        <pt x="235" y="39" on="1"/>
+        <pt x="165" y="39" on="1"/>
+        <pt x="165" y="0" on="1"/>
+        <pt x="235" y="0" on="1"/>
+      </contour>
+      <instructions/>
+    </TTGlyph>
+
+    <TTGlyph name="W" xMin="20" yMin="0" xMax="501" yMax="700">
+      <contour>
+        <pt x="501" y="700" on="1"/>
+        <pt x="458" y="700" on="1"/>
+        <pt x="371" y="62" on="1"/>
+        <pt x="378" y="62" on="1"/>
+        <pt x="284" y="700" on="1"/>
+        <pt x="245" y="700" on="1"/>
+        <pt x="152" y="62" on="1"/>
+        <pt x="160" y="62" on="1"/>
+        <pt x="67" y="700" on="1"/>
+        <pt x="20" y="700" on="1"/>
+        <pt x="127" y="0" on="1"/>
+        <pt x="174" y="0" on="1"/>
+        <pt x="261" y="639" on="1"/>
+        <pt x="252" y="639" on="1"/>
+        <pt x="347" y="0" on="1"/>
+        <pt x="394" y="0" on="1"/>
+      </contour>
+      <instructions/>
+    </TTGlyph>
+
+    <TTGlyph name="X" xMin="20" yMin="0" xMax="380" yMax="700">
+      <contour>
+        <pt x="340" y="0" on="1"/>
+        <pt x="380" y="0" on="1"/>
+        <pt x="211" y="364" on="1"/>
+        <pt x="70" y="700" on="1"/>
+        <pt x="30" y="700" on="1"/>
+        <pt x="190" y="337" on="1"/>
+      </contour>
+      <contour>
+        <pt x="20" y="0" on="1"/>
+        <pt x="60" y="0" on="1"/>
+        <pt x="202" y="332" on="1"/>
+        <pt x="215" y="336" on="1"/>
+        <pt x="370" y="700" on="1"/>
+        <pt x="330" y="700" on="1"/>
+        <pt x="200" y="363" on="1"/>
+        <pt x="184" y="357" on="1"/>
+      </contour>
+      <instructions/>
+    </TTGlyph>
+
+    <TTGlyph name="Y" xMin="20" yMin="0" xMax="400" yMax="700">
+      <contour>
+        <pt x="400" y="700" on="1"/>
+        <pt x="355" y="700" on="1"/>
+        <pt x="203" y="210" on="1"/>
+        <pt x="230" y="210" on="1"/>
+      </contour>
+      <contour>
+        <pt x="65" y="700" on="1"/>
+        <pt x="20" y="700" on="1"/>
+        <pt x="190" y="210" on="1"/>
+        <pt x="226" y="210" on="1"/>
+      </contour>
+      <contour>
+        <pt x="230" y="229" on="1"/>
+        <pt x="190" y="229" on="1"/>
+        <pt x="190" y="0" on="1"/>
+        <pt x="230" y="0" on="1"/>
+      </contour>
+      <instructions/>
+    </TTGlyph>
+
+    <TTGlyph name="Z" xMin="60" yMin="0" xMax="380" yMax="700">
+      <contour>
+        <pt x="60" y="36" on="1"/>
+        <pt x="100" y="26" on="1"/>
+        <pt x="380" y="664" on="1"/>
+        <pt x="340" y="674" on="1"/>
+      </contour>
+      <contour>
+        <pt x="60" y="664" on="1"/>
+        <pt x="380" y="664" on="1"/>
+        <pt x="380" y="700" on="1"/>
+        <pt x="60" y="700" on="1"/>
+      </contour>
+      <contour>
+        <pt x="60" y="0" on="1"/>
+        <pt x="380" y="0" on="1"/>
+        <pt x="380" y="36" on="1"/>
+        <pt x="60" y="36" on="1"/>
+      </contour>
+      <instructions/>
+    </TTGlyph>
+
+    <TTGlyph name="colon" xMin="60" yMin="0" xMax="110" yMax="480">
+      <component glyphName="period" x="0" y="0" flags="0x204"/>
+      <component glyphName="period" x="0" y="360" flags="0x4"/>
+      <instructions/>
+    </TTGlyph>
+
+    <TTGlyph name="comma" xMin="60" yMin="-95" xMax="111" yMax="120">
+      <contour>
+        <pt x="111" y="0" on="1"/>
+        <pt x="111" y="120" on="1"/>
+        <pt x="61" y="120" on="1"/>
+        <pt x="61" y="0" on="1"/>
+        <pt x="93" y="-8" on="1"/>
+        <pt x="82" y="12" on="1"/>
+        <pt x="60" y="-93" on="1"/>
+        <pt x="72" y="-95" on="1"/>
+      </contour>
+      <instructions/>
+    </TTGlyph>
+
+    <TTGlyph name="period" xMin="60" yMin="0" xMax="110" yMax="120">
+      <contour>
+        <pt x="60" y="0" on="1"/>
+        <pt x="110" y="0" on="1"/>
+        <pt x="110" y="120" on="1"/>
+        <pt x="60" y="120" on="1"/>
+      </contour>
+      <instructions/>
+    </TTGlyph>
+
+    <TTGlyph name="quotedblbase" xMin="60" yMin="-95" xMax="241" yMax="120">
+      <component glyphName="comma" x="0" y="0" flags="0x4"/>
+      <component glyphName="comma" x="130" y="0" flags="0x4"/>
+      <instructions/>
+    </TTGlyph>
+
+    <TTGlyph name="quotedblleft" xMin="60" yMin="487" xMax="241" yMax="702">
+      <contour>
+        <pt x="60" y="607" on="1"/>
+        <pt x="60" y="487" on="1"/>
+        <pt x="110" y="487" on="1"/>
+        <pt x="110" y="607" on="1"/>
+        <pt x="78" y="615" on="1"/>
+        <pt x="89" y="595" on="1"/>
+        <pt x="111" y="700" on="1"/>
+        <pt x="99" y="702" on="1"/>
+      </contour>
+      <contour>
+        <pt x="190" y="607" on="1"/>
+        <pt x="190" y="487" on="1"/>
+        <pt x="240" y="487" on="1"/>
+        <pt x="240" y="607" on="1"/>
+        <pt x="208" y="615" on="1"/>
+        <pt x="219" y="595" on="1"/>
+        <pt x="241" y="700" on="1"/>
+        <pt x="229" y="702" on="1"/>
+      </contour>
+      <instructions/>
+    </TTGlyph>
+
+    <TTGlyph name="quotedblright" xMin="60" yMin="485" xMax="241" yMax="700">
+      <component glyphName="comma" x="0" y="580" flags="0x4"/>
+      <component glyphName="comma" x="130" y="580" flags="0x4"/>
+      <instructions/>
+    </TTGlyph>
+
+    <TTGlyph name="quotesinglbase" xMin="60" yMin="-95" xMax="111" yMax="120">
+      <component glyphName="comma" x="0" y="0" flags="0x204"/>
+      <instructions/>
+    </TTGlyph>
+
+    <TTGlyph name="semicolon" xMin="60" yMin="-95" xMax="111" yMax="480">
+      <component glyphName="comma" x="0" y="0" flags="0x204"/>
+      <component glyphName="period" x="0" y="360" flags="0x4"/>
+      <instructions/>
+    </TTGlyph>
+
+    <TTGlyph name="space"/><!-- contains no outline data -->
+
+  </glyf>
+
+  <name>
+    <namerecord nameID="0" platformID="1" platEncID="0" langID="0x0" unicode="True">
+      License same as MutatorMath. BSD 3-clause. [test-token: C]
+    </namerecord>
+    <namerecord nameID="1" platformID="1" platEncID="0" langID="0x0" unicode="True">
+      MutatorMathTest
+    </namerecord>
+    <namerecord nameID="2" platformID="1" platEncID="0" langID="0x0" unicode="True">
+      Regular
+    </namerecord>
+    <namerecord nameID="3" platformID="1" platEncID="0" langID="0x0" unicode="True">
+      1.002;LTTR;MutatorMathTest-LightCondensed
+    </namerecord>
+    <namerecord nameID="4" platformID="1" platEncID="0" langID="0x0" unicode="True">
+      MutatorMathTest
+    </namerecord>
+    <namerecord nameID="5" platformID="1" platEncID="0" langID="0x0" unicode="True">
+      Version 1.002;PS 1.2;hotconv 16.6.51;makeotf.lib2.5.65220 DEVELOPMENT
+    </namerecord>
+    <namerecord nameID="6" platformID="1" platEncID="0" langID="0x0" unicode="True">
+      MutatorMathTest-LightCondensed
+    </namerecord>
+    <namerecord nameID="13" platformID="1" platEncID="0" langID="0x0" unicode="True">
+      License same as MutatorMath. BSD 3-clause. [test-token: C]
+    </namerecord>
+    <namerecord nameID="17" platformID="1" platEncID="0" langID="0x0" unicode="True">
+      LightCondensed
+    </namerecord>
+    <namerecord nameID="256" platformID="1" platEncID="0" langID="0x0" unicode="True">
+      Width
+    </namerecord>
+    <namerecord nameID="257" platformID="1" platEncID="0" langID="0x0" unicode="True">
+      Weight
+    </namerecord>
+    <namerecord nameID="258" platformID="1" platEncID="0" langID="0x0" unicode="True">
+      LightCondensed
+    </namerecord>
+    <namerecord nameID="259" platformID="1" platEncID="0" langID="0x0" unicode="True">
+      BoldCondensed
+    </namerecord>
+    <namerecord nameID="260" platformID="1" platEncID="0" langID="0x0" unicode="True">
+      LightWide
+    </namerecord>
+    <namerecord nameID="261" platformID="1" platEncID="0" langID="0x0" unicode="True">
+      BoldWide
+    </namerecord>
+    <namerecord nameID="0" platformID="3" platEncID="1" langID="0x409">
+      License same as MutatorMath. BSD 3-clause. [test-token: C]
+    </namerecord>
+    <namerecord nameID="1" platformID="3" platEncID="1" langID="0x409">
+      MutatorMathTest
+    </namerecord>
+    <namerecord nameID="2" platformID="3" platEncID="1" langID="0x409">
+      Regular
+    </namerecord>
+    <namerecord nameID="3" platformID="3" platEncID="1" langID="0x409">
+      1.002;LTTR;MutatorMathTest-LightCondensed
+    </namerecord>
+    <namerecord nameID="4" platformID="3" platEncID="1" langID="0x409">
+      MutatorMathTest
+    </namerecord>
+    <namerecord nameID="5" platformID="3" platEncID="1" langID="0x409">
+      Version 1.002;PS 1.2;hotconv 16.6.51;makeotf.lib2.5.65220 DEVELOPMENT
+    </namerecord>
+    <namerecord nameID="6" platformID="3" platEncID="1" langID="0x409">
+      MutatorMathTest-LightCondensed
+    </namerecord>
+    <namerecord nameID="13" platformID="3" platEncID="1" langID="0x409">
+      License same as MutatorMath. BSD 3-clause. [test-token: C]
+    </namerecord>
+    <namerecord nameID="17" platformID="3" platEncID="1" langID="0x409">
+      LightCondensed
+    </namerecord>
+    <namerecord nameID="256" platformID="3" platEncID="1" langID="0x409">
+      Width
+    </namerecord>
+    <namerecord nameID="257" platformID="3" platEncID="1" langID="0x409">
+      Weight
+    </namerecord>
+    <namerecord nameID="258" platformID="3" platEncID="1" langID="0x409">
+      LightCondensed
+    </namerecord>
+    <namerecord nameID="259" platformID="3" platEncID="1" langID="0x409">
+      BoldCondensed
+    </namerecord>
+    <namerecord nameID="260" platformID="3" platEncID="1" langID="0x409">
+      LightWide
+    </namerecord>
+    <namerecord nameID="261" platformID="3" platEncID="1" langID="0x409">
+      BoldWide
+    </namerecord>
+  </name>
+
+  <post>
+    <formatType value="2.0"/>
+    <italicAngle value="0.0"/>
+    <underlinePosition value="0"/>
+    <underlineThickness value="0"/>
+    <isFixedPitch value="0"/>
+    <minMemType42 value="0"/>
+    <maxMemType42 value="0"/>
+    <minMemType1 value="0"/>
+    <maxMemType1 value="0"/>
+    <psNames>
+      <!-- This file uses unique glyph names based on the information
+           found in the 'post' table. Since these names might not be unique,
+           we have to invent artificial names in case of clashes. In order to
+           be able to retain the original information, we need a name to
+           ps name mapping for those cases where they differ. That's what
+           you see below.
+            -->
+    </psNames>
+    <extraNames>
+      <!-- following are the name that are not taken from the standard Mac glyph order -->
+    </extraNames>
+  </post>
+
+  <GDEF>
+    <Version value="0x00010003"/>
+    <VarStore Format="1">
+      <Format value="1"/>
+      <VarRegionList>
+        <!-- RegionAxisCount=2 -->
+        <!-- RegionCount=3 -->
+        <Region index="0">
+          <VarRegionAxis index="0">
+            <StartCoord value="0.0"/>
+            <PeakCoord value="1.0"/>
+            <EndCoord value="1.0"/>
+          </VarRegionAxis>
+          <VarRegionAxis index="1">
+            <StartCoord value="0.0"/>
+            <PeakCoord value="0.0"/>
+            <EndCoord value="0.0"/>
+          </VarRegionAxis>
+        </Region>
+        <Region index="1">
+          <VarRegionAxis index="0">
+            <StartCoord value="0.0"/>
+            <PeakCoord value="0.0"/>
+            <EndCoord value="0.0"/>
+          </VarRegionAxis>
+          <VarRegionAxis index="1">
+            <StartCoord value="0.0"/>
+            <PeakCoord value="1.0"/>
+            <EndCoord value="1.0"/>
+          </VarRegionAxis>
+        </Region>
+        <Region index="2">
+          <VarRegionAxis index="0">
+            <StartCoord value="0.0"/>
+            <PeakCoord value="1.0"/>
+            <EndCoord value="1.0"/>
+          </VarRegionAxis>
+          <VarRegionAxis index="1">
+            <StartCoord value="0.0"/>
+            <PeakCoord value="1.0"/>
+            <EndCoord value="1.0"/>
+          </VarRegionAxis>
+        </Region>
+      </VarRegionList>
+      <!-- VarDataCount=1 -->
+      <VarData index="0">
+        <!-- ItemCount=101 -->
+        <NumShorts value="3"/>
+        <!-- VarRegionCount=3 -->
+        <VarRegionIndex index="0" value="0"/>
+        <VarRegionIndex index="1" value="1"/>
+        <VarRegionIndex index="2" value="2"/>
+        <Item index="0" value="[-35, -20, 55]"/>
+        <Item index="1" value="[-55, -30, 85]"/>
+        <Item index="2" value="[-190, -70, 260]"/>
+        <Item index="3" value="[-95, -30, 125]"/>
+        <Item index="4" value="[-80, 50, 130]"/>
+        <Item index="5" value="[-25, -20, 45]"/>
+        <Item index="6" value="[-40, 0, 40]"/>
+        <Item index="7" value="[-85, -50, 135]"/>
+        <Item index="8" value="[-10, -20, 30]"/>
+        <Item index="9" value="[-25, -10, 35]"/>
+        <Item index="10" value="[-85, -10, 95]"/>
+        <Item index="11" value="[-35, -20, 55]"/>
+        <Item index="12" value="[-85, -30, 115]"/>
+        <Item index="13" value="[-40, -20, 60]"/>
+        <Item index="14" value="[-75, -50, 125]"/>
+        <Item index="15" value="[-40, -20, 60]"/>
+        <Item index="16" value="[-65, -20, 85]"/>
+        <Item index="17" value="[-80, -20, 100]"/>
+        <Item index="18" value="[-10, -10, 20]"/>
+        <Item index="19" value="[0, -10, 10]"/>
+        <Item index="20" value="[-125, -40, 165]"/>
+        <Item index="21" value="[-35, 0, 35]"/>
+        <Item index="22" value="[-245, -80, 325]"/>
+        <Item index="23" value="[-50, -10, 60]"/>
+        <Item index="24" value="[-70, -20, 90]"/>
+        <Item index="25" value="[-10, -10, 20]"/>
+        <Item index="26" value="[0, -10, 10]"/>
+        <Item index="27" value="[-60, -20, 80]"/>
+        <Item index="28" value="[-15, 0, 15]"/>
+        <Item index="29" value="[-15, -10, 25]"/>
+        <Item index="30" value="[-105, -40, 145]"/>
+        <Item index="31" value="[-20, -10, 30]"/>
+        <Item index="32" value="[-70, -30, 100]"/>
+        <Item index="33" value="[-40, -30, 70]"/>
+        <Item index="34" value="[-30, -10, 40]"/>
+        <Item index="35" value="[0, -10, 10]"/>
+        <Item index="36" value="[-135, -70, 205]"/>
+        <Item index="37" value="[-10, 0, 10]"/>
+        <Item index="38" value="[-25, -20, 45]"/>
+        <Item index="39" value="[-95, -20, 115]"/>
+        <Item index="40" value="[-305, -110, 415]"/>
+        <Item index="41" value="[-85, -20, 105]"/>
+        <Item index="42" value="[-185, -60, 245]"/>
+        <Item index="43" value="[-30, -30, 60]"/>
+        <Item index="44" value="[-120, -60, 180]"/>
+        <Item index="45" value="[-45, -10, 55]"/>
+        <Item index="46" value="[-90, -30, 120]"/>
+        <Item index="47" value="[-80, -30, 110]"/>
+        <Item index="48" value="[-95, -50, 145]"/>
+        <Item index="49" value="[-200, -100, 300]"/>
+        <Item index="50" value="[0, -10, 10]"/>
+        <Item index="51" value="[-20, -10, 30]"/>
+        <Item index="52" value="[0, -10, 10]"/>
+        <Item index="53" value="[0, -20, 20]"/>
+        <Item index="54" value="[-45, -10, 55]"/>
+        <Item index="55" value="[-155, -20, 175]"/>
+        <Item index="56" value="[-55, -30, 85]"/>
+        <Item index="57" value="[-70, -20, 90]"/>
+        <Item index="58" value="[-80, -30, 110]"/>
+        <Item index="59" value="[-60, -30, 90]"/>
+        <Item index="60" value="[-95, -40, 135]"/>
+        <Item index="61" value="[-45, -20, 65]"/>
+        <Item index="62" value="[-5, -20, 25]"/>
+        <Item index="63" value="[-115, -40, 155]"/>
+        <Item index="64" value="[-40, -10, 50]"/>
+        <Item index="65" value="[-45, -10, 55]"/>
+        <Item index="66" value="[-50, -30, 80]"/>
+        <Item index="67" value="[-10, -10, 20]"/>
+        <Item index="68" value="[-20, -30, 50]"/>
+        <Item index="69" value="[0, -10, 10]"/>
+        <Item index="70" value="[-215, -65, 280]"/>
+        <Item index="71" value="[-15, -10, 25]"/>
+        <Item index="72" value="[-315, -130, 445]"/>
+        <Item index="73" value="[-90, -20, 110]"/>
+        <Item index="74" value="[-25, 0, 25]"/>
+        <Item index="75" value="[-75, -30, 105]"/>
+        <Item index="76" value="[-140, -60, 200]"/>
+        <Item index="77" value="[0, -10, 10]"/>
+        <Item index="78" value="[0, -10, 10]"/>
+        <Item index="79" value="[-20, 0, 20]"/>
+        <Item index="80" value="[-265, -100, 365]"/>
+        <Item index="81" value="[-55, -30, 85]"/>
+        <Item index="82" value="[-50, -20, 70]"/>
+        <Item index="83" value="[0, -10, 10]"/>
+        <Item index="84" value="[-35, 0, 35]"/>
+        <Item index="85" value="[-55, 0, 55]"/>
+        <Item index="86" value="[-190, 0, 190]"/>
+        <Item index="87" value="[-95, 0, 95]"/>
+        <Item index="88" value="[-80, 100, 80]"/>
+        <Item index="89" value="[-25, 0, 25]"/>
+        <Item index="90" value="[-40, 0, 40]"/>
+        <Item index="91" value="[-125, 0, 125]"/>
+        <Item index="92" value="[-40, 0, 40]"/>
+        <Item index="93" value="[-70, 0, 70]"/>
+        <Item index="94" value="[-30, 0, 30]"/>
+        <Item index="95" value="[-95, 0, 95]"/>
+        <Item index="96" value="[-80, 0, 80]"/>
+        <Item index="97" value="[-45, 0, 45]"/>
+        <Item index="98" value="[-215, 0, 215]"/>
+        <Item index="99" value="[-75, 0, 75]"/>
+        <Item index="100" value="[-110, 100, 110]"/>
+      </VarData>
+    </VarStore>
+  </GDEF>
+
+  <GPOS>
+    <Version value="0x00010000"/>
+    <ScriptList>
+      <!-- ScriptCount=1 -->
+      <ScriptRecord index="0">
+        <ScriptTag value="DFLT"/>
+        <Script>
+          <DefaultLangSys>
+            <ReqFeatureIndex value="65535"/>
+            <!-- FeatureCount=1 -->
+            <FeatureIndex index="0" value="0"/>
+          </DefaultLangSys>
+          <!-- LangSysCount=0 -->
+        </Script>
+      </ScriptRecord>
+    </ScriptList>
+    <FeatureList>
+      <!-- FeatureCount=1 -->
+      <FeatureRecord index="0">
+        <FeatureTag value="kern"/>
+        <Feature>
+          <!-- LookupCount=1 -->
+          <LookupListIndex index="0" value="0"/>
+        </Feature>
+      </FeatureRecord>
+    </FeatureList>
+    <LookupList>
+      <!-- LookupCount=1 -->
+      <Lookup index="0">
+        <LookupType value="2"/>
+        <LookupFlag value="0"/>
+        <!-- SubTableCount=2 -->
+        <PairPos index="0" Format="1">
+          <Coverage Format="1">
+            <Glyph value="A"/>
+            <Glyph value="B"/>
+            <Glyph value="C"/>
+            <Glyph value="E"/>
+            <Glyph value="F"/>
+            <Glyph value="G"/>
+            <Glyph value="H"/>
+            <Glyph value="J"/>
+            <Glyph value="L"/>
+            <Glyph value="O"/>
+            <Glyph value="P"/>
+            <Glyph value="R"/>
+            <Glyph value="S"/>
+            <Glyph value="T"/>
+            <Glyph value="U"/>
+            <Glyph value="V"/>
+          </Coverage>
+          <ValueFormat1 value="68"/>
+          <ValueFormat2 value="0"/>
+          <!-- PairSetCount=16 -->
+          <PairSet index="0">
+            <!-- PairValueCount=5 -->
+            <PairValueRecord index="0">
+              <SecondGlyph value="J"/>
+              <Value1 XAdvance="0">
+                <XAdvDevice>
+                  <StartSize value="0"/>
+                  <EndSize value="0"/>
+                  <DeltaFormat value="32768"/>
+                </XAdvDevice>
+              </Value1>
+            </PairValueRecord>
+            <PairValueRecord index="1">
+              <SecondGlyph value="O"/>
+              <Value1 XAdvance="0">
+                <XAdvDevice>
+                  <StartSize value="0"/>
+                  <EndSize value="1"/>
+                  <DeltaFormat value="32768"/>
+                </XAdvDevice>
+              </Value1>
+            </PairValueRecord>
+            <PairValueRecord index="2">
+              <SecondGlyph value="T"/>
+              <Value1 XAdvance="0">
+                <XAdvDevice>
+                  <StartSize value="0"/>
+                  <EndSize value="2"/>
+                  <DeltaFormat value="32768"/>
+                </XAdvDevice>
+              </Value1>
+            </PairValueRecord>
+            <PairValueRecord index="3">
+              <SecondGlyph value="U"/>
+              <Value1 XAdvance="0">
+                <XAdvDevice>
+                  <StartSize value="0"/>
+                  <EndSize value="3"/>
+                  <DeltaFormat value="32768"/>
+                </XAdvDevice>
+              </Value1>
+            </PairValueRecord>
+            <PairValueRecord index="4">
+              <SecondGlyph value="V"/>
+              <Value1 XAdvance="-100">
+                <XAdvDevice>
+                  <StartSize value="0"/>
+                  <EndSize value="4"/>
+                  <DeltaFormat value="32768"/>
+                </XAdvDevice>
+              </Value1>
+            </PairValueRecord>
+          </PairSet>
+          <PairSet index="1">
+            <!-- PairValueCount=8 -->
+            <PairValueRecord index="0">
+              <SecondGlyph value="A"/>
+              <Value1 XAdvance="0">
+                <XAdvDevice>
+                  <StartSize value="0"/>
+                  <EndSize value="5"/>
+                  <DeltaFormat value="32768"/>
+                </XAdvDevice>
+              </Value1>
+            </PairValueRecord>
+            <PairValueRecord index="1">
+              <SecondGlyph value="H"/>
+              <Value1 XAdvance="0">
+                <XAdvDevice>
+                  <StartSize value="0"/>
+                  <EndSize value="6"/>
+                  <DeltaFormat value="32768"/>
+                </XAdvDevice>
+              </Value1>
+            </PairValueRecord>
+            <PairValueRecord index="2">
+              <SecondGlyph value="J"/>
+              <Value1 XAdvance="0">
+                <XAdvDevice>
+                  <StartSize value="0"/>
+                  <EndSize value="7"/>
+                  <DeltaFormat value="32768"/>
+                </XAdvDevice>
+              </Value1>
+            </PairValueRecord>
+            <PairValueRecord index="3">
+              <SecondGlyph value="O"/>
+              <Value1 XAdvance="0">
+                <XAdvDevice>
+                  <StartSize value="0"/>
+                  <EndSize value="8"/>
+                  <DeltaFormat value="32768"/>
+                </XAdvDevice>
+              </Value1>
+            </PairValueRecord>
+            <PairValueRecord index="4">
+              <SecondGlyph value="S"/>
+              <Value1 XAdvance="0">
+                <XAdvDevice>
+                  <StartSize value="0"/>
+                  <EndSize value="9"/>
+                  <DeltaFormat value="32768"/>
+                </XAdvDevice>
+              </Value1>
+            </PairValueRecord>
+            <PairValueRecord index="5">
+              <SecondGlyph value="T"/>
+              <Value1 XAdvance="0">
+                <XAdvDevice>
+                  <StartSize value="0"/>
+                  <EndSize value="10"/>
+                  <DeltaFormat value="32768"/>
+                </XAdvDevice>
+              </Value1>
+            </PairValueRecord>
+            <PairValueRecord index="6">
+              <SecondGlyph value="U"/>
+              <Value1 XAdvance="0">
+                <XAdvDevice>
+                  <StartSize value="0"/>
+                  <EndSize value="11"/>
+                  <DeltaFormat value="32768"/>
+                </XAdvDevice>
+              </Value1>
+            </PairValueRecord>
+            <PairValueRecord index="7">
+              <SecondGlyph value="V"/>
+              <Value1 XAdvance="0">
+                <XAdvDevice>
+                  <StartSize value="0"/>
+                  <EndSize value="12"/>
+                  <DeltaFormat value="32768"/>
+                </XAdvDevice>
+              </Value1>
+            </PairValueRecord>
+          </PairSet>
+          <PairSet index="2">
+            <!-- PairValueCount=4 -->
+            <PairValueRecord index="0">
+              <SecondGlyph value="A"/>
+              <Value1 XAdvance="0">
+                <XAdvDevice>
+                  <StartSize value="0"/>
+                  <EndSize value="13"/>
+                  <DeltaFormat value="32768"/>
+                </XAdvDevice>
+              </Value1>
+            </PairValueRecord>
+            <PairValueRecord index="1">
+              <SecondGlyph value="J"/>
+              <Value1 XAdvance="0">
+                <XAdvDevice>
+                  <StartSize value="0"/>
+                  <EndSize value="14"/>
+                  <DeltaFormat value="32768"/>
+                </XAdvDevice>
+              </Value1>
+            </PairValueRecord>
+            <PairValueRecord index="2">
+              <SecondGlyph value="T"/>
+              <Value1 XAdvance="0">
+                <XAdvDevice>
+                  <StartSize value="0"/>
+                  <EndSize value="15"/>
+                  <DeltaFormat value="32768"/>
+                </XAdvDevice>
+              </Value1>
+            </PairValueRecord>
+            <PairValueRecord index="3">
+              <SecondGlyph value="V"/>
+              <Value1 XAdvance="0">
+                <XAdvDevice>
+                  <StartSize value="0"/>
+                  <EndSize value="16"/>
+                  <DeltaFormat value="32768"/>
+                </XAdvDevice>
+              </Value1>
+            </PairValueRecord>
+          </PairSet>
+          <PairSet index="3">
+            <!-- PairValueCount=3 -->
+            <PairValueRecord index="0">
+              <SecondGlyph value="J"/>
+              <Value1 XAdvance="0">
+                <XAdvDevice>
+                  <StartSize value="0"/>
+                  <EndSize value="17"/>
+                  <DeltaFormat value="32768"/>
+                </XAdvDevice>
+              </Value1>
+            </PairValueRecord>
+            <PairValueRecord index="1">
+              <SecondGlyph value="T"/>
+              <Value1 XAdvance="0">
+                <XAdvDevice>
+                  <StartSize value="0"/>
+                  <EndSize value="18"/>
+                  <DeltaFormat value="32768"/>
+                </XAdvDevice>
+              </Value1>
+            </PairValueRecord>
+            <PairValueRecord index="2">
+              <SecondGlyph value="V"/>
+              <Value1 XAdvance="0">
+                <XAdvDevice>
+                  <StartSize value="0"/>
+                  <EndSize value="19"/>
+                  <DeltaFormat value="32768"/>
+                </XAdvDevice>
+              </Value1>
+            </PairValueRecord>
+          </PairSet>
+          <PairSet index="4">
+            <!-- PairValueCount=7 -->
+            <PairValueRecord index="0">
+              <SecondGlyph value="A"/>
+              <Value1 XAdvance="0">
+                <XAdvDevice>
+                  <StartSize value="0"/>
+                  <EndSize value="20"/>
+                  <DeltaFormat value="32768"/>
+                </XAdvDevice>
+              </Value1>
+            </PairValueRecord>
+            <PairValueRecord index="1">
+              <SecondGlyph value="H"/>
+              <Value1 XAdvance="0">
+                <XAdvDevice>
+                  <StartSize value="0"/>
+                  <EndSize value="21"/>
+                  <DeltaFormat value="32768"/>
+                </XAdvDevice>
+              </Value1>
+            </PairValueRecord>
+            <PairValueRecord index="2">
+              <SecondGlyph value="J"/>
+              <Value1 XAdvance="0">
+                <XAdvDevice>
+                  <StartSize value="0"/>
+                  <EndSize value="22"/>
+                  <DeltaFormat value="32768"/>
+                </XAdvDevice>
+              </Value1>
+            </PairValueRecord>
+            <PairValueRecord index="3">
+              <SecondGlyph value="O"/>
+              <Value1 XAdvance="0">
+                <XAdvDevice>
+                  <StartSize value="0"/>
+                  <EndSize value="23"/>
+                  <DeltaFormat value="32768"/>
+                </XAdvDevice>
+              </Value1>
+            </PairValueRecord>
+            <PairValueRecord index="4">
+              <SecondGlyph value="S"/>
+              <Value1 XAdvance="0">
+                <XAdvDevice>
+                  <StartSize value="0"/>
+                  <EndSize value="24"/>
+                  <DeltaFormat value="32768"/>
+                </XAdvDevice>
+              </Value1>
+            </PairValueRecord>
+            <PairValueRecord index="5">
+              <SecondGlyph value="U"/>
+              <Value1 XAdvance="0">
+                <XAdvDevice>
+                  <StartSize value="0"/>
+                  <EndSize value="25"/>
+                  <DeltaFormat value="32768"/>
+                </XAdvDevice>
+              </Value1>
+            </PairValueRecord>
+            <PairValueRecord index="6">
+              <SecondGlyph value="V"/>
+              <Value1 XAdvance="0">
+                <XAdvDevice>
+                  <StartSize value="0"/>
+                  <EndSize value="26"/>
+                  <DeltaFormat value="32768"/>
+                </XAdvDevice>
+              </Value1>
+            </PairValueRecord>
+          </PairSet>
+          <PairSet index="5">
+            <!-- PairValueCount=6 -->
+            <PairValueRecord index="0">
+              <SecondGlyph value="J"/>
+              <Value1 XAdvance="0">
+                <XAdvDevice>
+                  <StartSize value="0"/>
+                  <EndSize value="27"/>
+                  <DeltaFormat value="32768"/>
+                </XAdvDevice>
+              </Value1>
+            </PairValueRecord>
+            <PairValueRecord index="1">
+              <SecondGlyph value="O"/>
+              <Value1 XAdvance="0">
+                <XAdvDevice>
+                  <StartSize value="0"/>
+                  <EndSize value="28"/>
+                  <DeltaFormat value="32768"/>
+                </XAdvDevice>
+              </Value1>
+            </PairValueRecord>
+            <PairValueRecord index="2">
+              <SecondGlyph value="S"/>
+              <Value1 XAdvance="0">
+                <XAdvDevice>
+                  <StartSize value="0"/>
+                  <EndSize value="29"/>
+                  <DeltaFormat value="32768"/>
+                </XAdvDevice>
+              </Value1>
+            </PairValueRecord>
+            <PairValueRecord index="3">
+              <SecondGlyph value="T"/>
+              <Value1 XAdvance="0">
+                <XAdvDevice>
+                  <StartSize value="0"/>
+                  <EndSize value="30"/>
+                  <DeltaFormat value="32768"/>
+                </XAdvDevice>
+              </Value1>
+            </PairValueRecord>
+            <PairValueRecord index="4">
+              <SecondGlyph value="U"/>
+              <Value1 XAdvance="0">
+                <XAdvDevice>
+                  <StartSize value="0"/>
+                  <EndSize value="31"/>
+                  <DeltaFormat value="32768"/>
+                </XAdvDevice>
+              </Value1>
+            </PairValueRecord>
+            <PairValueRecord index="5">
+              <SecondGlyph value="V"/>
+              <Value1 XAdvance="0">
+                <XAdvDevice>
+                  <StartSize value="0"/>
+                  <EndSize value="32"/>
+                  <DeltaFormat value="32768"/>
+                </XAdvDevice>
+              </Value1>
+            </PairValueRecord>
+          </PairSet>
+          <PairSet index="6">
+            <!-- PairValueCount=3 -->
+            <PairValueRecord index="0">
+              <SecondGlyph value="J"/>
+              <Value1 XAdvance="0">
+                <XAdvDevice>
+                  <StartSize value="0"/>
+                  <EndSize value="33"/>
+                  <DeltaFormat value="32768"/>
+                </XAdvDevice>
+              </Value1>
+            </PairValueRecord>
+            <PairValueRecord index="1">
+              <SecondGlyph value="S"/>
+              <Value1 XAdvance="0">
+                <XAdvDevice>
+                  <StartSize value="0"/>
+                  <EndSize value="34"/>
+                  <DeltaFormat value="32768"/>
+                </XAdvDevice>
+              </Value1>
+            </PairValueRecord>
+            <PairValueRecord index="2">
+              <SecondGlyph value="T"/>
+              <Value1 XAdvance="0">
+                <XAdvDevice>
+                  <StartSize value="0"/>
+                  <EndSize value="35"/>
+                  <DeltaFormat value="32768"/>
+                </XAdvDevice>
+              </Value1>
+            </PairValueRecord>
+          </PairSet>
+          <PairSet index="7">
+            <!-- PairValueCount=2 -->
+            <PairValueRecord index="0">
+              <SecondGlyph value="J"/>
+              <Value1 XAdvance="0">
+                <XAdvDevice>
+                  <StartSize value="0"/>
+                  <EndSize value="36"/>
+                  <DeltaFormat value="32768"/>
+                </XAdvDevice>
+              </Value1>
+            </PairValueRecord>
+            <PairValueRecord index="1">
+              <SecondGlyph value="O"/>
+              <Value1 XAdvance="0">
+                <XAdvDevice>
+                  <StartSize value="0"/>
+                  <EndSize value="37"/>
+                  <DeltaFormat value="32768"/>
+                </XAdvDevice>
+              </Value1>
+            </PairValueRecord>
+          </PairSet>
+          <PairSet index="8">
+            <!-- PairValueCount=5 -->
+            <PairValueRecord index="0">
+              <SecondGlyph value="J"/>
+              <Value1 XAdvance="0">
+                <XAdvDevice>
+                  <StartSize value="0"/>
+                  <EndSize value="38"/>
+                  <DeltaFormat value="32768"/>
+                </XAdvDevice>
+              </Value1>
+            </PairValueRecord>
+            <PairValueRecord index="1">
+              <SecondGlyph value="O"/>
+              <Value1 XAdvance="0">
+                <XAdvDevice>
+                  <StartSize value="0"/>
+                  <EndSize value="39"/>
+                  <DeltaFormat value="32768"/>
+                </XAdvDevice>
+              </Value1>
+            </PairValueRecord>
+            <PairValueRecord index="2">
+              <SecondGlyph value="T"/>
+              <Value1 XAdvance="0">
+                <XAdvDevice>
+                  <StartSize value="0"/>
+                  <EndSize value="40"/>
+                  <DeltaFormat value="32768"/>
+                </XAdvDevice>
+              </Value1>
+            </PairValueRecord>
+            <PairValueRecord index="3">
+              <SecondGlyph value="U"/>
+              <Value1 XAdvance="0">
+                <XAdvDevice>
+                  <StartSize value="0"/>
+                  <EndSize value="41"/>
+                  <DeltaFormat value="32768"/>
+                </XAdvDevice>
+              </Value1>
+            </PairValueRecord>
+            <PairValueRecord index="4">
+              <SecondGlyph value="V"/>
+              <Value1 XAdvance="0">
+                <XAdvDevice>
+                  <StartSize value="0"/>
+                  <EndSize value="42"/>
+                  <DeltaFormat value="32768"/>
+                </XAdvDevice>
+              </Value1>
+            </PairValueRecord>
+          </PairSet>
+          <PairSet index="9">
+            <!-- PairValueCount=5 -->
+            <PairValueRecord index="0">
+              <SecondGlyph value="A"/>
+              <Value1 XAdvance="0">
+                <XAdvDevice>
+                  <StartSize value="0"/>
+                  <EndSize value="43"/>
+                  <DeltaFormat value="32768"/>
+                </XAdvDevice>
+              </Value1>
+            </PairValueRecord>
+            <PairValueRecord index="1">
+              <SecondGlyph value="J"/>
+              <Value1 XAdvance="0">
+                <XAdvDevice>
+                  <StartSize value="0"/>
+                  <EndSize value="44"/>
+                  <DeltaFormat value="32768"/>
+                </XAdvDevice>
+              </Value1>
+            </PairValueRecord>
+            <PairValueRecord index="2">
+              <SecondGlyph value="S"/>
+              <Value1 XAdvance="0">
+                <XAdvDevice>
+                  <StartSize value="0"/>
+                  <EndSize value="45"/>
+                  <DeltaFormat value="32768"/>
+                </XAdvDevice>
+              </Value1>
+            </PairValueRecord>
+            <PairValueRecord index="3">
+              <SecondGlyph value="T"/>
+              <Value1 XAdvance="0">
+                <XAdvDevice>
+                  <StartSize value="0"/>
+                  <EndSize value="46"/>
+                  <DeltaFormat value="32768"/>
+                </XAdvDevice>
+              </Value1>
+            </PairValueRecord>
+            <PairValueRecord index="4">
+              <SecondGlyph value="V"/>
+              <Value1 XAdvance="0">
+                <XAdvDevice>
+                  <StartSize value="0"/>
+                  <EndSize value="47"/>
+                  <DeltaFormat value="32768"/>
+                </XAdvDevice>
+              </Value1>
+            </PairValueRecord>
+          </PairSet>
+          <PairSet index="10">
+            <!-- PairValueCount=6 -->
+            <PairValueRecord index="0">
+              <SecondGlyph value="A"/>
+              <Value1 XAdvance="0">
+                <XAdvDevice>
+                  <StartSize value="0"/>
+                  <EndSize value="48"/>
+                  <DeltaFormat value="32768"/>
+                </XAdvDevice>
+              </Value1>
+            </PairValueRecord>
+            <PairValueRecord index="1">
+              <SecondGlyph value="J"/>
+              <Value1 XAdvance="0">
+                <XAdvDevice>
+                  <StartSize value="0"/>
+                  <EndSize value="49"/>
+                  <DeltaFormat value="32768"/>
+                </XAdvDevice>
+              </Value1>
+            </PairValueRecord>
+            <PairValueRecord index="2">
+              <SecondGlyph value="S"/>
+              <Value1 XAdvance="0">
+                <XAdvDevice>
+                  <StartSize value="0"/>
+                  <EndSize value="50"/>
+                  <DeltaFormat value="32768"/>
+                </XAdvDevice>
+              </Value1>
+            </PairValueRecord>
+            <PairValueRecord index="3">
+              <SecondGlyph value="T"/>
+              <Value1 XAdvance="0">
+                <XAdvDevice>
+                  <StartSize value="0"/>
+                  <EndSize value="51"/>
+                  <DeltaFormat value="32768"/>
+                </XAdvDevice>
+              </Value1>
+            </PairValueRecord>
+            <PairValueRecord index="4">
+              <SecondGlyph value="U"/>
+              <Value1 XAdvance="0">
+                <XAdvDevice>
+                  <StartSize value="0"/>
+                  <EndSize value="52"/>
+                  <DeltaFormat value="32768"/>
+                </XAdvDevice>
+              </Value1>
+            </PairValueRecord>
+            <PairValueRecord index="5">
+              <SecondGlyph value="V"/>
+              <Value1 XAdvance="0">
+                <XAdvDevice>
+                  <StartSize value="0"/>
+                  <EndSize value="53"/>
+                  <DeltaFormat value="32768"/>
+                </XAdvDevice>
+              </Value1>
+            </PairValueRecord>
+          </PairSet>
+          <PairSet index="11">
+            <!-- PairValueCount=7 -->
+            <PairValueRecord index="0">
+              <SecondGlyph value="H"/>
+              <Value1 XAdvance="0">
+                <XAdvDevice>
+                  <StartSize value="0"/>
+                  <EndSize value="54"/>
+                  <DeltaFormat value="32768"/>
+                </XAdvDevice>
+              </Value1>
+            </PairValueRecord>
+            <PairValueRecord index="1">
+              <SecondGlyph value="J"/>
+              <Value1 XAdvance="0">
+                <XAdvDevice>
+                  <StartSize value="0"/>
+                  <EndSize value="55"/>
+                  <DeltaFormat value="32768"/>
+                </XAdvDevice>
+              </Value1>
+            </PairValueRecord>
+            <PairValueRecord index="2">
+              <SecondGlyph value="O"/>
+              <Value1 XAdvance="0">
+                <XAdvDevice>
+                  <StartSize value="0"/>
+                  <EndSize value="56"/>
+                  <DeltaFormat value="32768"/>
+                </XAdvDevice>
+              </Value1>
+            </PairValueRecord>
+            <PairValueRecord index="3">
+              <SecondGlyph value="S"/>
+              <Value1 XAdvance="0">
+                <XAdvDevice>
+                  <StartSize value="0"/>
+                  <EndSize value="57"/>
+                  <DeltaFormat value="32768"/>
+                </XAdvDevice>
+              </Value1>
+            </PairValueRecord>
+            <PairValueRecord index="4">
+              <SecondGlyph value="T"/>
+              <Value1 XAdvance="0">
+                <XAdvDevice>
+                  <StartSize value="0"/>
+                  <EndSize value="58"/>
+                  <DeltaFormat value="32768"/>
+                </XAdvDevice>
+              </Value1>
+            </PairValueRecord>
+            <PairValueRecord index="5">
+              <SecondGlyph value="U"/>
+              <Value1 XAdvance="0">
+                <XAdvDevice>
+                  <StartSize value="0"/>
+                  <EndSize value="59"/>
+                  <DeltaFormat value="32768"/>
+                </XAdvDevice>
+              </Value1>
+            </PairValueRecord>
+            <PairValueRecord index="6">
+              <SecondGlyph value="V"/>
+              <Value1 XAdvance="0">
+                <XAdvDevice>
+                  <StartSize value="0"/>
+                  <EndSize value="60"/>
+                  <DeltaFormat value="32768"/>
+                </XAdvDevice>
+              </Value1>
+            </PairValueRecord>
+          </PairSet>
+          <PairSet index="12">
+            <!-- PairValueCount=9 -->
+            <PairValueRecord index="0">
+              <SecondGlyph value="A"/>
+              <Value1 XAdvance="0">
+                <XAdvDevice>
+                  <StartSize value="0"/>
+                  <EndSize value="61"/>
+                  <DeltaFormat value="32768"/>
+                </XAdvDevice>
+              </Value1>
+            </PairValueRecord>
+            <PairValueRecord index="1">
+              <SecondGlyph value="H"/>
+              <Value1 XAdvance="0">
+                <XAdvDevice>
+                  <StartSize value="0"/>
+                  <EndSize value="62"/>
+                  <DeltaFormat value="32768"/>
+                </XAdvDevice>
+              </Value1>
+            </PairValueRecord>
+            <PairValueRecord index="2">
+              <SecondGlyph value="J"/>
+              <Value1 XAdvance="0">
+                <XAdvDevice>
+                  <StartSize value="0"/>
+                  <EndSize value="63"/>
+                  <DeltaFormat value="32768"/>
+                </XAdvDevice>
+              </Value1>
+            </PairValueRecord>
+            <PairValueRecord index="3">
+              <SecondGlyph value="O"/>
+              <Value1 XAdvance="0">
+                <XAdvDevice>
+                  <StartSize value="0"/>
+                  <EndSize value="64"/>
+                  <DeltaFormat value="32768"/>
+                </XAdvDevice>
+              </Value1>
+            </PairValueRecord>
+            <PairValueRecord index="4">
+              <SecondGlyph value="S"/>
+              <Value1 XAdvance="0">
+                <XAdvDevice>
+                  <StartSize value="0"/>
+                  <EndSize value="65"/>
+                  <DeltaFormat value="32768"/>
+                </XAdvDevice>
+              </Value1>
+            </PairValueRecord>
+            <PairValueRecord index="5">
+              <SecondGlyph value="T"/>
+              <Value1 XAdvance="0">
+                <XAdvDevice>
+                  <StartSize value="0"/>
+                  <EndSize value="66"/>
+                  <DeltaFormat value="32768"/>
+                </XAdvDevice>
+              </Value1>
+            </PairValueRecord>
+            <PairValueRecord index="6">
+              <SecondGlyph value="U"/>
+              <Value1 XAdvance="0">
+                <XAdvDevice>
+                  <StartSize value="0"/>
+                  <EndSize value="67"/>
+                  <DeltaFormat value="32768"/>
+                </XAdvDevice>
+              </Value1>
+            </PairValueRecord>
+            <PairValueRecord index="7">
+              <SecondGlyph value="V"/>
+              <Value1 XAdvance="0">
+                <XAdvDevice>
+                  <StartSize value="0"/>
+                  <EndSize value="68"/>
+                  <DeltaFormat value="32768"/>
+                </XAdvDevice>
+              </Value1>
+            </PairValueRecord>
+            <PairValueRecord index="8">
+              <SecondGlyph value="W"/>
+              <Value1 XAdvance="0">
+                <XAdvDevice>
+                  <StartSize value="0"/>
+                  <EndSize value="69"/>
+                  <DeltaFormat value="32768"/>
+                </XAdvDevice>
+              </Value1>
+            </PairValueRecord>
+          </PairSet>
+          <PairSet index="13">
+            <!-- PairValueCount=5 -->
+            <PairValueRecord index="0">
+              <SecondGlyph value="A"/>
+              <Value1 XAdvance="0">
+                <XAdvDevice>
+                  <StartSize value="0"/>
+                  <EndSize value="70"/>
+                  <DeltaFormat value="32768"/>
+                </XAdvDevice>
+              </Value1>
+            </PairValueRecord>
+            <PairValueRecord index="1">
+              <SecondGlyph value="H"/>
+              <Value1 XAdvance="0">
+                <XAdvDevice>
+                  <StartSize value="0"/>
+                  <EndSize value="71"/>
+                  <DeltaFormat value="32768"/>
+                </XAdvDevice>
+              </Value1>
+            </PairValueRecord>
+            <PairValueRecord index="2">
+              <SecondGlyph value="J"/>
+              <Value1 XAdvance="0">
+                <XAdvDevice>
+                  <StartSize value="0"/>
+                  <EndSize value="72"/>
+                  <DeltaFormat value="32768"/>
+                </XAdvDevice>
+              </Value1>
+            </PairValueRecord>
+            <PairValueRecord index="3">
+              <SecondGlyph value="O"/>
+              <Value1 XAdvance="0">
+                <XAdvDevice>
+                  <StartSize value="0"/>
+                  <EndSize value="73"/>
+                  <DeltaFormat value="32768"/>
+                </XAdvDevice>
+              </Value1>
+            </PairValueRecord>
+            <PairValueRecord index="4">
+              <SecondGlyph value="S"/>
+              <Value1 XAdvance="0">
+                <XAdvDevice>
+                  <StartSize value="0"/>
+                  <EndSize value="74"/>
+                  <DeltaFormat value="32768"/>
+                </XAdvDevice>
+              </Value1>
+            </PairValueRecord>
+          </PairSet>
+          <PairSet index="14">
+            <!-- PairValueCount=4 -->
+            <PairValueRecord index="0">
+              <SecondGlyph value="A"/>
+              <Value1 XAdvance="0">
+                <XAdvDevice>
+                  <StartSize value="0"/>
+                  <EndSize value="75"/>
+                  <DeltaFormat value="32768"/>
+                </XAdvDevice>
+              </Value1>
+            </PairValueRecord>
+            <PairValueRecord index="1">
+              <SecondGlyph value="J"/>
+              <Value1 XAdvance="0">
+                <XAdvDevice>
+                  <StartSize value="0"/>
+                  <EndSize value="76"/>
+                  <DeltaFormat value="32768"/>
+                </XAdvDevice>
+              </Value1>
+            </PairValueRecord>
+            <PairValueRecord index="2">
+              <SecondGlyph value="S"/>
+              <Value1 XAdvance="0">
+                <XAdvDevice>
+                  <StartSize value="0"/>
+                  <EndSize value="77"/>
+                  <DeltaFormat value="32768"/>
+                </XAdvDevice>
+              </Value1>
+            </PairValueRecord>
+            <PairValueRecord index="3">
+              <SecondGlyph value="V"/>
+              <Value1 XAdvance="0">
+                <XAdvDevice>
+                  <StartSize value="0"/>
+                  <EndSize value="78"/>
+                  <DeltaFormat value="32768"/>
+                </XAdvDevice>
+              </Value1>
+            </PairValueRecord>
+          </PairSet>
+          <PairSet index="15">
+            <!-- PairValueCount=5 -->
+            <PairValueRecord index="0">
+              <SecondGlyph value="H"/>
+              <Value1 XAdvance="0">
+                <XAdvDevice>
+                  <StartSize value="0"/>
+                  <EndSize value="79"/>
+                  <DeltaFormat value="32768"/>
+                </XAdvDevice>
+              </Value1>
+            </PairValueRecord>
+            <PairValueRecord index="1">
+              <SecondGlyph value="J"/>
+              <Value1 XAdvance="0">
+                <XAdvDevice>
+                  <StartSize value="0"/>
+                  <EndSize value="80"/>
+                  <DeltaFormat value="32768"/>
+                </XAdvDevice>
+              </Value1>
+            </PairValueRecord>
+            <PairValueRecord index="2">
+              <SecondGlyph value="O"/>
+              <Value1 XAdvance="0">
+                <XAdvDevice>
+                  <StartSize value="0"/>
+                  <EndSize value="81"/>
+                  <DeltaFormat value="32768"/>
+                </XAdvDevice>
+              </Value1>
+            </PairValueRecord>
+            <PairValueRecord index="3">
+              <SecondGlyph value="S"/>
+              <Value1 XAdvance="0">
+                <XAdvDevice>
+                  <StartSize value="0"/>
+                  <EndSize value="82"/>
+                  <DeltaFormat value="32768"/>
+                </XAdvDevice>
+              </Value1>
+            </PairValueRecord>
+            <PairValueRecord index="4">
+              <SecondGlyph value="U"/>
+              <Value1 XAdvance="0">
+                <XAdvDevice>
+                  <StartSize value="0"/>
+                  <EndSize value="83"/>
+                  <DeltaFormat value="32768"/>
+                </XAdvDevice>
+              </Value1>
+            </PairValueRecord>
+          </PairSet>
+        </PairPos>
+        <PairPos index="1" Format="2">
+          <Coverage Format="1">
+            <Glyph value="A"/>
+            <Glyph value="B"/>
+            <Glyph value="C"/>
+            <Glyph value="F"/>
+            <Glyph value="G"/>
+            <Glyph value="J"/>
+            <Glyph value="O"/>
+            <Glyph value="P"/>
+            <Glyph value="R"/>
+            <Glyph value="S"/>
+            <Glyph value="T"/>
+            <Glyph value="U"/>
+            <Glyph value="V"/>
+          </Coverage>
+          <ValueFormat1 value="68"/>
+          <ValueFormat2 value="0"/>
+          <ClassDef1 Format="1">
+            <ClassDef glyph="B" class="1"/>
+            <ClassDef glyph="C" class="2"/>
+            <ClassDef glyph="F" class="3"/>
+            <ClassDef glyph="G" class="4"/>
+            <ClassDef glyph="J" class="5"/>
+            <ClassDef glyph="O" class="6"/>
+            <ClassDef glyph="P" class="7"/>
+            <ClassDef glyph="R" class="8"/>
+            <ClassDef glyph="S" class="9"/>
+            <ClassDef glyph="T" class="10"/>
+            <ClassDef glyph="U" class="11"/>
+            <ClassDef glyph="V" class="12"/>
+          </ClassDef1>
+          <ClassDef2 Format="2">
+            <ClassDef glyph="A" class="1"/>
+            <ClassDef glyph="J" class="2"/>
+            <ClassDef glyph="O" class="3"/>
+            <ClassDef glyph="T" class="4"/>
+            <ClassDef glyph="U" class="5"/>
+            <ClassDef glyph="V" class="6"/>
+          </ClassDef2>
+          <!-- Class1Count=13 -->
+          <!-- Class2Count=7 -->
+          <Class1Record index="0">
+            <Class2Record index="0">
+              <Value1 XAdvance="0"/>
+            </Class2Record>
+            <Class2Record index="1">
+              <Value1 XAdvance="0"/>
+            </Class2Record>
+            <Class2Record index="2">
+              <Value1 XAdvance="0">
+                <XAdvDevice>
+                  <StartSize value="0"/>
+                  <EndSize value="84"/>
+                  <DeltaFormat value="32768"/>
+                </XAdvDevice>
+              </Value1>
+            </Class2Record>
+            <Class2Record index="3">
+              <Value1 XAdvance="0">
+                <XAdvDevice>
+                  <StartSize value="0"/>
+                  <EndSize value="85"/>
+                  <DeltaFormat value="32768"/>
+                </XAdvDevice>
+              </Value1>
+            </Class2Record>
+            <Class2Record index="4">
+              <Value1 XAdvance="0">
+                <XAdvDevice>
+                  <StartSize value="0"/>
+                  <EndSize value="86"/>
+                  <DeltaFormat value="32768"/>
+                </XAdvDevice>
+              </Value1>
+            </Class2Record>
+            <Class2Record index="5">
+              <Value1 XAdvance="0">
+                <XAdvDevice>
+                  <StartSize value="0"/>
+                  <EndSize value="87"/>
+                  <DeltaFormat value="32768"/>
+                </XAdvDevice>
+              </Value1>
+            </Class2Record>
+            <Class2Record index="6">
+              <Value1 XAdvance="-100">
+                <XAdvDevice>
+                  <StartSize value="0"/>
+                  <EndSize value="88"/>
+                  <DeltaFormat value="32768"/>
+                </XAdvDevice>
+              </Value1>
+            </Class2Record>
+          </Class1Record>
+          <Class1Record index="1">
+            <Class2Record index="0">
+              <Value1 XAdvance="0"/>
+            </Class2Record>
+            <Class2Record index="1">
+              <Value1 XAdvance="0">
+                <XAdvDevice>
+                  <StartSize value="0"/>
+                  <EndSize value="89"/>
+                  <DeltaFormat value="32768"/>
+                </XAdvDevice>
+              </Value1>
+            </Class2Record>
+            <Class2Record index="2">
+              <Value1 XAdvance="0"/>
+            </Class2Record>
+            <Class2Record index="3">
+              <Value1 XAdvance="0"/>
+            </Class2Record>
+            <Class2Record index="4">
+              <Value1 XAdvance="0"/>
+            </Class2Record>
+            <Class2Record index="5">
+              <Value1 XAdvance="0"/>
+            </Class2Record>
+            <Class2Record index="6">
+              <Value1 XAdvance="0"/>
+            </Class2Record>
+          </Class1Record>
+          <Class1Record index="2">
+            <Class2Record index="0">
+              <Value1 XAdvance="0"/>
+            </Class2Record>
+            <Class2Record index="1">
+              <Value1 XAdvance="0">
+                <XAdvDevice>
+                  <StartSize value="0"/>
+                  <EndSize value="90"/>
+                  <DeltaFormat value="32768"/>
+                </XAdvDevice>
+              </Value1>
+            </Class2Record>
+            <Class2Record index="2">
+              <Value1 XAdvance="0"/>
+            </Class2Record>
+            <Class2Record index="3">
+              <Value1 XAdvance="0"/>
+            </Class2Record>
+            <Class2Record index="4">
+              <Value1 XAdvance="0"/>
+            </Class2Record>
+            <Class2Record index="5">
+              <Value1 XAdvance="0"/>
+            </Class2Record>
+            <Class2Record index="6">
+              <Value1 XAdvance="0"/>
+            </Class2Record>
+          </Class1Record>
+          <Class1Record index="3">
+            <Class2Record index="0">
+              <Value1 XAdvance="0"/>
+            </Class2Record>
+            <Class2Record index="1">
+              <Value1 XAdvance="0">
+                <XAdvDevice>
+                  <StartSize value="0"/>
+                  <EndSize value="91"/>
+                  <DeltaFormat value="32768"/>
+                </XAdvDevice>
+              </Value1>
+            </Class2Record>
+            <Class2Record index="2">
+              <Value1 XAdvance="0"/>
+            </Class2Record>
+            <Class2Record index="3">
+              <Value1 XAdvance="0"/>
+            </Class2Record>
+            <Class2Record index="4">
+              <Value1 XAdvance="0"/>
+            </Class2Record>
+            <Class2Record index="5">
+              <Value1 XAdvance="0"/>
+            </Class2Record>
+            <Class2Record index="6">
+              <Value1 XAdvance="0"/>
+            </Class2Record>
+          </Class1Record>
+          <Class1Record index="4">
+            <Class2Record index="0">
+              <Value1 XAdvance="0"/>
+            </Class2Record>
+            <Class2Record index="1">
+              <Value1 XAdvance="0">
+                <XAdvDevice>
+                  <StartSize value="0"/>
+                  <EndSize value="92"/>
+                  <DeltaFormat value="32768"/>
+                </XAdvDevice>
+              </Value1>
+            </Class2Record>
+            <Class2Record index="2">
+              <Value1 XAdvance="0"/>
+            </Class2Record>
+            <Class2Record index="3">
+              <Value1 XAdvance="0"/>
+            </Class2Record>
+            <Class2Record index="4">
+              <Value1 XAdvance="0"/>
+            </Class2Record>
+            <Class2Record index="5">
+              <Value1 XAdvance="0"/>
+            </Class2Record>
+            <Class2Record index="6">
+              <Value1 XAdvance="0"/>
+            </Class2Record>
+          </Class1Record>
+          <Class1Record index="5">
+            <Class2Record index="0">
+              <Value1 XAdvance="0"/>
+            </Class2Record>
+            <Class2Record index="1">
+              <Value1 XAdvance="0">
+                <XAdvDevice>
+                  <StartSize value="0"/>
+                  <EndSize value="93"/>
+                  <DeltaFormat value="32768"/>
+                </XAdvDevice>
+              </Value1>
+            </Class2Record>
+            <Class2Record index="2">
+              <Value1 XAdvance="0"/>
+            </Class2Record>
+            <Class2Record index="3">
+              <Value1 XAdvance="0"/>
+            </Class2Record>
+            <Class2Record index="4">
+              <Value1 XAdvance="0"/>
+            </Class2Record>
+            <Class2Record index="5">
+              <Value1 XAdvance="0"/>
+            </Class2Record>
+            <Class2Record index="6">
+              <Value1 XAdvance="0"/>
+            </Class2Record>
+          </Class1Record>
+          <Class1Record index="6">
+            <Class2Record index="0">
+              <Value1 XAdvance="0"/>
+            </Class2Record>
+            <Class2Record index="1">
+              <Value1 XAdvance="0">
+                <XAdvDevice>
+                  <StartSize value="0"/>
+                  <EndSize value="94"/>
+                  <DeltaFormat value="32768"/>
+                </XAdvDevice>
+              </Value1>
+            </Class2Record>
+            <Class2Record index="2">
+              <Value1 XAdvance="0"/>
+            </Class2Record>
+            <Class2Record index="3">
+              <Value1 XAdvance="0"/>
+            </Class2Record>
+            <Class2Record index="4">
+              <Value1 XAdvance="0"/>
+            </Class2Record>
+            <Class2Record index="5">
+              <Value1 XAdvance="0"/>
+            </Class2Record>
+            <Class2Record index="6">
+              <Value1 XAdvance="0"/>
+            </Class2Record>
+          </Class1Record>
+          <Class1Record index="7">
+            <Class2Record index="0">
+              <Value1 XAdvance="0"/>
+            </Class2Record>
+            <Class2Record index="1">
+              <Value1 XAdvance="0">
+                <XAdvDevice>
+                  <StartSize value="0"/>
+                  <EndSize value="95"/>
+                  <DeltaFormat value="32768"/>
+                </XAdvDevice>
+              </Value1>
+            </Class2Record>
+            <Class2Record index="2">
+              <Value1 XAdvance="0"/>
+            </Class2Record>
+            <Class2Record index="3">
+              <Value1 XAdvance="0"/>
+            </Class2Record>
+            <Class2Record index="4">
+              <Value1 XAdvance="0"/>
+            </Class2Record>
+            <Class2Record index="5">
+              <Value1 XAdvance="0"/>
+            </Class2Record>
+            <Class2Record index="6">
+              <Value1 XAdvance="0"/>
+            </Class2Record>
+          </Class1Record>
+          <Class1Record index="8">
+            <Class2Record index="0">
+              <Value1 XAdvance="0"/>
+            </Class2Record>
+            <Class2Record index="1">
+              <Value1 XAdvance="0">
+                <XAdvDevice>
+                  <StartSize value="0"/>
+                  <EndSize value="96"/>
+                  <DeltaFormat value="32768"/>
+                </XAdvDevice>
+              </Value1>
+            </Class2Record>
+            <Class2Record index="2">
+              <Value1 XAdvance="0"/>
+            </Class2Record>
+            <Class2Record index="3">
+              <Value1 XAdvance="0"/>
+            </Class2Record>
+            <Class2Record index="4">
+              <Value1 XAdvance="0"/>
+            </Class2Record>
+            <Class2Record index="5">
+              <Value1 XAdvance="0"/>
+            </Class2Record>
+            <Class2Record index="6">
+              <Value1 XAdvance="0"/>
+            </Class2Record>
+          </Class1Record>
+          <Class1Record index="9">
+            <Class2Record index="0">
+              <Value1 XAdvance="0"/>
+            </Class2Record>
+            <Class2Record index="1">
+              <Value1 XAdvance="0">
+                <XAdvDevice>
+                  <StartSize value="0"/>
+                  <EndSize value="97"/>
+                  <DeltaFormat value="32768"/>
+                </XAdvDevice>
+              </Value1>
+            </Class2Record>
+            <Class2Record index="2">
+              <Value1 XAdvance="0"/>
+            </Class2Record>
+            <Class2Record index="3">
+              <Value1 XAdvance="0"/>
+            </Class2Record>
+            <Class2Record index="4">
+              <Value1 XAdvance="0"/>
+            </Class2Record>
+            <Class2Record index="5">
+              <Value1 XAdvance="0"/>
+            </Class2Record>
+            <Class2Record index="6">
+              <Value1 XAdvance="0"/>
+            </Class2Record>
+          </Class1Record>
+          <Class1Record index="10">
+            <Class2Record index="0">
+              <Value1 XAdvance="0"/>
+            </Class2Record>
+            <Class2Record index="1">
+              <Value1 XAdvance="0">
+                <XAdvDevice>
+                  <StartSize value="0"/>
+                  <EndSize value="98"/>
+                  <DeltaFormat value="32768"/>
+                </XAdvDevice>
+              </Value1>
+            </Class2Record>
+            <Class2Record index="2">
+              <Value1 XAdvance="0"/>
+            </Class2Record>
+            <Class2Record index="3">
+              <Value1 XAdvance="0"/>
+            </Class2Record>
+            <Class2Record index="4">
+              <Value1 XAdvance="0"/>
+            </Class2Record>
+            <Class2Record index="5">
+              <Value1 XAdvance="0"/>
+            </Class2Record>
+            <Class2Record index="6">
+              <Value1 XAdvance="0"/>
+            </Class2Record>
+          </Class1Record>
+          <Class1Record index="11">
+            <Class2Record index="0">
+              <Value1 XAdvance="0"/>
+            </Class2Record>
+            <Class2Record index="1">
+              <Value1 XAdvance="0">
+                <XAdvDevice>
+                  <StartSize value="0"/>
+                  <EndSize value="99"/>
+                  <DeltaFormat value="32768"/>
+                </XAdvDevice>
+              </Value1>
+            </Class2Record>
+            <Class2Record index="2">
+              <Value1 XAdvance="0"/>
+            </Class2Record>
+            <Class2Record index="3">
+              <Value1 XAdvance="0"/>
+            </Class2Record>
+            <Class2Record index="4">
+              <Value1 XAdvance="0"/>
+            </Class2Record>
+            <Class2Record index="5">
+              <Value1 XAdvance="0"/>
+            </Class2Record>
+            <Class2Record index="6">
+              <Value1 XAdvance="0"/>
+            </Class2Record>
+          </Class1Record>
+          <Class1Record index="12">
+            <Class2Record index="0">
+              <Value1 XAdvance="0"/>
+            </Class2Record>
+            <Class2Record index="1">
+              <Value1 XAdvance="-100">
+                <XAdvDevice>
+                  <StartSize value="0"/>
+                  <EndSize value="100"/>
+                  <DeltaFormat value="32768"/>
+                </XAdvDevice>
+              </Value1>
+            </Class2Record>
+            <Class2Record index="2">
+              <Value1 XAdvance="0"/>
+            </Class2Record>
+            <Class2Record index="3">
+              <Value1 XAdvance="0"/>
+            </Class2Record>
+            <Class2Record index="4">
+              <Value1 XAdvance="0"/>
+            </Class2Record>
+            <Class2Record index="5">
+              <Value1 XAdvance="0"/>
+            </Class2Record>
+            <Class2Record index="6">
+              <Value1 XAdvance="0"/>
+            </Class2Record>
+          </Class1Record>
+        </PairPos>
+      </Lookup>
+    </LookupList>
+  </GPOS>
+
+  <HVAR>
+    <Version value="0x00010000"/>
+    <VarStore Format="1">
+      <Format value="1"/>
+      <VarRegionList>
+        <!-- RegionAxisCount=2 -->
+        <!-- RegionCount=3 -->
+        <Region index="0">
+          <VarRegionAxis index="0">
+            <StartCoord value="0.0"/>
+            <PeakCoord value="1.0"/>
+            <EndCoord value="1.0"/>
+          </VarRegionAxis>
+          <VarRegionAxis index="1">
+            <StartCoord value="0.0"/>
+            <PeakCoord value="0.0"/>
+            <EndCoord value="0.0"/>
+          </VarRegionAxis>
+        </Region>
+        <Region index="1">
+          <VarRegionAxis index="0">
+            <StartCoord value="0.0"/>
+            <PeakCoord value="0.0"/>
+            <EndCoord value="0.0"/>
+          </VarRegionAxis>
+          <VarRegionAxis index="1">
+            <StartCoord value="0.0"/>
+            <PeakCoord value="1.0"/>
+            <EndCoord value="1.0"/>
+          </VarRegionAxis>
+        </Region>
+        <Region index="2">
+          <VarRegionAxis index="0">
+            <StartCoord value="0.0"/>
+            <PeakCoord value="1.0"/>
+            <EndCoord value="1.0"/>
+          </VarRegionAxis>
+          <VarRegionAxis index="1">
+            <StartCoord value="0.0"/>
+            <PeakCoord value="1.0"/>
+            <EndCoord value="1.0"/>
+          </VarRegionAxis>
+        </Region>
+      </VarRegionList>
+      <!-- VarDataCount=1 -->
+      <VarData index="0">
+        <!-- ItemCount=36 -->
+        <NumShorts value="3"/>
+        <!-- VarRegionCount=3 -->
+        <VarRegionIndex index="0" value="0"/>
+        <VarRegionIndex index="1" value="1"/>
+        <VarRegionIndex index="2" value="2"/>
+        <Item index="0" value="[0, 0, 0]"/>
+        <Item index="1" value="[0, 0, 0]"/>
+        <Item index="2" value="[770, 340, -220]"/>
+        <Item index="3" value="[700, 277, -110]"/>
+        <Item index="4" value="[854, 323, -302]"/>
+        <Item index="5" value="[748, 310, -290]"/>
+        <Item index="6" value="[700, 200, -90]"/>
+        <Item index="7" value="[750, 160, -100]"/>
+        <Item index="8" value="[883, 321, -303]"/>
+        <Item index="9" value="[720, 290, -110]"/>
+        <Item index="10" value="[610, 240, -150]"/>
+        <Item index="11" value="[493, 275, -262]"/>
+        <Item index="12" value="[552, 394, -57]"/>
+        <Item index="13" value="[600, 180, -80]"/>
+        <Item index="14" value="[784, 342, -318]"/>
+        <Item index="15" value="[720, 290, -135]"/>
+        <Item index="16" value="[818, 341, -281]"/>
+        <Item index="17" value="[708, 317, -200]"/>
+        <Item index="18" value="[818, 341, -281]"/>
+        <Item index="19" value="[697, 316, -199]"/>
+        <Item index="20" value="[838, 281, -258]"/>
+        <Item index="21" value="[700, 180, -60]"/>
+        <Item index="22" value="[718, 293, -147]"/>
+        <Item index="23" value="[770, 340, -190]"/>
+        <Item index="24" value="[846, 366, -364]"/>
+        <Item index="25" value="[620, 350, -90]"/>
+        <Item index="26" value="[570, 320, -100]"/>
+        <Item index="27" value="[760, 200, -120]"/>
+        <Item index="28" value="[120, 179, -60]"/>
+        <Item index="29" value="[120, 179, -60]"/>
+        <Item index="30" value="[120, 79, -60]"/>
+        <Item index="31" value="[120, 179, -40]"/>
+        <Item index="32" value="[120, 80, -60]"/>
+        <Item index="33" value="[120, 79, -60]"/>
+        <Item index="34" value="[120, 80, -60]"/>
+        <Item index="35" value="[120, 79, -60]"/>
+      </VarData>
+    </VarStore>
+  </HVAR>
+
+  <MVAR>
+    <Version value="0x00010000"/>
+    <Reserved value="0"/>
+    <ValueRecordSize value="8"/>
+    <!-- ValueRecordCount=3 -->
+    <VarStore Format="1">
+      <Format value="1"/>
+      <VarRegionList>
+        <!-- RegionAxisCount=2 -->
+        <!-- RegionCount=3 -->
+        <Region index="0">
+          <VarRegionAxis index="0">
+            <StartCoord value="0.0"/>
+            <PeakCoord value="1.0"/>
+            <EndCoord value="1.0"/>
+          </VarRegionAxis>
+          <VarRegionAxis index="1">
+            <StartCoord value="0.0"/>
+            <PeakCoord value="0.0"/>
+            <EndCoord value="0.0"/>
+          </VarRegionAxis>
+        </Region>
+        <Region index="1">
+          <VarRegionAxis index="0">
+            <StartCoord value="0.0"/>
+            <PeakCoord value="0.0"/>
+            <EndCoord value="0.0"/>
+          </VarRegionAxis>
+          <VarRegionAxis index="1">
+            <StartCoord value="0.0"/>
+            <PeakCoord value="1.0"/>
+            <EndCoord value="1.0"/>
+          </VarRegionAxis>
+        </Region>
+        <Region index="2">
+          <VarRegionAxis index="0">
+            <StartCoord value="0.0"/>
+            <PeakCoord value="1.0"/>
+            <EndCoord value="1.0"/>
+          </VarRegionAxis>
+          <VarRegionAxis index="1">
+            <StartCoord value="0.0"/>
+            <PeakCoord value="1.0"/>
+            <EndCoord value="1.0"/>
+          </VarRegionAxis>
+        </Region>
+      </VarRegionList>
+      <!-- VarDataCount=1 -->
+      <VarData index="0">
+        <!-- ItemCount=3 -->
+        <NumShorts value="0"/>
+        <!-- VarRegionCount=3 -->
+        <VarRegionIndex index="0" value="0"/>
+        <VarRegionIndex index="1" value="1"/>
+        <VarRegionIndex index="2" value="2"/>
+        <Item index="0" value="[0, 100, 0]"/>
+        <Item index="1" value="[0, -15, 0]"/>
+        <Item index="2" value="[0, 15, 0]"/>
+      </VarData>
+    </VarStore>
+    <ValueRecord index="0">
+      <ValueTag value="cpht"/>
+      <VarIdx value="0"/>
+    </ValueRecord>
+    <ValueRecord index="1">
+      <ValueTag value="hcla"/>
+      <VarIdx value="1"/>
+    </ValueRecord>
+    <ValueRecord index="2">
+      <ValueTag value="hcld"/>
+      <VarIdx value="2"/>
+    </ValueRecord>
+  </MVAR>
+
+  <fvar>
+
+    <!-- Width -->
+    <Axis>
+      <AxisTag>wdth</AxisTag>
+      <Flags>0x0</Flags>
+      <MinValue>0.0</MinValue>
+      <DefaultValue>0.0</DefaultValue>
+      <MaxValue>1000.0</MaxValue>
+      <AxisNameID>256</AxisNameID>
+    </Axis>
+
+    <!-- Weight -->
+    <Axis>
+      <AxisTag>wght</AxisTag>
+      <Flags>0x0</Flags>
+      <MinValue>0.0</MinValue>
+      <DefaultValue>0.0</DefaultValue>
+      <MaxValue>1000.0</MaxValue>
+      <AxisNameID>257</AxisNameID>
+    </Axis>
+
+    <!-- LightCondensed -->
+    <NamedInstance flags="0x0" subfamilyNameID="258">
+      <coord axis="wdth" value="0.0"/>
+      <coord axis="wght" value="0.0"/>
+    </NamedInstance>
+
+    <!-- BoldCondensed -->
+    <NamedInstance flags="0x0" subfamilyNameID="259">
+      <coord axis="wdth" value="0.0"/>
+      <coord axis="wght" value="1000.0"/>
+    </NamedInstance>
+
+    <!-- LightWide -->
+    <NamedInstance flags="0x0" subfamilyNameID="260">
+      <coord axis="wdth" value="1000.0"/>
+      <coord axis="wght" value="0.0"/>
+    </NamedInstance>
+
+    <!-- BoldWide -->
+    <NamedInstance flags="0x0" subfamilyNameID="261">
+      <coord axis="wdth" value="1000.0"/>
+      <coord axis="wght" value="1000.0"/>
+    </NamedInstance>
+  </fvar>
+
+  <gvar>
+    <version value="1"/>
+    <reserved value="0"/>
+    <glyphVariations glyph=".notdef">
+      <tuple>
+        <coord axis="wght" value="1.0"/>
+        <delta pt="0" x="0" y="0"/>
+        <delta pt="1" x="0" y="0"/>
+        <delta pt="2" x="0" y="100"/>
+        <delta pt="3" x="0" y="100"/>
+        <delta pt="4" x="0" y="0"/>
+        <delta pt="5" x="0" y="100"/>
+        <delta pt="6" x="0" y="100"/>
+        <delta pt="7" x="0" y="0"/>
+        <delta pt="8" x="0" y="0"/>
+        <delta pt="9" x="0" y="0"/>
+        <delta pt="10" x="0" y="100"/>
+        <delta pt="11" x="0" y="0"/>
+      </tuple>
+    </glyphVariations>
+    <glyphVariations glyph="A">
+      <tuple>
+        <coord axis="wdth" value="1.0"/>
+        <delta pt="0" x="20" y="0"/>
+        <delta pt="1" x="27" y="0"/>
+        <delta pt="2" x="412" y="0"/>
+        <delta pt="3" x="405" y="0"/>
+        <delta pt="4" x="160" y="60"/>
+        <delta pt="5" x="610" y="60"/>
+        <delta pt="6" x="610" y="54"/>
+        <delta pt="7" x="160" y="54"/>
+        <delta pt="8" x="745" y="0"/>
+        <delta pt="9" x="750" y="0"/>
+        <delta pt="10" x="365" y="0"/>
+        <delta pt="11" x="360" y="0"/>
+        <delta pt="12" x="395" y="3"/>
+        <delta pt="13" x="375" y="3"/>
+        <delta pt="14" x="375" y="0"/>
+        <delta pt="15" x="395" y="0"/>
+        <delta pt="16" x="0" y="0"/>
+        <delta pt="17" x="770" y="0"/>
+        <delta pt="18" x="0" y="0"/>
+        <delta pt="19" x="0" y="0"/>
+      </tuple>
+      <tuple>
+        <coord axis="wght" value="1.0"/>
+        <delta pt="0" x="-10" y="0"/>
+        <delta pt="1" x="190" y="0"/>
+        <delta pt="2" x="144" y="100"/>
+        <delta pt="3" x="-31" y="100"/>
+        <delta pt="5" x="255" y="-44"/>
+        <delta pt="7" x="35" y="130"/>
+        <delta pt="8" x="58" y="0"/>
+        <delta pt="9" x="350" y="0"/>
+        <delta pt="10" x="369" y="100"/>
+        <delta pt="11" x="92" y="100"/>
+        <delta pt="13" x="239" y="-121"/>
+        <delta pt="15" x="39" y="100"/>
+        <delta pt="17" x="340" y="0"/>
+        <delta pt="18" x="0" y="100"/>
+      </tuple>
+      <tuple>
+        <coord axis="wdth" value="1.0"/>
+        <coord axis="wght" value="1.0"/>
+        <delta pt="0" x="-10" y="0"/>
+        <delta pt="1" x="73" y="0"/>
+        <delta pt="2" x="-106" y="0"/>
+        <delta pt="3" x="-169" y="0"/>
+        <delta pt="4" x="-60" y="-60"/>
+        <delta pt="5" x="-250" y="-60"/>
+        <delta pt="6" x="-250" y="-44"/>
+        <delta pt="7" x="-60" y="-44"/>
+        <delta pt="8" x="-335" y="0"/>
+        <delta pt="9" x="-210" y="0"/>
+        <delta pt="10" x="-49" y="0"/>
+        <delta pt="11" x="-174" y="0"/>
+        <delta pt="12" x="-189" y="-3"/>
+        <delta pt="13" x="-19" y="-3"/>
+        <delta pt="14" x="-19" y="0"/>
+        <delta pt="15" x="-189" y="0"/>
+        <delta pt="16" x="0" y="0"/>
+        <delta pt="17" x="-220" y="0"/>
+        <delta pt="18" x="0" y="0"/>
+        <delta pt="19" x="0" y="0"/>
+      </tuple>
+    </glyphVariations>
+    <glyphVariations glyph="B">
+      <tuple>
+        <coord axis="wdth" value="1.0"/>
+        <delta pt="0" x="60" y="0"/>
+        <delta pt="4" x="60" y="0"/>
+        <delta pt="14" x="690" y="0"/>
+        <delta pt="19" x="690" y="0"/>
+        <delta pt="20" x="695" y="2"/>
+        <delta pt="21" x="695" y="2"/>
+        <delta pt="22" x="675" y="-5"/>
+        <delta pt="23" x="675" y="-5"/>
+        <delta pt="24" x="670" y="0"/>
+        <delta pt="28" x="670" y="0"/>
+        <delta pt="40" x="700" y="0"/>
+      </tuple>
+      <tuple>
+        <coord axis="wght" value="1.0"/>
+        <delta pt="0" x="-30" y="0"/>
+        <delta pt="1" x="240" y="0"/>
+        <delta pt="2" x="240" y="100"/>
+        <delta pt="3" x="-30" y="100"/>
+        <delta pt="4" x="200" y="14"/>
+        <delta pt="5" x="165" y="14"/>
+        <delta pt="6" x="98" y="14"/>
+        <delta pt="7" x="43" y="80"/>
+        <delta pt="8" x="43" y="109"/>
+        <delta pt="9" x="43" y="141"/>
+        <delta pt="10" x="98" y="202"/>
+        <delta pt="11" x="165" y="202"/>
+        <delta pt="12" x="200" y="202"/>
+        <delta pt="13" x="200" y="0"/>
+        <delta pt="14" x="206" y="0"/>
+        <delta pt="15" x="254" y="0"/>
+        <delta pt="16" x="286" y="8"/>
+        <delta pt="17" x="287" y="29"/>
+        <delta pt="18" x="287" y="47"/>
+        <delta pt="19" x="287" y="74"/>
+        <delta pt="20" x="295" y="72"/>
+        <delta pt="21" x="316" y="73"/>
+        <delta pt="22" x="316" y="27"/>
+        <delta pt="23" x="303" y="18"/>
+        <delta pt="24" x="327" y="15"/>
+        <delta pt="25" x="327" y="46"/>
+        <delta pt="26" x="327" y="81"/>
+        <delta pt="27" x="302" y="100"/>
+        <delta pt="28" x="245" y="100"/>
+        <delta pt="29" x="200" y="100"/>
+        <delta pt="30" x="200" y="-90"/>
+        <delta pt="31" x="205" y="-90"/>
+        <delta pt="32" x="138" y="-90"/>
+        <delta pt="33" x="83" y="-28"/>
+        <delta pt="34" x="83" y="6"/>
+        <delta pt="35" x="83" y="34"/>
+        <delta pt="36" x="138" y="102"/>
+        <delta pt="37" x="205" y="102"/>
+        <delta pt="38" x="200" y="102"/>
+        <delta pt="39" x="0" y="0"/>
+        <delta pt="40" x="277" y="0"/>
+        <delta pt="41" x="0" y="100"/>
+        <delta pt="42" x="0" y="0"/>
+      </tuple>
+      <tuple>
+        <coord axis="wdth" value="1.0"/>
+        <coord axis="wght" value="1.0"/>
+        <delta pt="0" x="-30" y="0"/>
+        <delta pt="1" x="80" y="0"/>
+        <delta pt="2" x="80" y="0"/>
+        <delta pt="3" x="-30" y="0"/>
+        <delta pt="4" x="110" y="-10"/>
+        <delta pt="5" x="-250" y="-10"/>
+        <delta pt="6" x="-250" y="-10"/>
+        <delta pt="7" x="-240" y="-9"/>
+        <delta pt="8" x="-240" y="-6"/>
+        <delta pt="9" x="-240" y="-2"/>
+        <delta pt="10" x="-250" y="0"/>
+        <delta pt="11" x="-250" y="0"/>
+        <delta pt="12" x="110" y="0"/>
+        <delta pt="13" x="110" y="0"/>
+        <delta pt="14" x="-120" y="0"/>
+        <delta pt="15" x="-120" y="0"/>
+        <delta pt="16" x="-110" y="0"/>
+        <delta pt="17" x="-100" y="0"/>
+        <delta pt="18" x="-100" y="0"/>
+        <delta pt="19" x="-100" y="0"/>
+        <delta pt="20" x="-125" y="-2"/>
+        <delta pt="21" x="-125" y="-2"/>
+        <delta pt="22" x="-135" y="5"/>
+        <delta pt="23" x="-135" y="5"/>
+        <delta pt="24" x="-110" y="0"/>
+        <delta pt="25" x="-110" y="0"/>
+        <delta pt="26" x="-110" y="0"/>
+        <delta pt="27" x="-130" y="0"/>
+        <delta pt="28" x="-130" y="0"/>
+        <delta pt="29" x="110" y="0"/>
+        <delta pt="30" x="110" y="0"/>
+        <delta pt="31" x="-260" y="0"/>
+        <delta pt="32" x="-260" y="0"/>
+        <delta pt="33" x="-250" y="2"/>
+        <delta pt="34" x="-250" y="5"/>
+        <delta pt="35" x="-250" y="2"/>
+        <delta pt="36" x="-260" y="10"/>
+        <delta pt="37" x="-260" y="10"/>
+        <delta pt="38" x="110" y="10"/>
+        <delta pt="39" x="0" y="0"/>
+        <delta pt="40" x="-110" y="0"/>
+        <delta pt="41" x="0" y="0"/>
+        <delta pt="42" x="0" y="0"/>
+      </tuple>
+    </glyphVariations>
+    <glyphVariations glyph="C">
+      <tuple>
+        <coord axis="wdth" value="1.0"/>
+        <delta pt="0" x="823" y="13"/>
+        <delta pt="1" x="803" y="16"/>
+        <delta pt="2" x="618" y="0"/>
+        <delta pt="3" x="473" y="0"/>
+        <delta pt="4" x="384" y="0"/>
+        <delta pt="5" x="220" y="0"/>
+        <delta pt="6" x="30" y="15"/>
+        <delta pt="7" x="30" y="0"/>
+        <delta pt="8" x="30" y="-15"/>
+        <delta pt="9" x="220" y="0"/>
+        <delta pt="10" x="384" y="0"/>
+        <delta pt="11" x="473" y="0"/>
+        <delta pt="12" x="617" y="0"/>
+        <delta pt="13" x="801" y="-15"/>
+        <delta pt="14" x="822" y="-11"/>
+        <delta pt="15" x="823" y="-12"/>
+        <delta pt="16" x="803" y="-15"/>
+        <delta pt="17" x="618" y="0"/>
+        <delta pt="18" x="473" y="0"/>
+        <delta pt="19" x="384" y="0"/>
+        <delta pt="20" x="222" y="0"/>
+        <delta pt="21" x="30" y="-15"/>
+        <delta pt="22" x="30" y="0"/>
+        <delta pt="23" x="30" y="15"/>
+        <delta pt="24" x="222" y="0"/>
+        <delta pt="25" x="384" y="0"/>
+        <delta pt="26" x="473" y="0"/>
+        <delta pt="27" x="618" y="0"/>
+        <delta pt="28" x="804" y="17"/>
+        <delta pt="29" x="824" y="15"/>
+        <delta pt="30" x="0" y="0"/>
+        <delta pt="31" x="854" y="0"/>
+        <delta pt="32" x="0" y="0"/>
+        <delta pt="33" x="0" y="0"/>
+      </tuple>
+      <tuple>
+        <coord axis="wght" value="1.0"/>
+        <delta pt="0" x="102" y="114"/>
+        <delta pt="1" x="111" y="178"/>
+        <delta pt="2" x="152" y="228"/>
+        <delta pt="3" x="169" y="228"/>
+        <delta pt="4" x="172" y="228"/>
+        <delta pt="5" x="200" y="228"/>
+        <delta pt="6" x="252" y="158"/>
+        <delta pt="7" x="252" y="51"/>
+        <delta pt="8" x="252" y="-58"/>
+        <delta pt="9" x="200" y="-128"/>
+        <delta pt="10" x="172" y="-128"/>
+        <delta pt="11" x="169" y="-128"/>
+        <delta pt="12" x="152" y="-128"/>
+        <delta pt="13" x="111" y="-78"/>
+        <delta pt="14" x="102" y="-14"/>
+        <delta pt="15" x="353" y="10"/>
+        <delta pt="16" x="352" y="46"/>
+        <delta pt="17" x="257" y="100"/>
+        <delta pt="18" x="177" y="100"/>
+        <delta pt="19" x="163" y="100"/>
+        <delta pt="20" x="75" y="100"/>
+        <delta pt="21" x="-30" y="61"/>
+        <delta pt="22" x="-30" y="51"/>
+        <delta pt="23" x="-30" y="40"/>
+        <delta pt="24" x="75" y="0"/>
+        <delta pt="25" x="163" y="0"/>
+        <delta pt="26" x="177" y="0"/>
+        <delta pt="27" x="256" y="0"/>
+        <delta pt="28" x="352" y="55"/>
+        <delta pt="29" x="353" y="92"/>
+        <delta pt="30" x="0" y="0"/>
+        <delta pt="31" x="323" y="0"/>
+        <delta pt="32" x="0" y="100"/>
+        <delta pt="33" x="0" y="0"/>
+      </tuple>
+      <tuple>
+        <coord axis="wdth" value="1.0"/>
+        <coord axis="wght" value="1.0"/>
+        <delta pt="0" x="-429" y="-29"/>
+        <delta pt="1" x="-420" y="-19"/>
+        <delta pt="2" x="-283" y="0"/>
+        <delta pt="3" x="-161" y="0"/>
+        <delta pt="4" x="-158" y="0"/>
+        <delta pt="5" x="-31" y="0"/>
+        <delta pt="6" x="100" y="-15"/>
+        <delta pt="7" x="100" y="0"/>
+        <delta pt="8" x="100" y="15"/>
+        <delta pt="9" x="-31" y="0"/>
+        <delta pt="10" x="-158" y="0"/>
+        <delta pt="11" x="-161" y="0"/>
+        <delta pt="12" x="-282" y="0"/>
+        <delta pt="13" x="-419" y="17"/>
+        <delta pt="14" x="-428" y="28"/>
+        <delta pt="15" x="-292" y="46"/>
+        <delta pt="16" x="-289" y="32"/>
+        <delta pt="17" x="-195" y="0"/>
+        <delta pt="18" x="-117" y="0"/>
+        <delta pt="19" x="-203" y="0"/>
+        <delta pt="20" x="-115" y="0"/>
+        <delta pt="21" x="-10" y="15"/>
+        <delta pt="22" x="-10" y="0"/>
+        <delta pt="23" x="-10" y="-15"/>
+        <delta pt="24" x="-115" y="0"/>
+        <delta pt="25" x="-203" y="0"/>
+        <delta pt="26" x="-117" y="0"/>
+        <delta pt="27" x="-193" y="0"/>
+        <delta pt="28" x="-289" y="-32"/>
+        <delta pt="29" x="-292" y="-46"/>
+        <delta pt="30" x="0" y="0"/>
+        <delta pt="31" x="-302" y="0"/>
+        <delta pt="32" x="0" y="0"/>
+        <delta pt="33" x="0" y="0"/>
+      </tuple>
+    </glyphVariations>
+    <glyphVariations glyph="D">
+      <tuple>
+        <coord axis="wdth" value="1.0"/>
+        <delta pt="0" x="60" y="0"/>
+        <delta pt="1" x="60" y="0"/>
+        <delta pt="2" x="60" y="0"/>
+        <delta pt="3" x="60" y="0"/>
+        <delta pt="4" x="54" y="0"/>
+        <delta pt="5" x="403" y="0"/>
+        <delta pt="6" x="553" y="0"/>
+        <delta pt="7" x="718" y="-15"/>
+        <delta pt="8" x="718" y="0"/>
+        <delta pt="9" x="718" y="15"/>
+        <delta pt="10" x="553" y="0"/>
+        <delta pt="11" x="403" y="0"/>
+        <delta pt="12" x="54" y="0"/>
+        <delta pt="13" x="54" y="0"/>
+        <delta pt="14" x="403" y="0"/>
+        <delta pt="15" x="553" y="0"/>
+        <delta pt="16" x="718" y="15"/>
+        <delta pt="17" x="718" y="0"/>
+        <delta pt="18" x="718" y="-15"/>
+        <delta pt="19" x="553" y="0"/>
+        <delta pt="20" x="403" y="0"/>
+        <delta pt="21" x="54" y="0"/>
+        <delta pt="22" x="0" y="0"/>
+        <delta pt="23" x="748" y="0"/>
+        <delta pt="24" x="0" y="0"/>
+        <delta pt="25" x="0" y="0"/>
+      </tuple>
+      <tuple>
+        <coord axis="wght" value="1.0"/>
+        <delta pt="0" x="-30" y="0"/>
+        <delta pt="1" x="219" y="0"/>
+        <delta pt="2" x="219" y="100"/>
+        <delta pt="3" x="-30" y="100"/>
+        <delta pt="4" x="177" y="-118"/>
+        <delta pt="5" x="178" y="-118"/>
+        <delta pt="6" x="135" y="-118"/>
+        <delta pt="7" x="58" y="-58"/>
+        <delta pt="8" x="58" y="51"/>
+        <delta pt="9" x="58" y="158"/>
+        <delta pt="10" x="135" y="218"/>
+        <delta pt="11" x="178" y="218"/>
+        <delta pt="12" x="169" y="218"/>
+        <delta pt="13" x="169" y="0"/>
+        <delta pt="14" x="186" y="0"/>
+        <delta pt="15" x="261" y="0"/>
+        <delta pt="16" x="340" y="45"/>
+        <delta pt="17" x="340" y="51"/>
+        <delta pt="18" x="340" y="56"/>
+        <delta pt="19" x="261" y="100"/>
+        <delta pt="20" x="186" y="100"/>
+        <delta pt="21" x="177" y="100"/>
+        <delta pt="22" x="0" y="0"/>
+        <delta pt="23" x="310" y="0"/>
+        <delta pt="24" x="0" y="100"/>
+        <delta pt="25" x="0" y="0"/>
+      </tuple>
+      <tuple>
+        <coord axis="wdth" value="1.0"/>
+        <coord axis="wght" value="1.0"/>
+        <delta pt="0" x="-30" y="0"/>
+        <delta pt="1" x="101" y="0"/>
+        <delta pt="2" x="101" y="0"/>
+        <delta pt="3" x="-30" y="0"/>
+        <delta pt="4" x="113" y="0"/>
+        <delta pt="5" x="-170" y="0"/>
+        <delta pt="6" x="-282" y="0"/>
+        <delta pt="7" x="-389" y="15"/>
+        <delta pt="8" x="-389" y="0"/>
+        <delta pt="9" x="-389" y="-15"/>
+        <delta pt="10" x="-282" y="0"/>
+        <delta pt="11" x="-170" y="0"/>
+        <delta pt="12" x="121" y="0"/>
+        <delta pt="13" x="121" y="0"/>
+        <delta pt="14" x="-126" y="0"/>
+        <delta pt="15" x="-201" y="0"/>
+        <delta pt="16" x="-280" y="-20"/>
+        <delta pt="17" x="-280" y="0"/>
+        <delta pt="18" x="-280" y="20"/>
+        <delta pt="19" x="-201" y="0"/>
+        <delta pt="20" x="-126" y="0"/>
+        <delta pt="21" x="113" y="0"/>
+        <delta pt="22" x="0" y="0"/>
+        <delta pt="23" x="-290" y="0"/>
+        <delta pt="24" x="0" y="0"/>
+        <delta pt="25" x="0" y="0"/>
+      </tuple>
+    </glyphVariations>
+    <glyphVariations glyph="E">
+      <tuple>
+        <coord axis="wdth" value="1.0"/>
+        <delta pt="0" x="60" y="0"/>
+        <delta pt="4" x="60" y="0"/>
+        <delta pt="6" x="640" y="0"/>
+        <delta pt="8" x="60" y="0"/>
+        <delta pt="10" x="640" y="0"/>
+        <delta pt="12" x="60" y="0"/>
+        <delta pt="14" x="540" y="0"/>
+        <delta pt="17" x="700" y="0"/>
+      </tuple>
+      <tuple>
+        <coord axis="wght" value="1.0"/>
+        <delta pt="1" x="220" y="0"/>
+        <delta pt="3" x="-30" y="100"/>
+        <delta pt="5" x="230" y="-134"/>
+        <delta pt="7" x="50" y="100"/>
+        <delta pt="9" x="230" y="0"/>
+        <delta pt="11" x="50" y="234"/>
+        <delta pt="13" x="216" y="-19"/>
+        <delta pt="15" x="50" y="115"/>
+        <delta pt="17" x="200" y="0"/>
+        <delta pt="18" x="0" y="100"/>
+      </tuple>
+      <tuple>
+        <coord axis="wdth" value="1.0"/>
+        <coord axis="wght" value="1.0"/>
+        <delta pt="0" x="-30" y="0"/>
+        <delta pt="2" x="100" y="0"/>
+        <delta pt="4" x="-40" y="0"/>
+        <delta pt="6" x="-60" y="0"/>
+        <delta pt="8" x="-40" y="0"/>
+        <delta pt="10" x="-60" y="0"/>
+        <delta pt="12" x="-40" y="0"/>
+        <delta pt="14" x="-140" y="0"/>
+        <delta pt="17" x="-90" y="0"/>
+      </tuple>
+    </glyphVariations>
+    <glyphVariations glyph="F">
+      <tuple>
+        <coord axis="wdth" value="1.0"/>
+        <delta pt="0" x="60" y="0"/>
+        <delta pt="4" x="60" y="0"/>
+        <delta pt="6" x="690" y="0"/>
+        <delta pt="8" x="60" y="-20"/>
+        <delta pt="10" x="690" y="-20"/>
+        <delta pt="13" x="750" y="0"/>
+      </tuple>
+      <tuple>
+        <coord axis="wght" value="1.0"/>
+        <delta pt="1" x="250" y="0"/>
+        <delta pt="3" x="-30" y="100"/>
+        <delta pt="5" x="190" y="-114"/>
+        <delta pt="7" x="50" y="100"/>
+        <delta pt="9" x="196" y="-39"/>
+        <delta pt="11" x="50" y="135"/>
+        <delta pt="13" x="160" y="0"/>
+        <delta pt="14" x="0" y="100"/>
+      </tuple>
+      <tuple>
+        <coord axis="wdth" value="1.0"/>
+        <coord axis="wght" value="1.0"/>
+        <delta pt="0" x="-30" y="0"/>
+        <delta pt="2" x="70" y="0"/>
+        <delta pt="5" x="-70" y="-20"/>
+        <delta pt="7" x="-40" y="0"/>
+        <delta pt="9" x="-170" y="-20"/>
+        <delta pt="11" x="-40" y="0"/>
+        <delta pt="13" x="-100" y="0"/>
+      </tuple>
+    </glyphVariations>
+    <glyphVariations glyph="G">
+      <tuple>
+        <coord axis="wdth" value="1.0"/>
+        <delta pt="0" x="220" y="0"/>
+        <delta pt="1" x="820" y="0"/>
+        <delta pt="2" x="820" y="0"/>
+        <delta pt="3" x="829" y="0"/>
+        <delta pt="4" x="820" y="0"/>
+        <delta pt="5" x="820" y="-5"/>
+        <delta pt="6" x="220" y="-5"/>
+        <delta pt="7" x="823" y="13"/>
+        <delta pt="8" x="803" y="16"/>
+        <delta pt="9" x="618" y="0"/>
+        <delta pt="10" x="473" y="0"/>
+        <delta pt="11" x="384" y="0"/>
+        <delta pt="12" x="220" y="0"/>
+        <delta pt="13" x="30" y="15"/>
+        <delta pt="14" x="30" y="0"/>
+        <delta pt="15" x="30" y="-15"/>
+        <delta pt="16" x="211" y="0"/>
+        <delta pt="17" x="375" y="0"/>
+        <delta pt="18" x="464" y="0"/>
+        <delta pt="19" x="608" y="0"/>
+        <delta pt="20" x="801" y="-15"/>
+        <delta pt="21" x="822" y="-11"/>
+        <delta pt="22" x="823" y="-12"/>
+        <delta pt="23" x="803" y="-15"/>
+        <delta pt="24" x="609" y="0"/>
+        <delta pt="25" x="464" y="0"/>
+        <delta pt="26" x="375" y="0"/>
+        <delta pt="27" x="213" y="0"/>
+        <delta pt="28" x="30" y="-15"/>
+        <delta pt="29" x="30" y="0"/>
+        <delta pt="30" x="30" y="15"/>
+        <delta pt="31" x="222" y="0"/>
+        <delta pt="32" x="384" y="0"/>
+        <delta pt="33" x="473" y="0"/>
+        <delta pt="34" x="618" y="0"/>
+        <delta pt="35" x="801" y="17"/>
+        <delta pt="36" x="829" y="15"/>
+        <delta pt="37" x="0" y="0"/>
+        <delta pt="38" x="883" y="0"/>
+        <delta pt="39" x="0" y="0"/>
+        <delta pt="40" x="0" y="0"/>
+      </tuple>
+      <tuple>
+        <coord axis="wght" value="1.0"/>
+        <delta pt="0" x="170" y="5"/>
+        <delta pt="1" x="178" y="5"/>
+        <delta pt="2" x="178" y="0"/>
+        <delta pt="3" x="269" y="0"/>
+        <delta pt="4" x="354" y="0"/>
+        <delta pt="5" x="354" y="75"/>
+        <delta pt="6" x="170" y="75"/>
+        <delta pt="7" x="122" y="114"/>
+        <delta pt="8" x="131" y="178"/>
+        <delta pt="9" x="163" y="228"/>
+        <delta pt="10" x="169" y="228"/>
+        <delta pt="11" x="172" y="228"/>
+        <delta pt="12" x="200" y="228"/>
+        <delta pt="13" x="252" y="158"/>
+        <delta pt="14" x="252" y="51"/>
+        <delta pt="15" x="252" y="-58"/>
+        <delta pt="16" x="198" y="-128"/>
+        <delta pt="17" x="178" y="-128"/>
+        <delta pt="18" x="175" y="-128"/>
+        <delta pt="19" x="161" y="-128"/>
+        <delta pt="20" x="131" y="-78"/>
+        <delta pt="21" x="122" y="-14"/>
+        <delta pt="22" x="343" y="10"/>
+        <delta pt="23" x="342" y="46"/>
+        <delta pt="24" x="245" y="100"/>
+        <delta pt="25" x="168" y="100"/>
+        <delta pt="26" x="154" y="100"/>
+        <delta pt="27" x="66" y="100"/>
+        <delta pt="28" x="-30" y="61"/>
+        <delta pt="29" x="-30" y="51"/>
+        <delta pt="30" x="-30" y="40"/>
+        <delta pt="31" x="75" y="0"/>
+        <delta pt="32" x="163" y="0"/>
+        <delta pt="33" x="177" y="0"/>
+        <delta pt="34" x="253" y="0"/>
+        <delta pt="35" x="349" y="55"/>
+        <delta pt="36" x="358" y="92"/>
+        <delta pt="37" x="0" y="0"/>
+        <delta pt="38" x="321" y="0"/>
+        <delta pt="39" x="0" y="100"/>
+        <delta pt="40" x="0" y="0"/>
+      </tuple>
+      <tuple>
+        <coord axis="wdth" value="1.0"/>
+        <coord axis="wght" value="1.0"/>
+        <delta pt="0" x="0" y="0"/>
+        <delta pt="1" x="-500" y="0"/>
+        <delta pt="2" x="-500" y="0"/>
+        <delta pt="3" x="-409" y="0"/>
+        <delta pt="4" x="-270" y="0"/>
+        <delta pt="5" x="-270" y="5"/>
+        <delta pt="6" x="0" y="5"/>
+        <delta pt="7" x="-449" y="-29"/>
+        <delta pt="8" x="-440" y="-19"/>
+        <delta pt="9" x="-294" y="0"/>
+        <delta pt="10" x="-161" y="0"/>
+        <delta pt="11" x="-158" y="0"/>
+        <delta pt="12" x="-31" y="0"/>
+        <delta pt="13" x="100" y="-15"/>
+        <delta pt="14" x="100" y="0"/>
+        <delta pt="15" x="100" y="15"/>
+        <delta pt="16" x="-29" y="0"/>
+        <delta pt="17" x="-164" y="0"/>
+        <delta pt="18" x="-167" y="0"/>
+        <delta pt="19" x="-291" y="0"/>
+        <delta pt="20" x="-439" y="17"/>
+        <delta pt="21" x="-448" y="28"/>
+        <delta pt="22" x="-282" y="46"/>
+        <delta pt="23" x="-279" y="32"/>
+        <delta pt="24" x="-183" y="0"/>
+        <delta pt="25" x="-108" y="0"/>
+        <delta pt="26" x="-194" y="0"/>
+        <delta pt="27" x="-106" y="0"/>
+        <delta pt="28" x="-10" y="15"/>
+        <delta pt="29" x="-10" y="0"/>
+        <delta pt="30" x="-10" y="-15"/>
+        <delta pt="31" x="-115" y="0"/>
+        <delta pt="32" x="-203" y="0"/>
+        <delta pt="33" x="-297" y="0"/>
+        <delta pt="34" x="-370" y="0"/>
+        <delta pt="35" x="-456" y="-32"/>
+        <delta pt="36" x="-467" y="-46"/>
+        <delta pt="37" x="0" y="0"/>
+        <delta pt="38" x="-303" y="0"/>
+        <delta pt="39" x="0" y="0"/>
+        <delta pt="40" x="0" y="0"/>
+      </tuple>
+    </glyphVariations>
+    <glyphVariations glyph="H">
+      <tuple>
+        <coord axis="wdth" value="1.0"/>
+        <delta pt="0" x="60" y="0"/>
+        <delta pt="4" x="60" y="0"/>
+        <delta pt="6" x="660" y="0"/>
+        <delta pt="8" x="660" y="0"/>
+        <delta pt="13" x="720" y="0"/>
+      </tuple>
+      <tuple>
+        <coord axis="wght" value="1.0"/>
+        <delta pt="1" x="250" y="0"/>
+        <delta pt="3" x="-30" y="100"/>
+        <delta pt="5" x="230" y="-74"/>
+        <delta pt="7" x="60" y="150"/>
+        <delta pt="9" x="320" y="0"/>
+        <delta pt="11" x="40" y="100"/>
+        <delta pt="13" x="290" y="0"/>
+        <delta pt="14" x="0" y="100"/>
+      </tuple>
+      <tuple>
+        <coord axis="wdth" value="1.0"/>
+        <coord axis="wght" value="1.0"/>
+        <delta pt="0" x="-30" y="0"/>
+        <delta pt="2" x="70" y="0"/>
+        <delta pt="4" x="30" y="10"/>
+        <delta pt="6" x="-140" y="10"/>
+        <delta pt="8" x="-180" y="0"/>
+        <delta pt="10" x="-80" y="0"/>
+        <delta pt="13" x="-110" y="0"/>
+      </tuple>
+    </glyphVariations>
+    <glyphVariations glyph="I">
+      <tuple>
+        <coord axis="wdth" value="1.0"/>
+        <delta pt="0" x="310" y="0"/>
+        <delta pt="4" x="60" y="0"/>
+        <delta pt="6" x="550" y="0"/>
+        <delta pt="8" x="60" y="0"/>
+        <delta pt="10" x="550" y="0"/>
+        <delta pt="13" x="610" y="0"/>
+      </tuple>
+      <tuple>
+        <coord axis="wght" value="1.0"/>
+        <delta pt="1" x="260" y="0"/>
+        <delta pt="3" x="-20" y="100"/>
+        <delta pt="5" x="270" y="-144"/>
+        <delta pt="7" x="-30" y="100"/>
+        <delta pt="9" x="270" y="0"/>
+        <delta pt="11" x="-30" y="244"/>
+        <delta pt="13" x="240" y="0"/>
+        <delta pt="14" x="0" y="100"/>
+      </tuple>
+      <tuple>
+        <coord axis="wdth" value="1.0"/>
+        <coord axis="wght" value="1.0"/>
+        <delta pt="0" x="-130" y="0"/>
+        <delta pt="2" x="-30" y="0"/>
+        <delta pt="5" x="-120" y="10"/>
+        <delta pt="7" x="-30" y="0"/>
+        <delta pt="9" x="-120" y="0"/>
+        <delta pt="11" x="-30" y="-10"/>
+        <delta pt="13" x="-150" y="0"/>
+      </tuple>
+    </glyphVariations>
+    <glyphVariations glyph="J">
+      <tuple>
+        <coord axis="wdth" value="1.0"/>
+        <delta pt="0" x="163" y="0"/>
+        <delta pt="1" x="286" y="0"/>
+        <delta pt="2" x="433" y="77"/>
+        <delta pt="3" x="433" y="130"/>
+        <delta pt="4" x="433" y="0"/>
+        <delta pt="5" x="433" y="0"/>
+        <delta pt="6" x="433" y="130"/>
+        <delta pt="7" x="433" y="74"/>
+        <delta pt="8" x="286" y="0"/>
+        <delta pt="9" x="163" y="0"/>
+        <delta pt="10" x="134" y="0"/>
+        <delta pt="11" x="84" y="6"/>
+        <delta pt="12" x="60" y="10"/>
+        <delta pt="13" x="60" y="8"/>
+        <delta pt="14" x="84" y="4"/>
+        <delta pt="15" x="134" y="0"/>
+        <delta pt="16" x="0" y="0"/>
+        <delta pt="17" x="493" y="0"/>
+        <delta pt="18" x="0" y="0"/>
+        <delta pt="19" x="0" y="0"/>
+      </tuple>
+      <tuple>
+        <coord axis="wght" value="1.0"/>
+        <delta pt="0" x="104" y="0"/>
+        <delta pt="1" x="198" y="0"/>
+        <delta pt="2" x="305" y="73"/>
+        <delta pt="3" x="305" y="121"/>
+        <delta pt="4" x="305" y="100"/>
+        <delta pt="5" x="23" y="100"/>
+        <delta pt="6" x="23" y="167"/>
+        <delta pt="7" x="23" y="211"/>
+        <delta pt="8" x="52" y="228"/>
+        <delta pt="9" x="68" y="228"/>
+        <delta pt="10" x="58" y="228"/>
+        <delta pt="11" x="41" y="231"/>
+        <delta pt="12" x="28" y="235"/>
+        <delta pt="13" x="-30" y="23"/>
+        <delta pt="14" x="-2" y="12"/>
+        <delta pt="15" x="65" y="0"/>
+        <delta pt="16" x="0" y="0"/>
+        <delta pt="17" x="275" y="0"/>
+        <delta pt="18" x="0" y="100"/>
+        <delta pt="19" x="0" y="0"/>
+      </tuple>
+      <tuple>
+        <coord axis="wdth" value="1.0"/>
+        <coord axis="wght" value="1.0"/>
+        <delta pt="0" x="-164" y="0"/>
+        <delta pt="1" x="-197" y="0"/>
+        <delta pt="2" x="-232" y="-33"/>
+        <delta pt="3" x="-232" y="-40"/>
+        <delta pt="4" x="-232" y="0"/>
+        <delta pt="5" x="-341" y="0"/>
+        <delta pt="6" x="-341" y="-56"/>
+        <delta pt="7" x="-341" y="-23"/>
+        <delta pt="8" x="-229" y="30"/>
+        <delta pt="9" x="-127" y="30"/>
+        <delta pt="10" x="-91" y="30"/>
+        <delta pt="11" x="-65" y="21"/>
+        <delta pt="12" x="-56" y="16"/>
+        <delta pt="13" x="-30" y="-27"/>
+        <delta pt="14" x="-57" y="-14"/>
+        <delta pt="15" x="-123" y="0"/>
+        <delta pt="16" x="0" y="0"/>
+        <delta pt="17" x="-262" y="0"/>
+        <delta pt="18" x="0" y="0"/>
+        <delta pt="19" x="0" y="0"/>
+      </tuple>
+    </glyphVariations>
+    <glyphVariations glyph="K">
+      <tuple>
+        <coord axis="wdth" value="1.0"/>
+        <delta pt="0" x="60" y="0"/>
+        <delta pt="1" x="60" y="0"/>
+        <delta pt="2" x="60" y="0"/>
+        <delta pt="3" x="60" y="0"/>
+        <delta pt="4" x="60" y="-39"/>
+        <delta pt="5" x="80" y="-39"/>
+        <delta pt="6" x="496" y="0"/>
+        <delta pt="7" x="530" y="0"/>
+        <delta pt="8" x="87" y="-45"/>
+        <delta pt="9" x="86" y="-42"/>
+        <delta pt="10" x="60" y="-42"/>
+        <delta pt="11" x="80" y="-40"/>
+        <delta pt="12" x="94" y="-36"/>
+        <delta pt="13" x="540" y="0"/>
+        <delta pt="14" x="520" y="0"/>
+        <delta pt="15" x="0" y="0"/>
+        <delta pt="16" x="552" y="0"/>
+        <delta pt="17" x="0" y="0"/>
+        <delta pt="18" x="0" y="0"/>
+      </tuple>
+      <tuple>
+        <coord axis="wght" value="1.0"/>
+        <delta pt="0" x="-30" y="0"/>
+        <delta pt="1" x="250" y="0"/>
+        <delta pt="2" x="250" y="100"/>
+        <delta pt="3" x="-30" y="100"/>
+        <delta pt="4" x="250" y="-22"/>
+        <delta pt="5" x="217" y="-22"/>
+        <delta pt="6" x="102" y="0"/>
+        <delta pt="7" x="404" y="0"/>
+        <delta pt="8" x="489" y="163"/>
+        <delta pt="9" x="222" y="82"/>
+        <delta pt="10" x="250" y="82"/>
+        <delta pt="11" x="243" y="73"/>
+        <delta pt="12" x="463" y="-20"/>
+        <delta pt="13" x="407" y="100"/>
+        <delta pt="14" x="121" y="100"/>
+        <delta pt="15" x="0" y="0"/>
+        <delta pt="16" x="394" y="0"/>
+        <delta pt="17" x="0" y="100"/>
+        <delta pt="18" x="0" y="0"/>
+      </tuple>
+      <tuple>
+        <coord axis="wdth" value="1.0"/>
+        <coord axis="wght" value="1.0"/>
+        <delta pt="0" x="-30" y="0"/>
+        <delta pt="1" x="70" y="0"/>
+        <delta pt="2" x="70" y="0"/>
+        <delta pt="3" x="-30" y="0"/>
+        <delta pt="4" x="-60" y="39"/>
+        <delta pt="5" x="2" y="39"/>
+        <delta pt="6" x="-202" y="0"/>
+        <delta pt="7" x="-45" y="0"/>
+        <delta pt="8" x="47" y="45"/>
+        <delta pt="9" x="26" y="42"/>
+        <delta pt="10" x="-60" y="42"/>
+        <delta pt="11" x="13" y="40"/>
+        <delta pt="12" x="-37" y="36"/>
+        <delta pt="13" x="-66" y="0"/>
+        <delta pt="14" x="-196" y="0"/>
+        <delta pt="15" x="0" y="0"/>
+        <delta pt="16" x="-57" y="0"/>
+        <delta pt="17" x="0" y="0"/>
+        <delta pt="18" x="0" y="0"/>
+      </tuple>
+    </glyphVariations>
+    <glyphVariations glyph="L">
+      <tuple>
+        <coord axis="wdth" value="1.0"/>
+        <delta pt="0" x="60" y="0"/>
+        <delta pt="4" x="60" y="0"/>
+        <delta pt="6" x="590" y="0"/>
+        <delta pt="9" x="600" y="0"/>
+      </tuple>
+      <tuple>
+        <coord axis="wght" value="1.0"/>
+        <delta pt="1" x="250" y="0"/>
+        <delta pt="3" x="-30" y="100"/>
+        <delta pt="5" x="190" y="0"/>
+        <delta pt="7" x="50" y="214"/>
+        <delta pt="9" x="180" y="0"/>
+        <delta pt="10" x="0" y="100"/>
+      </tuple>
+      <tuple>
+        <coord axis="wdth" value="1.0"/>
+        <coord axis="wght" value="1.0"/>
+        <delta pt="0" x="-30" y="0"/>
+        <delta pt="2" x="70" y="0"/>
+        <delta pt="5" x="-70" y="0"/>
+        <delta pt="7" x="-40" y="30"/>
+        <delta pt="9" x="-80" y="0"/>
+      </tuple>
+    </glyphVariations>
+    <glyphVariations glyph="M">
+      <tuple>
+        <coord axis="wdth" value="1.0"/>
+        <delta pt="0" x="60" y="0"/>
+        <delta pt="1" x="60" y="0"/>
+        <delta pt="2" x="60" y="0"/>
+        <delta pt="3" x="60" y="0"/>
+        <delta pt="4" x="724" y="0"/>
+        <delta pt="5" x="724" y="0"/>
+        <delta pt="6" x="724" y="0"/>
+        <delta pt="7" x="724" y="0"/>
+        <delta pt="8" x="721" y="18"/>
+        <delta pt="9" x="724" y="0"/>
+        <delta pt="10" x="380" y="-81"/>
+        <delta pt="11" x="404" y="-81"/>
+        <delta pt="12" x="60" y="0"/>
+        <delta pt="13" x="63" y="18"/>
+        <delta pt="14" x="387" y="-53"/>
+        <delta pt="15" x="397" y="-53"/>
+        <delta pt="16" x="0" y="0"/>
+        <delta pt="17" x="784" y="0"/>
+        <delta pt="18" x="0" y="0"/>
+        <delta pt="19" x="0" y="0"/>
+      </tuple>
+      <tuple>
+        <coord axis="wght" value="1.0"/>
+        <delta pt="0" x="-30" y="0"/>
+        <delta pt="1" x="180" y="0"/>
+        <delta pt="2" x="180" y="100"/>
+        <delta pt="3" x="-30" y="100"/>
+        <delta pt="4" x="372" y="0"/>
+        <delta pt="5" x="372" y="100"/>
+        <delta pt="6" x="162" y="100"/>
+        <delta pt="7" x="162" y="0"/>
+        <delta pt="8" x="274" y="-217"/>
+        <delta pt="9" x="162" y="100"/>
+        <delta pt="10" x="170" y="209"/>
+        <delta pt="11" x="172" y="209"/>
+        <delta pt="12" x="180" y="100"/>
+        <delta pt="13" x="68" y="-217"/>
+        <delta pt="14" x="143" y="-176"/>
+        <delta pt="15" x="199" y="-176"/>
+        <delta pt="16" x="0" y="0"/>
+        <delta pt="17" x="342" y="0"/>
+        <delta pt="18" x="0" y="100"/>
+        <delta pt="19" x="0" y="0"/>
+      </tuple>
+      <tuple>
+        <coord axis="wdth" value="1.0"/>
+        <coord axis="wght" value="1.0"/>
+        <delta pt="0" x="-30" y="0"/>
+        <delta pt="1" x="40" y="0"/>
+        <delta pt="2" x="40" y="0"/>
+        <delta pt="3" x="-30" y="0"/>
+        <delta pt="4" x="-288" y="0"/>
+        <delta pt="5" x="-288" y="0"/>
+        <delta pt="6" x="-358" y="0"/>
+        <delta pt="7" x="-358" y="0"/>
+        <delta pt="8" x="-375" y="-43"/>
+        <delta pt="9" x="-358" y="0"/>
+        <delta pt="10" x="-159" y="77"/>
+        <delta pt="11" x="-159" y="77"/>
+        <delta pt="12" x="40" y="0"/>
+        <delta pt="13" x="57" y="-43"/>
+        <delta pt="14" x="-179" y="70"/>
+        <delta pt="15" x="-139" y="70"/>
+        <delta pt="16" x="0" y="0"/>
+        <delta pt="17" x="-318" y="0"/>
+        <delta pt="18" x="0" y="0"/>
+        <delta pt="19" x="0" y="0"/>
+      </tuple>
+    </glyphVariations>
+    <glyphVariations glyph="N">
+      <tuple>
+        <coord axis="wdth" value="1.0"/>
+        <delta pt="0" x="60" y="0"/>
+        <delta pt="1" x="65" y="0"/>
+        <delta pt="2" x="65" y="0"/>
+        <delta pt="3" x="60" y="0"/>
+        <delta pt="4" x="63" y="18"/>
+        <delta pt="5" x="655" y="0"/>
+        <delta pt="6" x="659" y="-17"/>
+        <delta pt="7" x="65" y="0"/>
+        <delta pt="8" x="655" y="0"/>
+        <delta pt="9" x="660" y="0"/>
+        <delta pt="10" x="660" y="0"/>
+        <delta pt="11" x="655" y="0"/>
+        <delta pt="12" x="0" y="0"/>
+        <delta pt="13" x="720" y="0"/>
+        <delta pt="14" x="0" y="0"/>
+        <delta pt="15" x="0" y="0"/>
+      </tuple>
+      <tuple>
+        <coord axis="wght" value="1.0"/>
+        <delta pt="1" x="185" y="0"/>
+        <delta pt="3" x="-30" y="100"/>
+        <delta pt="4" x="24" y="-126"/>
+        <delta pt="5" x="105" y="0"/>
+        <delta pt="6" x="266" y="226"/>
+        <delta pt="7" x="185" y="100"/>
+        <delta pt="9" x="320" y="0"/>
+        <delta pt="11" x="105" y="100"/>
+        <delta pt="13" x="290" y="0"/>
+        <delta pt="14" x="0" y="100"/>
+      </tuple>
+      <tuple>
+        <coord axis="wdth" value="1.0"/>
+        <coord axis="wght" value="1.0"/>
+        <delta pt="0" x="-30" y="0"/>
+        <delta pt="1" x="35" y="0"/>
+        <delta pt="2" x="35" y="0"/>
+        <delta pt="3" x="-30" y="0"/>
+        <delta pt="4" x="101" y="-84"/>
+        <delta pt="5" x="-171" y="0"/>
+        <delta pt="6" x="-239" y="83"/>
+        <delta pt="7" x="35" y="0"/>
+        <delta pt="8" x="-170" y="0"/>
+        <delta pt="9" x="-105" y="0"/>
+        <delta pt="10" x="-105" y="0"/>
+        <delta pt="11" x="-170" y="0"/>
+        <delta pt="12" x="0" y="0"/>
+        <delta pt="13" x="-135" y="0"/>
+        <delta pt="14" x="0" y="0"/>
+        <delta pt="15" x="0" y="0"/>
+      </tuple>
+    </glyphVariations>
+    <glyphVariations glyph="O">
+      <tuple>
+        <coord axis="wdth" value="1.0"/>
+        <delta pt="0" x="384" y="0"/>
+        <delta pt="1" x="433" y="0"/>
+        <delta pt="2" x="597" y="0"/>
+        <delta pt="3" x="788" y="15"/>
+        <delta pt="4" x="788" y="0"/>
+        <delta pt="5" x="788" y="-15"/>
+        <delta pt="6" x="597" y="0"/>
+        <delta pt="7" x="433" y="0"/>
+        <delta pt="8" x="384" y="0"/>
+        <delta pt="9" x="222" y="0"/>
+        <delta pt="10" x="30" y="-15"/>
+        <delta pt="11" x="30" y="0"/>
+        <delta pt="12" x="30" y="15"/>
+        <delta pt="13" x="222" y="0"/>
+        <delta pt="14" x="384" y="0"/>
+        <delta pt="15" x="220" y="0"/>
+        <delta pt="16" x="30" y="15"/>
+        <delta pt="17" x="30" y="0"/>
+        <delta pt="18" x="30" y="-15"/>
+        <delta pt="19" x="220" y="0"/>
+        <delta pt="20" x="384" y="0"/>
+        <delta pt="21" x="433" y="0"/>
+        <delta pt="22" x="597" y="0"/>
+        <delta pt="23" x="788" y="-15"/>
+        <delta pt="24" x="788" y="0"/>
+        <delta pt="25" x="788" y="15"/>
+        <delta pt="26" x="597" y="0"/>
+        <delta pt="27" x="433" y="0"/>
+        <delta pt="28" x="0" y="0"/>
+        <delta pt="29" x="818" y="0"/>
+        <delta pt="30" x="0" y="0"/>
+        <delta pt="31" x="0" y="0"/>
+      </tuple>
+      <tuple>
+        <coord axis="wght" value="1.0"/>
+        <delta pt="0" x="163" y="0"/>
+        <delta pt="1" x="177" y="0"/>
+        <delta pt="2" x="266" y="0"/>
+        <delta pt="3" x="371" y="40"/>
+        <delta pt="4" x="371" y="51"/>
+        <delta pt="5" x="371" y="61"/>
+        <delta pt="6" x="266" y="100"/>
+        <delta pt="7" x="177" y="100"/>
+        <delta pt="8" x="163" y="100"/>
+        <delta pt="9" x="75" y="100"/>
+        <delta pt="10" x="-30" y="61"/>
+        <delta pt="11" x="-30" y="51"/>
+        <delta pt="12" x="-30" y="40"/>
+        <delta pt="13" x="75" y="0"/>
+        <delta pt="14" x="172" y="228"/>
+        <delta pt="15" x="200" y="228"/>
+        <delta pt="16" x="252" y="158"/>
+        <delta pt="17" x="252" y="51"/>
+        <delta pt="18" x="252" y="-58"/>
+        <delta pt="19" x="200" y="-128"/>
+        <delta pt="20" x="172" y="-128"/>
+        <delta pt="21" x="169" y="-128"/>
+        <delta pt="22" x="140" y="-128"/>
+        <delta pt="23" x="89" y="-58"/>
+        <delta pt="24" x="89" y="51"/>
+        <delta pt="25" x="89" y="158"/>
+        <delta pt="26" x="140" y="228"/>
+        <delta pt="27" x="169" y="228"/>
+        <delta pt="28" x="0" y="0"/>
+        <delta pt="29" x="341" y="0"/>
+        <delta pt="30" x="0" y="100"/>
+        <delta pt="31" x="0" y="0"/>
+      </tuple>
+      <tuple>
+        <coord axis="wdth" value="1.0"/>
+        <coord axis="wght" value="1.0"/>
+        <delta pt="0" x="-203" y="0"/>
+        <delta pt="1" x="-77" y="0"/>
+        <delta pt="2" x="-166" y="0"/>
+        <delta pt="3" x="-271" y="-15"/>
+        <delta pt="4" x="-271" y="0"/>
+        <delta pt="5" x="-271" y="15"/>
+        <delta pt="6" x="-166" y="0"/>
+        <delta pt="7" x="-77" y="0"/>
+        <delta pt="8" x="-203" y="0"/>
+        <delta pt="9" x="-115" y="0"/>
+        <delta pt="10" x="-10" y="15"/>
+        <delta pt="11" x="-10" y="0"/>
+        <delta pt="12" x="-10" y="-15"/>
+        <delta pt="13" x="-115" y="0"/>
+        <delta pt="14" x="-158" y="0"/>
+        <delta pt="15" x="-31" y="0"/>
+        <delta pt="16" x="100" y="-15"/>
+        <delta pt="17" x="100" y="0"/>
+        <delta pt="18" x="100" y="15"/>
+        <delta pt="19" x="-31" y="0"/>
+        <delta pt="20" x="-158" y="0"/>
+        <delta pt="21" x="-121" y="0"/>
+        <delta pt="22" x="-247" y="0"/>
+        <delta pt="23" x="-380" y="15"/>
+        <delta pt="24" x="-380" y="0"/>
+        <delta pt="25" x="-380" y="-15"/>
+        <delta pt="26" x="-247" y="0"/>
+        <delta pt="27" x="-121" y="0"/>
+        <delta pt="28" x="0" y="0"/>
+        <delta pt="29" x="-281" y="0"/>
+        <delta pt="30" x="0" y="0"/>
+        <delta pt="31" x="0" y="0"/>
+      </tuple>
+    </glyphVariations>
+    <glyphVariations glyph="P">
+      <tuple>
+        <coord axis="wdth" value="1.0"/>
+        <delta pt="0" x="60" y="0"/>
+        <delta pt="1" x="60" y="0"/>
+        <delta pt="2" x="60" y="0"/>
+        <delta pt="3" x="60" y="0"/>
+        <delta pt="4" x="60" y="0"/>
+        <delta pt="5" x="480" y="0"/>
+        <delta pt="6" x="620" y="0"/>
+        <delta pt="7" x="698" y="7"/>
+        <delta pt="8" x="698" y="0"/>
+        <delta pt="9" x="698" y="-7"/>
+        <delta pt="10" x="620" y="0"/>
+        <delta pt="11" x="480" y="0"/>
+        <delta pt="12" x="60" y="0"/>
+        <delta pt="13" x="60" y="0"/>
+        <delta pt="14" x="480" y="0"/>
+        <delta pt="15" x="588" y="0"/>
+        <delta pt="16" x="679" y="0"/>
+        <delta pt="17" x="698" y="0"/>
+        <delta pt="18" x="698" y="0"/>
+        <delta pt="19" x="698" y="0"/>
+        <delta pt="20" x="679" y="0"/>
+        <delta pt="21" x="588" y="0"/>
+        <delta pt="22" x="480" y="0"/>
+        <delta pt="23" x="60" y="0"/>
+        <delta pt="24" x="0" y="0"/>
+        <delta pt="25" x="708" y="0"/>
+        <delta pt="26" x="0" y="0"/>
+        <delta pt="27" x="0" y="0"/>
+      </tuple>
+      <tuple>
+        <coord axis="wght" value="1.0"/>
+        <delta pt="0" x="-30" y="0"/>
+        <delta pt="1" x="250" y="0"/>
+        <delta pt="2" x="250" y="100"/>
+        <delta pt="3" x="-30" y="100"/>
+        <delta pt="4" x="200" y="-112"/>
+        <delta pt="5" x="205" y="-112"/>
+        <delta pt="6" x="138" y="-112"/>
+        <delta pt="7" x="73" y="-4"/>
+        <delta pt="8" x="73" y="65"/>
+        <delta pt="9" x="73" y="131"/>
+        <delta pt="10" x="138" y="239"/>
+        <delta pt="11" x="205" y="239"/>
+        <delta pt="12" x="200" y="239"/>
+        <delta pt="13" x="200" y="26"/>
+        <delta pt="14" x="238" y="26"/>
+        <delta pt="15" x="275" y="26"/>
+        <delta pt="16" x="313" y="20"/>
+        <delta pt="17" x="327" y="35"/>
+        <delta pt="18" x="327" y="65"/>
+        <delta pt="19" x="327" y="93"/>
+        <delta pt="20" x="313" y="106"/>
+        <delta pt="21" x="275" y="101"/>
+        <delta pt="22" x="239" y="101"/>
+        <delta pt="23" x="200" y="101"/>
+        <delta pt="24" x="0" y="0"/>
+        <delta pt="25" x="317" y="0"/>
+        <delta pt="26" x="0" y="101"/>
+        <delta pt="27" x="0" y="0"/>
+      </tuple>
+      <tuple>
+        <coord axis="wdth" value="1.0"/>
+        <coord axis="wght" value="1.0"/>
+        <delta pt="0" x="-30" y="0"/>
+        <delta pt="1" x="70" y="0"/>
+        <delta pt="2" x="70" y="0"/>
+        <delta pt="3" x="-30" y="0"/>
+        <delta pt="4" x="-30" y="-35"/>
+        <delta pt="5" x="-108" y="-35"/>
+        <delta pt="6" x="-223" y="-35"/>
+        <delta pt="7" x="-277" y="-45"/>
+        <delta pt="8" x="-277" y="-42"/>
+        <delta pt="9" x="-277" y="-41"/>
+        <delta pt="10" x="-223" y="-50"/>
+        <delta pt="11" x="-108" y="-50"/>
+        <delta pt="12" x="-30" y="-50"/>
+        <delta pt="13" x="-30" y="-85"/>
+        <delta pt="14" x="-165" y="-85"/>
+        <delta pt="15" x="-201" y="-85"/>
+        <delta pt="16" x="-207" y="-75"/>
+        <delta pt="17" x="-190" y="-56"/>
+        <delta pt="18" x="-190" y="-42"/>
+        <delta pt="19" x="-190" y="-28"/>
+        <delta pt="20" x="-207" y="-9"/>
+        <delta pt="21" x="-200" y="0"/>
+        <delta pt="22" x="-164" y="0"/>
+        <delta pt="23" x="-30" y="0"/>
+        <delta pt="24" x="0" y="0"/>
+        <delta pt="25" x="-200" y="0"/>
+        <delta pt="26" x="0" y="0"/>
+        <delta pt="27" x="0" y="0"/>
+      </tuple>
+    </glyphVariations>
+    <glyphVariations glyph="Q">
+      <tuple>
+        <coord axis="wdth" value="1.0"/>
+        <delta pt="0" x="378" y="0"/>
+        <delta pt="1" x="378" y="0"/>
+        <delta pt="2" x="378" y="0"/>
+        <delta pt="3" x="378" y="0"/>
+        <delta pt="4" x="384" y="0"/>
+        <delta pt="5" x="433" y="0"/>
+        <delta pt="6" x="597" y="0"/>
+        <delta pt="7" x="788" y="15"/>
+        <delta pt="8" x="788" y="0"/>
+        <delta pt="9" x="788" y="-15"/>
+        <delta pt="10" x="597" y="0"/>
+        <delta pt="11" x="433" y="0"/>
+        <delta pt="12" x="384" y="0"/>
+        <delta pt="13" x="222" y="0"/>
+        <delta pt="14" x="30" y="-15"/>
+        <delta pt="15" x="30" y="0"/>
+        <delta pt="16" x="30" y="15"/>
+        <delta pt="17" x="222" y="0"/>
+        <delta pt="18" x="384" y="0"/>
+        <delta pt="19" x="220" y="0"/>
+        <delta pt="20" x="30" y="15"/>
+        <delta pt="21" x="30" y="0"/>
+        <delta pt="22" x="30" y="-15"/>
+        <delta pt="23" x="220" y="0"/>
+        <delta pt="24" x="384" y="0"/>
+        <delta pt="25" x="433" y="0"/>
+        <delta pt="26" x="597" y="0"/>
+        <delta pt="27" x="788" y="-15"/>
+        <delta pt="28" x="788" y="0"/>
+        <delta pt="29" x="788" y="15"/>
+        <delta pt="30" x="597" y="0"/>
+        <delta pt="31" x="433" y="0"/>
+        <delta pt="32" x="0" y="0"/>
+        <delta pt="33" x="818" y="0"/>
+        <delta pt="34" x="0" y="0"/>
+        <delta pt="35" x="0" y="0"/>
+      </tuple>
+      <tuple>
+        <coord axis="wght" value="1.0"/>
+        <delta pt="0" x="80" y="0"/>
+        <delta pt="1" x="346" y="0"/>
+        <delta pt="2" x="335" y="157"/>
+        <delta pt="3" x="84" y="175"/>
+        <delta pt="4" x="163" y="0"/>
+        <delta pt="5" x="177" y="0"/>
+        <delta pt="6" x="266" y="0"/>
+        <delta pt="7" x="371" y="40"/>
+        <delta pt="8" x="371" y="51"/>
+        <delta pt="9" x="371" y="61"/>
+        <delta pt="10" x="266" y="100"/>
+        <delta pt="11" x="177" y="100"/>
+        <delta pt="12" x="163" y="100"/>
+        <delta pt="13" x="75" y="100"/>
+        <delta pt="14" x="-30" y="61"/>
+        <delta pt="15" x="-30" y="51"/>
+        <delta pt="16" x="-30" y="40"/>
+        <delta pt="17" x="75" y="0"/>
+        <delta pt="18" x="172" y="228"/>
+        <delta pt="19" x="200" y="228"/>
+        <delta pt="20" x="252" y="158"/>
+        <delta pt="21" x="252" y="51"/>
+        <delta pt="22" x="252" y="-58"/>
+        <delta pt="23" x="200" y="-128"/>
+        <delta pt="24" x="172" y="-128"/>
+        <delta pt="25" x="169" y="-128"/>
+        <delta pt="26" x="140" y="-128"/>
+        <delta pt="27" x="89" y="-58"/>
+        <delta pt="28" x="89" y="51"/>
+        <delta pt="29" x="89" y="158"/>
+        <delta pt="30" x="140" y="228"/>
+        <delta pt="31" x="169" y="228"/>
+        <delta pt="32" x="0" y="0"/>
+        <delta pt="33" x="341" y="0"/>
+        <delta pt="34" x="0" y="100"/>
+        <delta pt="35" x="0" y="0"/>
+      </tuple>
+      <tuple>
+        <coord axis="wdth" value="1.0"/>
+        <coord axis="wght" value="1.0"/>
+        <delta pt="0" x="-228" y="0"/>
+        <delta pt="1" x="-118" y="0"/>
+        <delta pt="2" x="-148" y="0"/>
+        <delta pt="3" x="-285" y="0"/>
+        <delta pt="4" x="-203" y="0"/>
+        <delta pt="5" x="-77" y="0"/>
+        <delta pt="6" x="-166" y="0"/>
+        <delta pt="7" x="-271" y="-15"/>
+        <delta pt="8" x="-271" y="0"/>
+        <delta pt="9" x="-271" y="15"/>
+        <delta pt="10" x="-166" y="0"/>
+        <delta pt="11" x="-77" y="0"/>
+        <delta pt="12" x="-203" y="0"/>
+        <delta pt="13" x="-115" y="0"/>
+        <delta pt="14" x="-10" y="15"/>
+        <delta pt="15" x="-10" y="0"/>
+        <delta pt="16" x="-10" y="-15"/>
+        <delta pt="17" x="-115" y="0"/>
+        <delta pt="18" x="-158" y="0"/>
+        <delta pt="19" x="-31" y="0"/>
+        <delta pt="20" x="100" y="-15"/>
+        <delta pt="21" x="100" y="0"/>
+        <delta pt="22" x="100" y="15"/>
+        <delta pt="23" x="-31" y="0"/>
+        <delta pt="24" x="-158" y="0"/>
+        <delta pt="25" x="-121" y="0"/>
+        <delta pt="26" x="-247" y="0"/>
+        <delta pt="27" x="-380" y="15"/>
+        <delta pt="28" x="-380" y="0"/>
+        <delta pt="29" x="-380" y="-15"/>
+        <delta pt="30" x="-247" y="0"/>
+        <delta pt="31" x="-121" y="0"/>
+        <delta pt="32" x="0" y="0"/>
+        <delta pt="33" x="-281" y="0"/>
+        <delta pt="34" x="0" y="0"/>
+        <delta pt="35" x="0" y="0"/>
+      </tuple>
+    </glyphVariations>
+    <glyphVariations glyph="R">
+      <tuple>
+        <coord axis="wdth" value="1.0"/>
+        <delta pt="0" x="640" y="0"/>
+        <delta pt="1" x="674" y="0"/>
+        <delta pt="2" x="633" y="-40"/>
+        <delta pt="3" x="589" y="-24"/>
+        <delta pt="4" x="540" y="-8"/>
+        <delta pt="5" x="528" y="-10"/>
+        <delta pt="6" x="530" y="-10"/>
+        <delta pt="7" x="60" y="0"/>
+        <delta pt="8" x="60" y="0"/>
+        <delta pt="9" x="60" y="0"/>
+        <delta pt="10" x="60" y="0"/>
+        <delta pt="11" x="60" y="0"/>
+        <delta pt="12" x="490" y="0"/>
+        <delta pt="13" x="622" y="0"/>
+        <delta pt="14" x="694" y="7"/>
+        <delta pt="15" x="694" y="0"/>
+        <delta pt="16" x="694" y="-7"/>
+        <delta pt="17" x="622" y="0"/>
+        <delta pt="18" x="490" y="0"/>
+        <delta pt="19" x="60" y="0"/>
+        <delta pt="20" x="60" y="0"/>
+        <delta pt="21" x="480" y="0"/>
+        <delta pt="22" x="588" y="0"/>
+        <delta pt="23" x="679" y="0"/>
+        <delta pt="24" x="698" y="0"/>
+        <delta pt="25" x="698" y="0"/>
+        <delta pt="26" x="698" y="0"/>
+        <delta pt="27" x="679" y="0"/>
+        <delta pt="28" x="588" y="0"/>
+        <delta pt="29" x="480" y="0"/>
+        <delta pt="30" x="60" y="0"/>
+        <delta pt="31" x="0" y="0"/>
+        <delta pt="32" x="697" y="0"/>
+        <delta pt="33" x="0" y="0"/>
+        <delta pt="34" x="0" y="0"/>
+      </tuple>
+      <tuple>
+        <coord axis="wght" value="1.0"/>
+        <delta pt="0" x="90" y="0"/>
+        <delta pt="1" x="326" y="0"/>
+        <delta pt="2" x="367" y="73"/>
+        <delta pt="3" x="378" y="83"/>
+        <delta pt="4" x="353" y="109"/>
+        <delta pt="5" x="319" y="109"/>
+        <delta pt="6" x="174" y="109"/>
+        <delta pt="7" x="-30" y="0"/>
+        <delta pt="8" x="250" y="0"/>
+        <delta pt="9" x="250" y="100"/>
+        <delta pt="10" x="-30" y="100"/>
+        <delta pt="11" x="200" y="-112"/>
+        <delta pt="12" x="215" y="-112"/>
+        <delta pt="13" x="148" y="-112"/>
+        <delta pt="14" x="83" y="-8"/>
+        <delta pt="15" x="83" y="55"/>
+        <delta pt="16" x="83" y="114"/>
+        <delta pt="17" x="148" y="219"/>
+        <delta pt="18" x="215" y="219"/>
+        <delta pt="19" x="200" y="219"/>
+        <delta pt="20" x="200" y="97"/>
+        <delta pt="21" x="238" y="97"/>
+        <delta pt="22" x="265" y="97"/>
+        <delta pt="23" x="305" y="82"/>
+        <delta pt="24" x="327" y="79"/>
+        <delta pt="25" x="327" y="95"/>
+        <delta pt="26" x="327" y="113"/>
+        <delta pt="27" x="300" y="113"/>
+        <delta pt="28" x="254" y="101"/>
+        <delta pt="29" x="227" y="101"/>
+        <delta pt="30" x="200" y="101"/>
+        <delta pt="31" x="0" y="0"/>
+        <delta pt="32" x="316" y="0"/>
+        <delta pt="33" x="0" y="101"/>
+        <delta pt="34" x="0" y="0"/>
+      </tuple>
+      <tuple>
+        <coord axis="wdth" value="1.0"/>
+        <coord axis="wght" value="1.0"/>
+        <delta pt="0" x="-310" y="0"/>
+        <delta pt="1" x="-193" y="0"/>
+        <delta pt="2" x="-181" y="2"/>
+        <delta pt="3" x="-154" y="1"/>
+        <delta pt="4" x="-143" y="4"/>
+        <delta pt="5" x="-154" y="6"/>
+        <delta pt="6" x="-287" y="6"/>
+        <delta pt="7" x="-30" y="0"/>
+        <delta pt="8" x="70" y="0"/>
+        <delta pt="9" x="70" y="0"/>
+        <delta pt="10" x="-30" y="0"/>
+        <delta pt="11" x="-30" y="-35"/>
+        <delta pt="12" x="-128" y="-35"/>
+        <delta pt="13" x="-235" y="-35"/>
+        <delta pt="14" x="-283" y="-41"/>
+        <delta pt="15" x="-283" y="-32"/>
+        <delta pt="16" x="-283" y="-24"/>
+        <delta pt="17" x="-235" y="-30"/>
+        <delta pt="18" x="-128" y="-30"/>
+        <delta pt="19" x="-30" y="-30"/>
+        <delta pt="20" x="-30" y="-96"/>
+        <delta pt="21" x="-165" y="-96"/>
+        <delta pt="22" x="-191" y="-96"/>
+        <delta pt="23" x="-199" y="-84"/>
+        <delta pt="24" x="-190" y="-60"/>
+        <delta pt="25" x="-190" y="-42"/>
+        <delta pt="26" x="-190" y="-28"/>
+        <delta pt="27" x="-194" y="-10"/>
+        <delta pt="28" x="-179" y="0"/>
+        <delta pt="29" x="-152" y="0"/>
+        <delta pt="30" x="-30" y="0"/>
+        <delta pt="31" x="0" y="0"/>
+        <delta pt="32" x="-199" y="0"/>
+        <delta pt="33" x="0" y="0"/>
+        <delta pt="34" x="0" y="0"/>
+      </tuple>
+    </glyphVariations>
+    <glyphVariations glyph="S">
+      <tuple>
+        <coord axis="wdth" value="1.0"/>
+        <delta pt="0" x="808" y="46"/>
+        <delta pt="1" x="808" y="70"/>
+        <delta pt="2" x="778" y="82"/>
+        <delta pt="3" x="656" y="61"/>
+        <delta pt="4" x="518" y="36"/>
+        <delta pt="5" x="346" y="-15"/>
+        <delta pt="6" x="265" y="-41"/>
+        <delta pt="7" x="148" y="-61"/>
+        <delta pt="8" x="85" y="-49"/>
+        <delta pt="9" x="85" y="-27"/>
+        <delta pt="10" x="85" y="-7"/>
+        <delta pt="11" x="197" y="2"/>
+        <delta pt="12" x="390" y="2"/>
+        <delta pt="13" x="402" y="2"/>
+        <delta pt="14" x="506" y="2"/>
+        <delta pt="15" x="692" y="-16"/>
+        <delta pt="16" x="779" y="-39"/>
+        <delta pt="17" x="779" y="-38"/>
+        <delta pt="18" x="714" y="-20"/>
+        <delta pt="19" x="592" y="-4"/>
+        <delta pt="20" x="469" y="1"/>
+        <delta pt="21" x="402" y="1"/>
+        <delta pt="22" x="389" y="1"/>
+        <delta pt="23" x="269" y="1"/>
+        <delta pt="24" x="137" y="8"/>
+        <delta pt="25" x="86" y="-2"/>
+        <delta pt="26" x="86" y="-28"/>
+        <delta pt="27" x="86" y="-55"/>
+        <delta pt="28" x="215" y="-63"/>
+        <delta pt="29" x="371" y="-22"/>
+        <delta pt="30" x="553" y="32"/>
+        <delta pt="31" x="676" y="72"/>
+        <delta pt="32" x="810" y="71"/>
+        <delta pt="33" x="810" y="45"/>
+        <delta pt="34" x="810" y="28"/>
+        <delta pt="35" x="756" y="8"/>
+        <delta pt="36" x="611" y="-1"/>
+        <delta pt="37" x="474" y="-1"/>
+        <delta pt="38" x="401" y="-1"/>
+        <delta pt="39" x="348" y="-1"/>
+        <delta pt="40" x="209" y="15"/>
+        <delta pt="41" x="78" y="46"/>
+        <delta pt="42" x="39" y="66"/>
+        <delta pt="43" x="30" y="69"/>
+        <delta pt="44" x="77" y="44"/>
+        <delta pt="45" x="221" y="14"/>
+        <delta pt="46" x="360" y="1"/>
+        <delta pt="47" x="397" y="1"/>
+        <delta pt="48" x="471" y="1"/>
+        <delta pt="49" x="601" y="1"/>
+        <delta pt="50" x="747" y="-3"/>
+        <delta pt="51" x="807" y="15"/>
+        <delta pt="52" x="0" y="0"/>
+        <delta pt="53" x="838" y="0"/>
+        <delta pt="54" x="0" y="1"/>
+        <delta pt="55" x="0" y="-1"/>
+      </tuple>
+      <tuple>
+        <coord axis="wght" value="1.0"/>
+        <delta pt="0" x="311" y="108"/>
+        <delta pt="1" x="311" y="159"/>
+        <delta pt="2" x="281" y="200"/>
+        <delta pt="3" x="226" y="190"/>
+        <delta pt="4" x="190" y="165"/>
+        <delta pt="5" x="182" y="114"/>
+        <delta pt="6" x="178" y="88"/>
+        <delta pt="7" x="184" y="49"/>
+        <delta pt="8" x="193" y="10"/>
+        <delta pt="9" x="193" y="-17"/>
+        <delta pt="10" x="193" y="-66"/>
+        <delta pt="11" x="156" y="-123"/>
+        <delta pt="12" x="132" y="-123"/>
+        <delta pt="13" x="150" y="-123"/>
+        <delta pt="14" x="179" y="-123"/>
+        <delta pt="15" x="234" y="-120"/>
+        <delta pt="16" x="276" y="-110"/>
+        <delta pt="17" x="279" y="103"/>
+        <delta pt="18" x="267" y="105"/>
+        <delta pt="19" x="218" y="102"/>
+        <delta pt="20" x="173" y="100"/>
+        <delta pt="21" x="166" y="100"/>
+        <delta pt="22" x="108" y="100"/>
+        <delta pt="23" x="53" y="100"/>
+        <delta pt="24" x="-7" y="80"/>
+        <delta pt="25" x="-30" y="35"/>
+        <delta pt="26" x="-30" y="-1"/>
+        <delta pt="27" x="-30" y="-65"/>
+        <delta pt="28" x="74" y="-108"/>
+        <delta pt="29" x="118" y="-67"/>
+        <delta pt="30" x="112" y="-13"/>
+        <delta pt="31" x="105" y="27"/>
+        <delta pt="32" x="90" y="73"/>
+        <delta pt="33" x="90" y="117"/>
+        <delta pt="34" x="90" y="149"/>
+        <delta pt="35" x="106" y="196"/>
+        <delta pt="36" x="134" y="222"/>
+        <delta pt="37" x="152" y="222"/>
+        <delta pt="38" x="107" y="222"/>
+        <delta pt="39" x="76" y="222"/>
+        <delta pt="40" x="29" y="222"/>
+        <delta pt="41" x="-10" y="221"/>
+        <delta pt="42" x="-27" y="219"/>
+        <delta pt="43" x="-30" y="-3"/>
+        <delta pt="44" x="-13" y="-2"/>
+        <delta pt="45" x="43" y="0"/>
+        <delta pt="46" x="89" y="0"/>
+        <delta pt="47" x="91" y="0"/>
+        <delta pt="48" x="128" y="0"/>
+        <delta pt="49" x="218" y="0"/>
+        <delta pt="50" x="294" y="27"/>
+        <delta pt="51" x="310" y="76"/>
+        <delta pt="52" x="0" y="0"/>
+        <delta pt="53" x="281" y="0"/>
+        <delta pt="54" x="0" y="100"/>
+        <delta pt="55" x="0" y="0"/>
+      </tuple>
+      <tuple>
+        <coord axis="wdth" value="1.0"/>
+        <coord axis="wght" value="1.0"/>
+        <delta pt="0" x="-248" y="-46"/>
+        <delta pt="1" x="-248" y="-69"/>
+        <delta pt="2" x="-239" y="-86"/>
+        <delta pt="3" x="-209" y="-71"/>
+        <delta pt="4" x="-179" y="-46"/>
+        <delta pt="5" x="-111" y="5"/>
+        <delta pt="6" x="-82" y="31"/>
+        <delta pt="7" x="-8" y="52"/>
+        <delta pt="8" x="47" y="40"/>
+        <delta pt="9" x="47" y="17"/>
+        <delta pt="10" x="47" y="1"/>
+        <delta pt="11" x="-34" y="-12"/>
+        <delta pt="12" x="-188" y="-12"/>
+        <delta pt="13" x="-27" y="-12"/>
+        <delta pt="14" x="-86" y="-12"/>
+        <delta pt="15" x="-189" y="3"/>
+        <delta pt="16" x="-261" y="25"/>
+        <delta pt="17" x="-247" y="38"/>
+        <delta pt="18" x="-209" y="19"/>
+        <delta pt="19" x="-163" y="4"/>
+        <delta pt="20" x="-119" y="-1"/>
+        <delta pt="21" x="-85" y="-1"/>
+        <delta pt="22" x="-219" y="-1"/>
+        <delta pt="23" x="-158" y="-1"/>
+        <delta pt="24" x="-76" y="-19"/>
+        <delta pt="25" x="-36" y="-15"/>
+        <delta pt="26" x="-36" y="18"/>
+        <delta pt="27" x="-36" y="48"/>
+        <delta pt="28" x="-55" y="73"/>
+        <delta pt="29" x="-78" y="32"/>
+        <delta pt="30" x="-169" y="-22"/>
+        <delta pt="31" x="-222" y="-62"/>
+        <delta pt="32" x="-333" y="-61"/>
+        <delta pt="33" x="-333" y="-35"/>
+        <delta pt="34" x="-333" y="-21"/>
+        <delta pt="35" x="-296" y="0"/>
+        <delta pt="36" x="-187" y="11"/>
+        <delta pt="37" x="-79" y="11"/>
+        <delta pt="38" x="-166" y="11"/>
+        <delta pt="39" x="-186" y="11"/>
+        <delta pt="40" x="-123" y="-6"/>
+        <delta pt="41" x="-29" y="-35"/>
+        <delta pt="42" x="-5" y="-52"/>
+        <delta pt="43" x="-10" y="-69"/>
+        <delta pt="44" x="-33" y="-46"/>
+        <delta pt="45" x="-110" y="-16"/>
+        <delta pt="46" x="-182" y="-1"/>
+        <delta pt="47" x="-196" y="-1"/>
+        <delta pt="48" x="49" y="-1"/>
+        <delta pt="49" x="-64" y="-1"/>
+        <delta pt="50" x="-193" y="3"/>
+        <delta pt="51" x="-247" y="-15"/>
+        <delta pt="52" x="0" y="0"/>
+        <delta pt="53" x="-258" y="0"/>
+        <delta pt="54" x="0" y="-1"/>
+        <delta pt="55" x="0" y="1"/>
+      </tuple>
+    </glyphVariations>
+    <glyphVariations glyph="T">
+      <tuple>
+        <coord axis="wdth" value="1.0"/>
+        <delta pt="0" x="350" y="0"/>
+        <delta pt="4" x="10" y="0"/>
+        <delta pt="6" x="690" y="0"/>
+        <delta pt="9" x="700" y="0"/>
+      </tuple>
+      <tuple>
+        <coord axis="wght" value="1.0"/>
+        <delta pt="1" x="230" y="0"/>
+        <delta pt="3" x="-50" y="100"/>
+        <delta pt="5" x="190" y="-114"/>
+        <delta pt="7" x="-10" y="100"/>
+        <delta pt="9" x="180" y="0"/>
+        <delta pt="10" x="0" y="100"/>
+      </tuple>
+      <tuple>
+        <coord axis="wdth" value="1.0"/>
+        <coord axis="wght" value="1.0"/>
+        <delta pt="0" x="-80" y="0"/>
+        <delta pt="2" x="20" y="0"/>
+        <delta pt="5" x="-50" y="-60"/>
+        <delta pt="7" x="-10" y="0"/>
+        <delta pt="9" x="-60" y="0"/>
+      </tuple>
+    </glyphVariations>
+    <glyphVariations glyph="U">
+      <tuple>
+        <coord axis="wdth" value="1.0"/>
+        <delta pt="0" x="358" y="0"/>
+        <delta pt="1" x="495" y="0"/>
+        <delta pt="2" x="658" y="95"/>
+        <delta pt="3" x="658" y="170"/>
+        <delta pt="4" x="658" y="0"/>
+        <delta pt="5" x="658" y="0"/>
+        <delta pt="6" x="658" y="170"/>
+        <delta pt="7" x="658" y="90"/>
+        <delta pt="8" x="495" y="0"/>
+        <delta pt="9" x="358" y="0"/>
+        <delta pt="10" x="222" y="0"/>
+        <delta pt="11" x="60" y="90"/>
+        <delta pt="12" x="60" y="170"/>
+        <delta pt="13" x="60" y="0"/>
+        <delta pt="14" x="60" y="0"/>
+        <delta pt="15" x="60" y="170"/>
+        <delta pt="16" x="60" y="95"/>
+        <delta pt="17" x="222" y="0"/>
+        <delta pt="18" x="0" y="0"/>
+        <delta pt="19" x="718" y="0"/>
+        <delta pt="20" x="0" y="0"/>
+        <delta pt="21" x="0" y="0"/>
+      </tuple>
+      <tuple>
+        <coord axis="wght" value="1.0"/>
+        <delta pt="0" x="145" y="0"/>
+        <delta pt="1" x="253" y="0"/>
+        <delta pt="2" x="323" y="91"/>
+        <delta pt="3" x="323" y="161"/>
+        <delta pt="4" x="323" y="100"/>
+        <delta pt="5" x="43" y="100"/>
+        <delta pt="6" x="43" y="111"/>
+        <delta pt="7" x="43" y="181"/>
+        <delta pt="8" x="101" y="228"/>
+        <delta pt="9" x="145" y="228"/>
+        <delta pt="10" x="191" y="228"/>
+        <delta pt="11" x="250" y="181"/>
+        <delta pt="12" x="250" y="111"/>
+        <delta pt="13" x="250" y="100"/>
+        <delta pt="14" x="-30" y="100"/>
+        <delta pt="15" x="-30" y="161"/>
+        <delta pt="16" x="-30" y="91"/>
+        <delta pt="17" x="37" y="0"/>
+        <delta pt="18" x="0" y="0"/>
+        <delta pt="19" x="293" y="0"/>
+        <delta pt="20" x="0" y="100"/>
+        <delta pt="21" x="0" y="0"/>
+      </tuple>
+      <tuple>
+        <coord axis="wdth" value="1.0"/>
+        <coord axis="wght" value="1.0"/>
+        <delta pt="1" x="-133" y="0"/>
+        <delta pt="2" x="-147" y="-51"/>
+        <delta pt="3" x="-147" y="-80"/>
+        <delta pt="6" x="-258" y="-30"/>
+        <delta pt="7" x="-258" y="-8"/>
+        <delta pt="8" x="-159" y="30"/>
+        <delta pt="9" x="-71" y="30"/>
+        <delta pt="11" x="112" y="-8"/>
+        <delta pt="12" x="112" y="-30"/>
+        <delta pt="15" x="0" y="-80"/>
+        <delta pt="16" x="0" y="-51"/>
+        <delta pt="17" x="-11" y="0"/>
+        <delta pt="19" x="-147" y="0"/>
+      </tuple>
+    </glyphVariations>
+    <glyphVariations glyph="V">
+      <tuple>
+        <coord axis="wdth" value="1.0"/>
+        <delta pt="0" x="750" y="0"/>
+        <delta pt="1" x="745" y="0"/>
+        <delta pt="2" x="378" y="0"/>
+        <delta pt="3" x="383" y="0"/>
+        <delta pt="4" x="25" y="0"/>
+        <delta pt="5" x="20" y="0"/>
+        <delta pt="6" x="393" y="0"/>
+        <delta pt="7" x="398" y="0"/>
+        <delta pt="8" x="383" y="-3"/>
+        <delta pt="9" x="393" y="-3"/>
+        <delta pt="10" x="393" y="0"/>
+        <delta pt="11" x="383" y="0"/>
+        <delta pt="12" x="0" y="0"/>
+        <delta pt="13" x="770" y="0"/>
+        <delta pt="14" x="0" y="0"/>
+        <delta pt="15" x="0" y="0"/>
+      </tuple>
+      <tuple>
+        <coord axis="wght" value="1.0"/>
+        <delta pt="0" x="350" y="100"/>
+        <delta pt="1" x="145" y="100"/>
+        <delta pt="2" x="191" y="0"/>
+        <delta pt="3" x="371" y="0"/>
+        <delta pt="4" x="285" y="100"/>
+        <delta pt="5" x="-10" y="100"/>
+        <delta pt="6" x="-29" y="0"/>
+        <delta pt="7" x="251" y="0"/>
+        <delta pt="8" x="301" y="221"/>
+        <delta pt="9" x="101" y="221"/>
+        <delta pt="10" x="101" y="0"/>
+        <delta pt="11" x="301" y="0"/>
+        <delta pt="12" x="0" y="0"/>
+        <delta pt="13" x="340" y="0"/>
+        <delta pt="14" x="0" y="100"/>
+        <delta pt="15" x="0" y="0"/>
+      </tuple>
+      <tuple>
+        <coord axis="wdth" value="1.0"/>
+        <coord axis="wght" value="1.0"/>
+        <delta pt="0" x="-180" y="0"/>
+        <delta pt="1" x="-255" y="0"/>
+        <delta pt="2" x="-134" y="0"/>
+        <delta pt="3" x="-79" y="0"/>
+        <delta pt="4" x="115" y="0"/>
+        <delta pt="5" x="-10" y="0"/>
+        <delta pt="6" x="-129" y="0"/>
+        <delta pt="7" x="-4" y="0"/>
+        <delta pt="8" x="-29" y="3"/>
+        <delta pt="9" x="-189" y="3"/>
+        <delta pt="10" x="-189" y="0"/>
+        <delta pt="11" x="-29" y="0"/>
+        <delta pt="12" x="0" y="0"/>
+        <delta pt="13" x="-190" y="0"/>
+        <delta pt="14" x="0" y="0"/>
+        <delta pt="15" x="0" y="0"/>
+      </tuple>
+    </glyphVariations>
+    <glyphVariations glyph="W">
+      <tuple>
+        <coord axis="wdth" value="1.0"/>
+        <delta pt="0" x="826" y="0"/>
+        <delta pt="1" x="825" y="0"/>
+        <delta pt="2" x="615" y="0"/>
+        <delta pt="3" x="620" y="0"/>
+        <delta pt="4" x="409" y="0"/>
+        <delta pt="5" x="424" y="0"/>
+        <delta pt="6" x="226" y="-10"/>
+        <delta pt="7" x="235" y="-10"/>
+        <delta pt="8" x="18" y="0"/>
+        <delta pt="9" x="20" y="0"/>
+        <delta pt="10" x="246" y="0"/>
+        <delta pt="11" x="217" y="0"/>
+        <delta pt="12" x="423" y="17"/>
+        <delta pt="13" x="414" y="16"/>
+        <delta pt="14" x="634" y="0"/>
+        <delta pt="15" x="609" y="0"/>
+        <delta pt="16" x="0" y="0"/>
+        <delta pt="17" x="846" y="0"/>
+        <delta pt="18" x="0" y="0"/>
+        <delta pt="19" x="0" y="0"/>
+      </tuple>
+      <tuple>
+        <coord axis="wght" value="1.0"/>
+        <delta pt="0" x="376" y="100"/>
+        <delta pt="1" x="159" y="100"/>
+        <delta pt="2" x="198" y="208"/>
+        <delta pt="3" x="233" y="208"/>
+        <delta pt="4" x="277" y="100"/>
+        <delta pt="5" x="111" y="100"/>
+        <delta pt="6" x="159" y="208"/>
+        <delta pt="7" x="193" y="208"/>
+        <delta pt="8" x="232" y="100"/>
+        <delta pt="9" x="-10" y="100"/>
+        <delta pt="10" x="-15" y="0"/>
+        <delta pt="11" x="226" y="0"/>
+        <delta pt="12" x="185" y="-230"/>
+        <delta pt="13" x="152" y="-230"/>
+        <delta pt="14" x="114" y="0"/>
+        <delta pt="15" x="384" y="0"/>
+        <delta pt="16" x="0" y="0"/>
+        <delta pt="17" x="366" y="0"/>
+        <delta pt="18" x="0" y="100"/>
+        <delta pt="19" x="0" y="0"/>
+      </tuple>
+      <tuple>
+        <coord axis="wdth" value="1.0"/>
+        <coord axis="wght" value="1.0"/>
+        <delta pt="0" x="-354" y="0"/>
+        <delta pt="1" x="-471" y="0"/>
+        <delta pt="2" x="-287" y="0"/>
+        <delta pt="3" x="-310" y="0"/>
+        <delta pt="4" x="-125" y="0"/>
+        <delta pt="5" x="-210" y="0"/>
+        <delta pt="6" x="-35" y="10"/>
+        <delta pt="7" x="-62" y="10"/>
+        <delta pt="8" x="126" y="0"/>
+        <delta pt="9" x="-10" y="0"/>
+        <delta pt="10" x="-182" y="0"/>
+        <delta pt="11" x="1" y="0"/>
+        <delta pt="12" x="-181" y="43"/>
+        <delta pt="13" x="-194" y="44"/>
+        <delta pt="14" x="-384" y="0"/>
+        <delta pt="15" x="-189" y="0"/>
+        <delta pt="16" x="0" y="0"/>
+        <delta pt="17" x="-364" y="0"/>
+        <delta pt="18" x="0" y="0"/>
+        <delta pt="19" x="0" y="0"/>
+      </tuple>
+    </glyphVariations>
+    <glyphVariations glyph="X">
+      <tuple>
+        <coord axis="wdth" value="1.0"/>
+        <delta pt="0" x="580" y="0"/>
+        <delta pt="1" x="600" y="0"/>
+        <delta pt="2" x="309" y="5"/>
+        <delta pt="3" x="40" y="0"/>
+        <delta pt="4" x="20" y="0"/>
+        <delta pt="5" x="305" y="14"/>
+        <delta pt="6" x="20" y="0"/>
+        <delta pt="7" x="30" y="0"/>
+        <delta pt="8" x="307" y="22"/>
+        <delta pt="9" x="303" y="18"/>
+        <delta pt="10" x="600" y="0"/>
+        <delta pt="11" x="590" y="0"/>
+        <delta pt="12" x="305" y="3"/>
+        <delta pt="13" x="311" y="9"/>
+        <delta pt="14" x="0" y="0"/>
+        <delta pt="15" x="620" y="0"/>
+        <delta pt="16" x="0" y="0"/>
+        <delta pt="17" x="0" y="0"/>
+      </tuple>
+      <tuple>
+        <coord axis="wght" value="1.0"/>
+        <delta pt="0" x="40" y="0"/>
+        <delta pt="1" x="360" y="0"/>
+        <delta pt="2" x="290" y="110"/>
+        <delta pt="3" x="300" y="100"/>
+        <delta pt="4" x="-20" y="100"/>
+        <delta pt="5" x="58" y="13"/>
+        <delta pt="6" x="-10" y="0"/>
+        <delta pt="7" x="180" y="0"/>
+        <delta pt="8" x="123" y="-20"/>
+        <delta pt="9" x="343" y="10"/>
+        <delta pt="10" x="370" y="100"/>
+        <delta pt="11" x="180" y="100"/>
+        <delta pt="12" x="221" y="178"/>
+        <delta pt="13" x="9" y="134"/>
+        <delta pt="14" x="0" y="0"/>
+        <delta pt="15" x="350" y="0"/>
+        <delta pt="16" x="0" y="100"/>
+        <delta pt="17" x="0" y="0"/>
+      </tuple>
+      <tuple>
+        <coord axis="wdth" value="1.0"/>
+        <coord axis="wght" value="1.0"/>
+        <delta pt="0" x="-190" y="0"/>
+        <delta pt="1" x="-80" y="0"/>
+        <delta pt="2" x="-1" y="-1"/>
+        <delta pt="3" x="100" y="0"/>
+        <delta pt="4" x="-10" y="0"/>
+        <delta pt="5" x="-104" y="10"/>
+        <delta pt="6" x="-10" y="0"/>
+        <delta pt="7" x="200" y="0"/>
+        <delta pt="8" x="41" y="-13"/>
+        <delta pt="9" x="-62" y="-43"/>
+        <delta pt="10" x="-80" y="0"/>
+        <delta pt="11" x="-290" y="0"/>
+        <delta pt="12" x="-139" y="-64"/>
+        <delta pt="13" x="-52" y="-20"/>
+        <delta pt="14" x="0" y="0"/>
+        <delta pt="15" x="-90" y="0"/>
+        <delta pt="16" x="0" y="0"/>
+        <delta pt="17" x="0" y="0"/>
+      </tuple>
+    </glyphVariations>
+    <glyphVariations glyph="Y">
+      <tuple>
+        <coord axis="wdth" value="1.0"/>
+        <delta pt="0" x="550" y="0"/>
+        <delta pt="1" x="545" y="0"/>
+        <delta pt="2" x="287" y="-10"/>
+        <delta pt="3" x="276" y="-39"/>
+        <delta pt="4" x="25" y="0"/>
+        <delta pt="5" x="20" y="0"/>
+        <delta pt="6" x="291" y="-39"/>
+        <delta pt="7" x="274" y="-10"/>
+        <delta pt="8" x="285" y="-18"/>
+        <delta pt="9" x="285" y="-18"/>
+        <delta pt="10" x="285" y="0"/>
+        <delta pt="11" x="285" y="0"/>
+        <delta pt="12" x="0" y="0"/>
+        <delta pt="13" x="570" y="0"/>
+        <delta pt="14" x="0" y="0"/>
+        <delta pt="15" x="0" y="0"/>
+      </tuple>
+      <tuple>
+        <coord axis="wght" value="1.0"/>
+        <delta pt="0" x="330" y="100"/>
+        <delta pt="1" x="145" y="100"/>
+        <delta pt="2" x="127" y="-10"/>
+        <delta pt="3" x="300" y="-10"/>
+        <delta pt="4" x="254" y="100"/>
+        <delta pt="5" x="-10" y="100"/>
+        <delta pt="6" x="20" y="-10"/>
+        <delta pt="7" x="274" y="-10"/>
+        <delta pt="8" x="300" y="41"/>
+        <delta pt="9" x="20" y="41"/>
+        <delta pt="10" x="20" y="0"/>
+        <delta pt="11" x="300" y="0"/>
+        <delta pt="12" x="0" y="0"/>
+        <delta pt="13" x="320" y="0"/>
+        <delta pt="14" x="0" y="100"/>
+        <delta pt="15" x="0" y="0"/>
+      </tuple>
+      <tuple>
+        <coord axis="wdth" value="1.0"/>
+        <coord axis="wght" value="1.0"/>
+        <delta pt="0" x="-90" y="0"/>
+        <delta pt="1" x="-205" y="0"/>
+        <delta pt="2" x="-82" y="20"/>
+        <delta pt="3" x="9" y="49"/>
+        <delta pt="4" x="106" y="0"/>
+        <delta pt="5" x="-10" y="0"/>
+        <delta pt="6" x="-106" y="49"/>
+        <delta pt="7" x="11" y="20"/>
+        <delta pt="8" x="0" y="128"/>
+        <delta pt="9" x="-100" y="128"/>
+        <delta pt="10" x="-100" y="0"/>
+        <delta pt="11" x="0" y="0"/>
+        <delta pt="12" x="0" y="0"/>
+        <delta pt="13" x="-100" y="0"/>
+        <delta pt="14" x="0" y="0"/>
+        <delta pt="15" x="0" y="0"/>
+      </tuple>
+    </glyphVariations>
+    <glyphVariations glyph="Z">
+      <tuple>
+        <coord axis="wdth" value="1.0"/>
+        <delta pt="0" x="60" y="0"/>
+        <delta pt="1" x="55" y="-10"/>
+        <delta pt="2" x="700" y="0"/>
+        <delta pt="3" x="705" y="10"/>
+        <delta pt="4" x="60" y="0"/>
+        <delta pt="6" x="700" y="0"/>
+        <delta pt="8" x="60" y="0"/>
+        <delta pt="10" x="700" y="0"/>
+        <delta pt="13" x="760" y="0"/>
+      </tuple>
+      <tuple>
+        <coord axis="wght" value="1.0"/>
+        <delta pt="0" x="-30" y="214"/>
+        <delta pt="1" x="250" y="204"/>
+        <delta pt="2" x="230" y="-114"/>
+        <delta pt="3" x="-50" y="-104"/>
+        <delta pt="5" x="230" y="-114"/>
+        <delta pt="7" x="-30" y="100"/>
+        <delta pt="9" x="230" y="0"/>
+        <delta pt="11" x="-30" y="214"/>
+        <delta pt="13" x="200" y="0"/>
+        <delta pt="14" x="0" y="100"/>
+      </tuple>
+      <tuple>
+        <coord axis="wdth" value="1.0"/>
+        <coord axis="wght" value="1.0"/>
+        <delta pt="0" x="-30" y="30"/>
+        <delta pt="1" x="175" y="-40"/>
+        <delta pt="2" x="-90" y="-30"/>
+        <delta pt="3" x="-295" y="40"/>
+        <delta pt="4" x="-30" y="-30"/>
+        <delta pt="5" x="-90" y="-30"/>
+        <delta pt="6" x="-90" y="0"/>
+        <delta pt="7" x="-30" y="0"/>
+        <delta pt="8" x="-30" y="0"/>
+        <delta pt="9" x="-90" y="0"/>
+        <delta pt="10" x="-90" y="30"/>
+        <delta pt="11" x="-30" y="30"/>
+        <delta pt="12" x="0" y="0"/>
+        <delta pt="13" x="-120" y="0"/>
+        <delta pt="14" x="0" y="0"/>
+        <delta pt="15" x="0" y="0"/>
+      </tuple>
+    </glyphVariations>
+    <glyphVariations glyph="quotedblleft">
+      <tuple>
+        <coord axis="wdth" value="1.0"/>
+        <delta pt="2" x="60" y="-100"/>
+        <delta pt="5" x="60" y="0"/>
+        <delta pt="10" x="60" y="-100"/>
+        <delta pt="13" x="60" y="0"/>
+        <delta pt="17" x="120" y="0"/>
+        <delta pt="19" x="0" y="100"/>
+      </tuple>
+      <tuple>
+        <coord axis="wght" value="1.0"/>
+        <delta pt="0" x="-30" y="50"/>
+        <delta pt="1" x="-30" y="-130"/>
+        <delta pt="2" x="110" y="-130"/>
+        <delta pt="3" x="110" y="50"/>
+        <delta pt="4" x="63" y="58"/>
+        <delta pt="5" x="60" y="50"/>
+        <delta pt="6" x="60" y="100"/>
+        <delta pt="7" x="0" y="100"/>
+        <delta pt="8" x="70" y="50"/>
+        <delta pt="9" x="70" y="-130"/>
+        <delta pt="10" x="210" y="-130"/>
+        <delta pt="11" x="210" y="50"/>
+        <delta pt="12" x="163" y="58"/>
+        <delta pt="13" x="160" y="50"/>
+        <delta pt="14" x="160" y="100"/>
+        <delta pt="15" x="100" y="100"/>
+        <delta pt="16" x="0" y="0"/>
+        <delta pt="17" x="179" y="0"/>
+        <delta pt="18" x="0" y="100"/>
+        <delta pt="19" x="0" y="130"/>
+      </tuple>
+      <tuple>
+        <coord axis="wdth" value="1.0"/>
+        <coord axis="wght" value="1.0"/>
+        <delta pt="2" x="-30" y="100"/>
+        <delta pt="5" x="-30" y="0"/>
+        <delta pt="10" x="-30" y="100"/>
+        <delta pt="13" x="-30" y="0"/>
+        <delta pt="17" x="-60" y="0"/>
+        <delta pt="19" x="0" y="-100"/>
+      </tuple>
+    </glyphVariations>
+    <glyphVariations glyph="quotedblright">
+      <tuple>
+        <coord axis="wdth" value="1.0"/>
+        <delta pt="0" x="0" y="-100"/>
+        <delta pt="1" x="0" y="-100"/>
+        <delta pt="2" x="0" y="0"/>
+        <delta pt="3" x="120" y="0"/>
+        <delta pt="4" x="0" y="0"/>
+        <delta pt="5" x="0" y="100"/>
+      </tuple>
+      <tuple>
+        <coord axis="wght" value="1.0"/>
+        <delta pt="0" x="0" y="-80"/>
+        <delta pt="1" x="100" y="-80"/>
+        <delta pt="2" x="0" y="0"/>
+        <delta pt="3" x="179" y="0"/>
+        <delta pt="4" x="0" y="100"/>
+        <delta pt="5" x="0" y="130"/>
+      </tuple>
+      <tuple>
+        <coord axis="wdth" value="1.0"/>
+        <coord axis="wght" value="1.0"/>
+        <delta pt="0" x="0" y="100"/>
+        <delta pt="1" x="0" y="100"/>
+        <delta pt="2" x="0" y="0"/>
+        <delta pt="3" x="-60" y="0"/>
+        <delta pt="4" x="0" y="0"/>
+        <delta pt="5" x="0" y="-100"/>
+      </tuple>
+    </glyphVariations>
+    <glyphVariations glyph="quotesinglbase">
+      <tuple>
+        <coord axis="wdth" value="1.0"/>
+        <delta pt="0" x="0" y="0"/>
+        <delta pt="1" x="0" y="0"/>
+        <delta pt="2" x="120" y="0"/>
+        <delta pt="3" x="0" y="100"/>
+        <delta pt="4" x="0" y="0"/>
+      </tuple>
+      <tuple>
+        <coord axis="wght" value="1.0"/>
+        <delta pt="0" x="0" y="0"/>
+        <delta pt="1" x="0" y="0"/>
+        <delta pt="2" x="79" y="0"/>
+        <delta pt="3" x="0" y="180"/>
+        <delta pt="4" x="0" y="50"/>
+      </tuple>
+      <tuple>
+        <coord axis="wdth" value="1.0"/>
+        <coord axis="wght" value="1.0"/>
+        <delta pt="0" x="0" y="2"/>
+        <delta pt="1" x="0" y="0"/>
+        <delta pt="2" x="-60" y="0"/>
+        <delta pt="3" x="0" y="-98"/>
+        <delta pt="4" x="0" y="-2"/>
+      </tuple>
+    </glyphVariations>
+    <glyphVariations glyph="quotedblbase">
+      <tuple>
+        <coord axis="wdth" value="1.0"/>
+        <delta pt="0" x="0" y="0"/>
+        <delta pt="1" x="0" y="0"/>
+        <delta pt="2" x="0" y="0"/>
+        <delta pt="3" x="120" y="0"/>
+        <delta pt="4" x="0" y="100"/>
+        <delta pt="5" x="0" y="0"/>
+      </tuple>
+      <tuple>
+        <coord axis="wght" value="1.0"/>
+        <delta pt="0" x="0" y="0"/>
+        <delta pt="1" x="100" y="0"/>
+        <delta pt="2" x="0" y="0"/>
+        <delta pt="3" x="179" y="0"/>
+        <delta pt="4" x="0" y="180"/>
+        <delta pt="5" x="0" y="50"/>
+      </tuple>
+      <tuple>
+        <coord axis="wdth" value="1.0"/>
+        <coord axis="wght" value="1.0"/>
+        <delta pt="0" x="0" y="1"/>
+        <delta pt="1" x="20" y="1"/>
+        <delta pt="2" x="0" y="0"/>
+        <delta pt="3" x="-40" y="0"/>
+        <delta pt="4" x="0" y="-99"/>
+        <delta pt="5" x="0" y="-1"/>
+      </tuple>
+    </glyphVariations>
+    <glyphVariations glyph="period">
+      <tuple>
+        <coord axis="wdth" value="1.0"/>
+        <delta pt="1" x="60" y="0"/>
+        <delta pt="3" x="60" y="100"/>
+        <delta pt="5" x="120" y="0"/>
+        <delta pt="6" x="0" y="100"/>
+      </tuple>
+      <tuple>
+        <coord axis="wght" value="1.0"/>
+        <delta pt="1" x="110" y="0"/>
+        <delta pt="3" x="-30" y="180"/>
+        <delta pt="5" x="80" y="0"/>
+        <delta pt="6" x="0" y="180"/>
+      </tuple>
+      <tuple>
+        <coord axis="wdth" value="1.0"/>
+        <coord axis="wght" value="1.0"/>
+        <delta pt="1" x="-30" y="0"/>
+        <delta pt="3" x="-30" y="-100"/>
+        <delta pt="5" x="-60" y="0"/>
+        <delta pt="6" x="0" y="-100"/>
+      </tuple>
+    </glyphVariations>
+    <glyphVariations glyph="comma">
+      <tuple>
+        <coord axis="wdth" value="1.0"/>
+        <delta pt="2" x="60" y="100"/>
+        <delta pt="5" x="60" y="0"/>
+        <delta pt="9" x="120" y="0"/>
+        <delta pt="10" x="0" y="100"/>
+      </tuple>
+      <tuple>
+        <coord axis="wght" value="1.0"/>
+        <delta pt="0" x="109" y="0"/>
+        <delta pt="1" x="109" y="180"/>
+        <delta pt="2" x="-31" y="180"/>
+        <delta pt="3" x="-31" y="0"/>
+        <delta pt="4" x="16" y="-8"/>
+        <delta pt="5" x="19" y="0"/>
+        <delta pt="6" x="19" y="-50"/>
+        <delta pt="7" x="79" y="-50"/>
+        <delta pt="8" x="0" y="0"/>
+        <delta pt="9" x="79" y="0"/>
+        <delta pt="10" x="0" y="180"/>
+        <delta pt="11" x="0" y="50"/>
+      </tuple>
+      <tuple>
+        <coord axis="wdth" value="1.0"/>
+        <coord axis="wght" value="1.0"/>
+        <delta pt="2" x="-30" y="-100"/>
+        <delta pt="5" x="-30" y="0"/>
+        <delta pt="9" x="-60" y="0"/>
+        <delta pt="10" x="0" y="-100"/>
+      </tuple>
+    </glyphVariations>
+    <glyphVariations glyph="colon">
+      <tuple>
+        <coord axis="wdth" value="1.0"/>
+        <delta pt="0" x="0" y="0"/>
+        <delta pt="1" x="0" y="0"/>
+        <delta pt="2" x="0" y="0"/>
+        <delta pt="3" x="120" y="0"/>
+        <delta pt="4" x="0" y="100"/>
+        <delta pt="5" x="0" y="0"/>
+      </tuple>
+      <tuple>
+        <coord axis="wght" value="1.0"/>
+        <delta pt="0" x="0" y="2"/>
+        <delta pt="1" x="0" y="12"/>
+        <delta pt="2" x="0" y="0"/>
+        <delta pt="3" x="80" y="0"/>
+        <delta pt="4" x="0" y="192"/>
+        <delta pt="5" x="0" y="-2"/>
+      </tuple>
+      <tuple>
+        <coord axis="wdth" value="1.0"/>
+        <coord axis="wght" value="1.0"/>
+        <delta pt="0" x="0" y="0"/>
+        <delta pt="1" x="0" y="0"/>
+        <delta pt="2" x="0" y="0"/>
+        <delta pt="3" x="-60" y="0"/>
+        <delta pt="4" x="0" y="-100"/>
+        <delta pt="5" x="0" y="0"/>
+      </tuple>
+    </glyphVariations>
+    <glyphVariations glyph="semicolon">
+      <tuple>
+        <coord axis="wdth" value="1.0"/>
+        <delta pt="0" x="0" y="0"/>
+        <delta pt="1" x="0" y="0"/>
+        <delta pt="2" x="0" y="0"/>
+        <delta pt="3" x="120" y="0"/>
+        <delta pt="4" x="0" y="100"/>
+        <delta pt="5" x="0" y="0"/>
+      </tuple>
+      <tuple>
+        <coord axis="wght" value="1.0"/>
+        <delta pt="0" x="0" y="2"/>
+        <delta pt="1" x="0" y="12"/>
+        <delta pt="2" x="0" y="0"/>
+        <delta pt="3" x="79" y="0"/>
+        <delta pt="4" x="0" y="192"/>
+        <delta pt="5" x="0" y="48"/>
+      </tuple>
+      <tuple>
+        <coord axis="wdth" value="1.0"/>
+        <coord axis="wght" value="1.0"/>
+        <delta pt="0" x="0" y="0"/>
+        <delta pt="1" x="0" y="0"/>
+        <delta pt="2" x="0" y="0"/>
+        <delta pt="3" x="-60" y="0"/>
+        <delta pt="4" x="0" y="-100"/>
+        <delta pt="5" x="0" y="0"/>
+      </tuple>
+    </glyphVariations>
+  </gvar>
+
+</ttFont>

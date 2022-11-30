@@ -1,0 +1,10 @@
+{
+    "python.pythonPath": "C:\\Users\\Trpimir\\Anaconda3\\python.exe",
+    "python.unitTest.pyTestArgs": [
+        "backup"
+    ],
+    "python.unitTest.unittestEnabled": false,
+    "python.unitTest.nosetestsEnabled": false,
+    "python.unitTest.pyTestEnabled": false,
+    "python.unitTest.promptToConfigure": false
+}

@@ -1,0 +1,476 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ttFont sfntVersion="\x00\x01\x00\x00" ttLibVersion="3.29">
+
+  <GlyphOrder>
+    <!-- The 'id' attribute is only for humans; it is ignored when parsed. -->
+    <GlyphID id="0" name=".notdef"/>
+    <GlyphID id="1" name="space"/>
+    <GlyphID id="2" name="u1F40E"/>
+  </GlyphOrder>
+
+  <head>
+    <!-- Most of this table will be recalculated by the compiler -->
+    <tableVersion value="1.0"/>
+    <fontRevision value="1.0"/>
+    <checkSumAdjustment value="0xa59fe66e"/>
+    <magicNumber value="0x5f0f3cf5"/>
+    <flags value="00001000 00000011"/>
+    <unitsPerEm value="1000"/>
+    <created value="Tue Jun  6 15:21:52 2017"/>
+    <modified value="Wed Jun  7 14:40:34 2017"/>
+    <xMin value="93"/>
+    <yMin value="-200"/>
+    <xMax value="1093"/>
+    <yMax value="800"/>
+    <macStyle value="00000000 00000000"/>
+    <lowestRecPPEM value="7"/>
+    <fontDirectionHint value="2"/>
+    <indexToLocFormat value="0"/>
+    <glyphDataFormat value="0"/>
+  </head>
+
+  <hhea>
+    <tableVersion value="0x00010000"/>
+    <ascent value="1000"/>
+    <descent value="-200"/>
+    <lineGap value="0"/>
+    <advanceWidthMax value="1143"/>
+    <minLeftSideBearing value="93"/>
+    <minRightSideBearing value="50"/>
+    <xMaxExtent value="1093"/>
+    <caretSlopeRise value="1"/>
+    <caretSlopeRun value="0"/>
+    <caretOffset value="0"/>
+    <reserved0 value="0"/>
+    <reserved1 value="0"/>
+    <reserved2 value="0"/>
+    <reserved3 value="0"/>
+    <metricDataFormat value="0"/>
+    <numberOfHMetrics value="3"/>
+  </hhea>
+
+  <maxp>
+    <!-- Most of this table will be recalculated by the compiler -->
+    <tableVersion value="0x10000"/>
+    <numGlyphs value="3"/>
+    <maxPoints value="107"/>
+    <maxContours value="10"/>
+    <maxCompositePoints value="0"/>
+    <maxCompositeContours value="0"/>
+    <maxZones value="1"/>
+    <maxTwilightPoints value="2"/>
+    <maxStorage value="30"/>
+    <maxFunctionDefs value="4"/>
+    <maxInstructionDefs value="0"/>
+    <maxStackElements value="100"/>
+    <maxSizeOfInstructions value="0"/>
+    <maxComponentElements value="0"/>
+    <maxComponentDepth value="0"/>
+  </maxp>
+
+  <OS_2>
+    <!-- The fields 'usFirstCharIndex' and 'usLastCharIndex'
+         will be recalculated by the compiler -->
+    <version value="3"/>
+    <xAvgCharWidth value="747"/>
+    <usWeightClass value="400"/>
+    <usWidthClass value="5"/>
+    <fsType value="00000000 00001000"/>
+    <ySubscriptXSize value="650"/>
+    <ySubscriptYSize value="600"/>
+    <ySubscriptXOffset value="0"/>
+    <ySubscriptYOffset value="75"/>
+    <ySuperscriptXSize value="650"/>
+    <ySuperscriptYSize value="600"/>
+    <ySuperscriptXOffset value="0"/>
+    <ySuperscriptYOffset value="350"/>
+    <yStrikeoutSize value="50"/>
+    <yStrikeoutPosition value="300"/>
+    <sFamilyClass value="0"/>
+    <panose>
+      <bFamilyType value="0"/>
+      <bSerifStyle value="0"/>
+      <bWeight value="5"/>
+      <bProportion value="0"/>
+      <bContrast value="0"/>
+      <bStrokeVariation value="0"/>
+      <bArmStyle value="0"/>
+      <bLetterForm value="0"/>
+      <bMidline value="0"/>
+      <bXHeight value="0"/>
+    </panose>
+    <ulUnicodeRange1 value="00000000 00000000 00000000 00000000"/>
+    <ulUnicodeRange2 value="00000010 00000000 00000000 00000000"/>
+    <ulUnicodeRange3 value="00000000 00000000 00000000 00000000"/>
+    <ulUnicodeRange4 value="00000000 00000000 00000000 00000000"/>
+    <achVendID value="UKWN"/>
+    <fsSelection value="00000000 01000000"/>
+    <usFirstCharIndex value="32"/>
+    <usLastCharIndex value="65535"/>
+    <sTypoAscender value="800"/>
+    <sTypoDescender value="-200"/>
+    <sTypoLineGap value="200"/>
+    <usWinAscent value="1000"/>
+    <usWinDescent value="200"/>
+    <ulCodePageRange1 value="00000000 00000000 00000000 00000001"/>
+    <ulCodePageRange2 value="00000000 00000000 00000000 00000000"/>
+    <sxHeight value="500"/>
+    <sCapHeight value="700"/>
+    <usDefaultChar value="0"/>
+    <usBreakChar value="32"/>
+    <usMaxContext value="0"/>
+  </OS_2>
+
+  <hmtx>
+    <mtx name=".notdef" width="500" lsb="93"/>
+    <mtx name="space" width="600" lsb="0"/>
+    <mtx name="u1F40E" width="1143" lsb="150"/>
+  </hmtx>
+
+  <cmap>
+    <tableVersion version="0"/>
+    <cmap_format_4 platformID="0" platEncID="3" language="0">
+      <map code="0x20" name="space"/><!-- SPACE -->
+    </cmap_format_4>
+    <cmap_format_12 platformID="0" platEncID="4" format="12" reserved="0" length="40" language="0" nGroups="2">
+      <map code="0x20" name="space"/><!-- SPACE -->
+      <map code="0x1f40e" name="u1F40E"/><!-- HORSE -->
+    </cmap_format_12>
+    <cmap_format_6 platformID="1" platEncID="0" language="0">
+      <map code="0x9" name="space"/>
+      <map code="0xd" name="space"/>
+      <map code="0x20" name="space"/>
+    </cmap_format_6>
+    <cmap_format_4 platformID="3" platEncID="1" language="0">
+      <map code="0x20" name="space"/><!-- SPACE -->
+    </cmap_format_4>
+    <cmap_format_12 platformID="3" platEncID="10" format="12" reserved="0" length="40" language="0" nGroups="2">
+      <map code="0x20" name="space"/><!-- SPACE -->
+      <map code="0x1f40e" name="u1F40E"/><!-- HORSE -->
+    </cmap_format_12>
+  </cmap>
+
+  <loca>
+    <!-- The 'loca' table will be calculated by the compiler -->
+  </loca>
+
+  <glyf>
+
+    <!-- The xMin, yMin, xMax and yMax values
+         will be recalculated by the compiler. -->
+
+    <TTGlyph name=".notdef" xMin="93" yMin="-200" xMax="410" yMax="800">
+      <contour>
+        <pt x="410" y="-200" on="1"/>
+        <pt x="93" y="-200" on="1"/>
+        <pt x="93" y="800" on="1"/>
+        <pt x="410" y="800" on="1"/>
+      </contour>
+      <contour>
+        <pt x="167" y="118" on="1"/>
+        <pt x="167" y="5" on="1"/>
+        <pt x="333" y="5" on="1"/>
+        <pt x="333" y="118" on="1"/>
+      </contour>
+      <contour>
+        <pt x="300" y="38" on="1"/>
+        <pt x="200" y="38" on="1"/>
+        <pt x="200" y="85" on="1"/>
+        <pt x="300" y="85" on="1"/>
+      </contour>
+      <contour>
+        <pt x="233" y="291" on="1"/>
+        <pt x="233" y="235" on="1"/>
+        <pt x="267" y="235" on="1"/>
+        <pt x="267" y="258" on="1"/>
+        <pt x="300" y="258" on="1"/>
+        <pt x="300" y="211" on="1"/>
+        <pt x="200" y="211" on="1"/>
+        <pt x="200" y="291" on="1"/>
+        <pt x="167" y="291" on="1"/>
+        <pt x="167" y="178" on="1"/>
+        <pt x="333" y="178" on="1"/>
+        <pt x="333" y="291" on="1"/>
+      </contour>
+      <contour>
+        <pt x="300" y="413" on="1"/>
+        <pt x="300" y="347" on="1"/>
+        <pt x="167" y="347" on="1"/>
+        <pt x="167" y="313" on="1"/>
+        <pt x="333" y="313" on="1"/>
+        <pt x="333" y="413" on="1"/>
+      </contour>
+      <contour>
+        <pt x="167" y="473" on="1"/>
+        <pt x="167" y="440" on="1"/>
+        <pt x="233" y="440" on="1"/>
+        <pt x="233" y="403" on="1"/>
+        <pt x="167" y="403" on="1"/>
+        <pt x="167" y="370" on="1"/>
+        <pt x="267" y="370" on="1"/>
+        <pt x="267" y="440" on="1"/>
+        <pt x="333" y="440" on="1"/>
+        <pt x="333" y="473" on="1"/>
+      </contour>
+      <contour>
+        <pt x="233" y="534" on="1"/>
+        <pt x="200" y="534" on="1"/>
+        <pt x="200" y="570" on="1"/>
+        <pt x="233" y="570" on="1"/>
+      </contour>
+      <contour>
+        <pt x="167" y="604" on="1"/>
+        <pt x="167" y="500" on="1"/>
+        <pt x="333" y="500" on="1"/>
+        <pt x="333" y="534" on="1"/>
+        <pt x="267" y="534" on="1"/>
+        <pt x="267" y="604" on="1"/>
+      </contour>
+      <contour>
+        <pt x="168" y="733" on="1"/>
+        <pt x="168" y="700" on="1"/>
+        <pt x="233" y="700" on="1"/>
+        <pt x="233" y="663" on="1"/>
+        <pt x="167" y="663" on="1"/>
+        <pt x="167" y="630" on="1"/>
+        <pt x="333" y="630" on="1"/>
+        <pt x="333" y="663" on="1"/>
+        <pt x="267" y="663" on="1"/>
+        <pt x="267" y="700" on="1"/>
+        <pt x="333" y="700" on="1"/>
+        <pt x="333" y="733" on="1"/>
+      </contour>
+      <contour>
+        <pt x="167" y="-18" on="1"/>
+        <pt x="167" y="-51" on="1"/>
+        <pt x="237" y="-51" on="1"/>
+        <pt x="167" y="-98" on="1"/>
+        <pt x="167" y="-131" on="1"/>
+        <pt x="333" y="-131" on="1"/>
+        <pt x="333" y="-98" on="1"/>
+        <pt x="231" y="-98" on="1"/>
+        <pt x="301" y="-51" on="1"/>
+        <pt x="333" y="-51" on="1"/>
+        <pt x="333" y="-18" on="1"/>
+      </contour>
+      <instructions/>
+    </TTGlyph>
+
+    <TTGlyph name="space"/><!-- contains no outline data -->
+
+    <TTGlyph name="u1F40E" xMin="150" yMin="10" xMax="1093" yMax="596">
+      <contour>
+        <pt x="396" y="461" on="1"/>
+        <pt x="443" y="477" on="1"/>
+        <pt x="480" y="470" on="1"/>
+        <pt x="559" y="459" on="1"/>
+        <pt x="657" y="463" on="1"/>
+        <pt x="717" y="469" on="1"/>
+        <pt x="753" y="477" on="1"/>
+        <pt x="794" y="477" on="1"/>
+        <pt x="811" y="481" on="1"/>
+        <pt x="800" y="490" on="1"/>
+        <pt x="832" y="514" on="1"/>
+        <pt x="873" y="531" on="1"/>
+        <pt x="933" y="558" on="1"/>
+        <pt x="950" y="573" on="1"/>
+        <pt x="953" y="584" on="1"/>
+        <pt x="957" y="596" on="1"/>
+        <pt x="961" y="581" on="1"/>
+        <pt x="969" y="578" on="1"/>
+        <pt x="983" y="563" on="1"/>
+        <pt x="991" y="551" on="1"/>
+        <pt x="1000" y="547" on="1"/>
+        <pt x="1028" y="517" on="1"/>
+        <pt x="1046" y="494" on="1"/>
+        <pt x="1074" y="450" on="1"/>
+        <pt x="1093" y="438" on="1"/>
+        <pt x="1084" y="428" on="1"/>
+        <pt x="1088" y="416" on="1"/>
+        <pt x="1070" y="405" on="1"/>
+        <pt x="1045" y="405" on="1"/>
+        <pt x="1043" y="415" on="1"/>
+        <pt x="1020" y="428" on="1"/>
+        <pt x="1004" y="435" on="1"/>
+        <pt x="993" y="444" on="1"/>
+        <pt x="981" y="446" on="1"/>
+        <pt x="966" y="453" on="1"/>
+        <pt x="951" y="454" on="1"/>
+        <pt x="934" y="448" on="1"/>
+        <pt x="910" y="423" on="1"/>
+        <pt x="877" y="362" on="1"/>
+        <pt x="828" y="307" on="1"/>
+        <pt x="825" y="290" on="1"/>
+        <pt x="809" y="266" on="1"/>
+        <pt x="786" y="249" on="1"/>
+        <pt x="751" y="238" on="1"/>
+        <pt x="754" y="133" on="1"/>
+        <pt x="732" y="114" on="1"/>
+        <pt x="652" y="120" on="1"/>
+        <pt x="626" y="143" on="1"/>
+        <pt x="596" y="179" on="1"/>
+        <pt x="633" y="175" on="1"/>
+        <pt x="645" y="148" on="1"/>
+        <pt x="678" y="137" on="1"/>
+        <pt x="729" y="133" on="1"/>
+        <pt x="735" y="139" on="1"/>
+        <pt x="709" y="228" on="1"/>
+        <pt x="736" y="229" on="1"/>
+        <pt x="645" y="137" on="1"/>
+        <pt x="638" y="130" on="1"/>
+        <pt x="543" y="52" on="1"/>
+        <pt x="503" y="10" on="1"/>
+        <pt x="511" y="51" on="1"/>
+        <pt x="529" y="51" on="1"/>
+        <pt x="540" y="80" on="1"/>
+        <pt x="612" y="135" on="1"/>
+        <pt x="614" y="148" on="1"/>
+        <pt x="690" y="234" on="1"/>
+        <pt x="690" y="249" on="1"/>
+        <pt x="607" y="278" on="1"/>
+        <pt x="522" y="316" on="1"/>
+        <pt x="511" y="314" on="1"/>
+        <pt x="508" y="300" on="1"/>
+        <pt x="436" y="224" on="1"/>
+        <pt x="439" y="217" on="1"/>
+        <pt x="522" y="169" on="1"/>
+        <pt x="528" y="117" on="1"/>
+        <pt x="516" y="101" on="1"/>
+        <pt x="504" y="127" on="1"/>
+        <pt x="514" y="131" on="1"/>
+        <pt x="491" y="158" on="1"/>
+        <pt x="405" y="208" on="1"/>
+        <pt x="384" y="226" on="1"/>
+        <pt x="414" y="260" on="1"/>
+        <pt x="375" y="261" on="1"/>
+        <pt x="352" y="249" on="1"/>
+        <pt x="354" y="243" on="1"/>
+        <pt x="414" y="175" on="1"/>
+        <pt x="407" y="126" on="1"/>
+        <pt x="386" y="112" on="1"/>
+        <pt x="382" y="132" on="1"/>
+        <pt x="390" y="133" on="1"/>
+        <pt x="392" y="162" on="1"/>
+        <pt x="303" y="263" on="1"/>
+        <pt x="305" y="275" on="1"/>
+        <pt x="354" y="288" on="1"/>
+        <pt x="382" y="302" on="1"/>
+        <pt x="358" y="321" on="1"/>
+        <pt x="340" y="347" on="1"/>
+        <pt x="334" y="394" on="1"/>
+        <pt x="350" y="424" on="1"/>
+        <pt x="307" y="415" on="1"/>
+        <pt x="266" y="407" on="1"/>
+        <pt x="224" y="383" on="1"/>
+        <pt x="182" y="359" on="1"/>
+        <pt x="150" y="401" on="1"/>
+        <pt x="156" y="440" on="1"/>
+        <pt x="252" y="442" on="1"/>
+        <pt x="352" y="444" on="1"/>
+      </contour>
+      <instructions/>
+    </TTGlyph>
+
+  </glyf>
+
+  <name>
+    <namerecord nameID="0" platformID="1" platEncID="0" langID="0x0" unicode="True">
+      © Laurence Penney 2017 all rights reserved, please email lorp@lorp.org for licensing questions
+    </namerecord>
+    <namerecord nameID="1" platformID="1" platEncID="0" langID="0x0" unicode="True">
+      Muybridge
+    </namerecord>
+    <namerecord nameID="2" platformID="1" platEncID="0" langID="0x0" unicode="True">
+      Regular
+    </namerecord>
+    <namerecord nameID="3" platformID="1" platEncID="0" langID="0x0" unicode="True">
+      1.000;UKWN;Muybridge-Regular
+    </namerecord>
+    <namerecord nameID="4" platformID="1" platEncID="0" langID="0x0" unicode="True">
+      Muybridge Regular
+    </namerecord>
+    <namerecord nameID="5" platformID="1" platEncID="0" langID="0x0" unicode="True">
+      Version 1.000
+    </namerecord>
+    <namerecord nameID="6" platformID="1" platEncID="0" langID="0x0" unicode="True">
+      Muybridge-Regular
+    </namerecord>
+    <namerecord nameID="9" platformID="1" platEncID="0" langID="0x0" unicode="True">
+      Laurence Penney
+    </namerecord>
+    <namerecord nameID="19" platformID="1" platEncID="0" langID="0x0" unicode="True">
+      __
+    </namerecord>
+    <namerecord nameID="0" platformID="3" platEncID="1" langID="0x409">
+      © Laurence Penney 2017 all rights reserved, please email lorp@lorp.org for licensing questions
+    </namerecord>
+    <namerecord nameID="1" platformID="3" platEncID="1" langID="0x409">
+      Muybridge
+    </namerecord>
+    <namerecord nameID="2" platformID="3" platEncID="1" langID="0x409">
+      Regular
+    </namerecord>
+    <namerecord nameID="3" platformID="3" platEncID="1" langID="0x409">
+      1.000;UKWN;Muybridge-Regular
+    </namerecord>
+    <namerecord nameID="4" platformID="3" platEncID="1" langID="0x409">
+      Muybridge Regular
+    </namerecord>
+    <namerecord nameID="5" platformID="3" platEncID="1" langID="0x409">
+      Version 1.000
+    </namerecord>
+    <namerecord nameID="6" platformID="3" platEncID="1" langID="0x409">
+      Muybridge-Regular
+    </namerecord>
+    <namerecord nameID="9" platformID="3" platEncID="1" langID="0x409">
+      Laurence Penney
+    </namerecord>
+    <namerecord nameID="19" platformID="3" platEncID="1" langID="0x409">
+      🐎
+    </namerecord>
+    <namerecord nameID="256" platformID="3" platEncID="1" langID="0x409">
+      Weight
+    </namerecord>
+    <namerecord nameID="257" platformID="3" platEncID="1" langID="0x409">
+      Width
+    </namerecord>
+    <namerecord nameID="258" platformID="3" platEncID="1" langID="0x409">
+      Time
+    </namerecord>
+    <namerecord nameID="259" platformID="3" platEncID="1" langID="0x409">
+      Regular 0
+    </namerecord>
+    <namerecord nameID="260" platformID="3" platEncID="1" langID="0x409">
+      Regular 1000
+    </namerecord>
+  </name>
+
+  <post>
+    <formatType value="2.0"/>
+    <italicAngle value="0.0"/>
+    <underlinePosition value="-75"/>
+    <underlineThickness value="50"/>
+    <isFixedPitch value="0"/>
+    <minMemType42 value="0"/>
+    <maxMemType42 value="0"/>
+    <minMemType1 value="0"/>
+    <maxMemType1 value="0"/>
+    <psNames>
+      <!-- This file uses unique glyph names based on the information
+           found in the 'post' table. Since these names might not be unique,
+           we have to invent artificial names in case of clashes. In order to
+           be able to retain the original information, we need a name to
+           ps name mapping for those cases where they differ. That's what
+           you see below.
+            -->
+    </psNames>
+    <extraNames>
+      <!-- following are the name that are not taken from the standard Mac glyph order -->
+      <psName name="u1F40E"/>
+    </extraNames>
+  </post>
+
+  <GSUB>
+    <Version value="0x00010000"/>
+  </GSUB>
+

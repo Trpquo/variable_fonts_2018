@@ -1,0 +1,382 @@
+﻿<!DOCTYPE html>
+<html xmlns="http://www.w3.org/1999/xhtml">
+
+<head>
+    <meta charset="utf-8" />
+    <meta name="description" content="Vježbe iz kolegija Multimedijske komunikacije 1" />
+    <meta name="keywords" content="Web produkcija, Web dizajn" />
+    <meta name="author" content="Trpimir Jeronim Ježić" />
+
+    <link rel="stylesheet" type="text/css" href="stil/tipografija.css" />
+    <link rel="stylesheet" type="text/css" href="stil/osnovni-prijelom.css" />
+    <link href="stil/colorbox.css" rel="stylesheet" />
+
+    <script src="pogon/html2canvas.js"></script>
+    <script src="pogon/jquery-1.11.2.min.js"></script>
+    <script src="pogon/jquery.colorbox-min.js"></script>
+
+    <title>
+        VF: PDC BB 2018
+    </title>
+</head>
+
+<body>
+    <main>
+        <article id="vježba1">
+            <section>
+                <h1 class="otvorniNaslov">
+                    <span>Proširenje mogućnosti pristupačnosti, responzivnosti i interaktivnosti web stranica putem variabilnih fontova</span><br />
+                    <small>PDC BB 2018</small><br />
+                    <span id="brojVježbe" class="običanTekst">&mdash; Trpimir Jeronim Ježić, Željko Bosančić, Anna Maria Hackenberger Kutuzović</span>
+                </h1>
+            </section>
+            <section>
+                <h4>Grafika</h4>
+                <div>
+                    <img src="materijali/vj1/newspaper-pile.jpg" width="500">
+                    <img src="materijali/vj1/example1.gif" width="300" style="margin: 200px 0 50px 50px;">
+                </div>
+            </section>
+            <section class="puniEkran">
+                <h4><span class="krepak">razvoj tehnike pisanja</span></h4>
+                <figure>
+                    <img src="materijali/razvoj_pisma1.jpg" id="razvojPisma" />
+                </figure>
+            </section>
+            <section class="puniEkran">
+                <h4><span class="krepak"><a target="_blank" href="https://docs.microsoft.com/en-us/typography/opentype/spec/">OpenType 1.8</a></span></h4>
+                <figure>
+                    <img src="materijali/static-font-files-vs-variable-font-files.png" />
+                    <figcaption>OpenType 1.8</figcaption>
+                </figure>
+            </section>
+            <section>
+                <h4>probe pisama (<a target="_blank" href="https://pypi.org/project/FontTools/">fonttools</a> ttx)</h4>
+                <br />
+                <br />
+                <ol>
+                    <li>
+                        <a href="https://www.axis-praxis.org/specimens/__DEFAULT__" target="_blank">Axis-Praxis</a>
+                    </li>
+                    <li>
+                        <a href="https://play.typedetail.com/" target="_blank">Font Playground</a>
+                    </li>
+                    <li>
+                        <a href="http://fvar.unsoundscapes.com/" target="_blank">Font dimensions</a>
+                    </li>
+                    <li>
+                        <a href="https://v-fonts.com/" target="_blank">Variable fonts</a>
+                    </li>
+
+                </ol>
+            </section>
+            <section class="puniEkran">
+                <h4>multiple master</h4>
+                <figure>
+                    <img src="materijali/family-variable.svg" />
+                    <figcaption>OpenType 1.8</figcaption>
+                </figure>
+            </section>
+            <section class="puniEkran">
+                <figure>
+                    <img src="materijali/Noordzij-komp.png" />
+                    <figcaption>OpenType 1.8</figcaption>
+                </figure>
+            </section>
+            <section>
+                <h4>delta</h4>
+                <img src="materijali/deltas-1.svg">
+                <img src="materijali/deltas-2.svg" style="margin-left: 2em;">
+                <img src="materijali/delta.png" style="margin-left: 2em; width: 450px">
+                <figure>
+                    <a class="cb" src="materijali/wght-wdth.png"><img src="materijali/wght.png" /></a>
+                    <figcaption>wght</figcaption>
+                </figure>
+            </section>
+            <section class="puniEkran">
+                <h4>VF GX</h4>
+                <figure>
+                    <img src="materijali/wght-wdth.png" />
+                    <figcaption>wght-wdth</figcaption>
+                </figure>
+            </section>
+            <section class="puniEkran">
+                <!-- <h4>VF GX</h4> -->
+                <figure>
+                    <img src="materijali/dizajn slova.png" id="VFtablice" />
+                </figure>
+            </section>
+
+            <section>
+                <h4>VF GX na webu</h4>
+                <p class="središnji" style="margin-top: 20%;">
+                    <span class="zrno">&raquo;</span>
+                    <a target="_blank" href="https://caniuse.com/#search=variable%20fonts">caniuse: Variabilni fontovi</a>
+                    <span class="zrno">&laquo;</span>
+                </p>
+            </section>
+            <section>
+                <h4>web sjedište</h4>
+                <div id="repozitorij">
+                    <ul>
+                        <li>
+                            <h5>STIL</h5>
+                            <ul>
+                                <li>stil.css</li>
+                                <li>prijelom.css</li>
+                                <li>tipografija.css</li>
+                                <li>sfx.css</li>
+                                <li>...</li>
+                            </ul>
+                        </li>
+                        <li>
+                            <h5>SKRIPTE</h5>
+                            <ul>
+                                <li>navigacija.js</li>
+                                <li>formular.js</li>
+                                <li>plug-in-1.js</li>
+                                <li>plug-in-2.js</li>
+                                <li>...</li>
+                            </ul>
+                        </li>
+                        <li>
+                            <h5>RESURSI</h5>
+                            <ul>
+                                <li>SLIKE</li>
+                                <li>PISMA</li>
+                                <li>IKONE</li>
+                                <li>DATA</li>
+                                <li>...</li>
+                            </ul>
+                        </li>
+                        <li>
+                            <h5>SADRŽAJ</h5>
+                            <ul>
+                                <li>O_nama.html</li>
+                                <li>povijest.html</li>
+                                <li>galerija.html</li>
+                                <li>trgovina.html</li>
+                                <li>...</li>
+                            </ul>
+                        </li>
+                        <li style="background-color: transparent;">index.html</li>
+
+                    </ul>
+                    <br style="clear: both">
+                </div>
+            </section>
+            <section>
+                <h4>povezanost / hijerarhija</h4>
+                <figure class="cijeliEkran">
+                    <img src="materijali/vj2/prijelomi.png" />
+                    <figcaption></figcaption>
+                </figure>
+            </section>
+            <section>
+                <h4>umetanje
+                    <span class="krepak">i</span> gaženje</h4>
+                <br />
+                <br />
+                <ol>
+                    <li>
+                        <code>&lt;</code>style
+                        <code>&gt;</code>
+                    </li>
+                    <li>
+                        <code>&lt;</code>link
+                        <code>rel="</code>stylesheet
+                        <code>"&gt;</code>
+                    </li>
+                    <li>
+                        <code>style="</code>...
+                        <code>"</code>
+                    </li>
+                </ol>
+            </section>
+            <section>
+                <h4><a href="http://www.w3schools.com/cssref/default.asp#text" class="cb">tipografska CSS svojstva</a></h4>
+                <ul class="dvojna-lista" style="list-style: none; margin-top: 3em;">
+                    <li><code><strong>font-</strong></code></li>
+                    <li style="padding-left: 1em;">family</li>
+                    <li style="padding-left: 1em;">size</li>
+                    <li style="padding-left: 1em;"><code>weight</code></li>
+                    <li style="padding-left: 1em;">style</li>
+                    <li style="padding-left: 1em;">variant</li>
+                    <li style="padding-left: 1em;"><code>stretch</code></li>
+                    <li style="padding-left: 1em;"><code>optical-sizing</code></li>
+                    <li style="padding-left: 1em;" class="red"><code>variation-settings</code></li>
+                    <hr />
+                    <li><strong>color</strong></li>
+                </ul>
+
+                <ul class="dvojna-lista" style="list-style: none;  margin-top: 3em;">
+                    <li><code><strong>text-</strong></code></li>
+                    <li style="padding-left: 1em;">align</li>
+                    <li style="padding-left: 1em;">indent</li>
+                    <li style="padding-left: 1em;">transform</li>
+                    <li style="padding-left: 1em;">decoration</li>
+                    <li style="padding-left: 1em;">shadow</li>
+                    <li style="padding-left: 1em;">overflow</li>
+                    <hr />
+                    <li><strong>line-</strong>height</li>
+                    <li><strong>word-</strong>spacing</li>
+                    <li><strong>letter-</strong>spacing</li>
+                </ul>
+            </section>
+            <section>
+                <h4>definiranje pisama</h4>
+                <br><br>
+                <p>
+                    <i>selektor</i> <code>{</code>
+                    <div class="uvlaka">
+                        <code>font-family: "</code><i>ime</i><code>",</code> <i>rezerva</i><code>,</code> <i>tip pisma</i><code>;</code><br>
+                        <code>font-size: </code><i>veličina</i><code>;</code> <span class="flah">/ <i>ključna riječ</i>, mjerna jedinica (px, pt, mm), relativna jedinica (%, x.x, em)</span><br>
+                        <code>color: </code><i>boja</i><code>;</code><span class="flah">/ <i>ime boje</i>, #hex, <i>cfx(x1, x2, x3)</i></span><br>
+                        <code>font-variation-settings: </code><i>"wdth" 999, "wght" 999, "slnt" 999, "opsz" 999, "xyz" 999, ... </i><code>;</code><span class="flah">/ <i>popis zadanih vrijednosti po fvar dimenzijama</i></span><br>
+                    </div>
+                    <code>}</code>
+                </p>
+                <br>
+                <hr>
+                <p>
+                    <code>font-family: </code> <i><a href="https://www.w3schools.com/cssref/css_websafe_fonts.asp" target="_blank">'web safe' fontovi</a></i><code>;</code>
+                </p>
+                <br>
+                <p>
+                    <code>@font-face {</code>
+                    <div style="margin-left: 1em;">
+                        <code>src: url("</code><i>adresa</i><code>") format("</code>xyz<code>");</code><br>
+                        <code>font-family: "</code><i>ime</i><code>";</code><br>
+                    </div>
+                    <code>}</code>
+                </p>
+            </section>
+            <section>
+                <h4><a href="https://www.w3schools.com/css/css3_transitions.asp" class="cb">CSS tranzicije</a></h4>
+                <div style="margin-top: 4em;">
+                    <h5>/* stanje 1 */</h5>
+                    <p>
+                        <i>selektor</i> <code>{</code>
+                        <div class="uvlaka">
+                            <code>svojstva: </code><em>vrijednosti</em><code>;</code><br> ...<code>;</code><br>
+                            <code>transition: </code><i>svojstvo</i> trajanje vremenska-funkcija odgoda<code>;</code> <span class="flah">/ dodati još uputa za koje god svojstvo i odvojiti ih zarezom</span><br>
+                        </div>
+                        <code>}</code>
+                    </p><br><br>
+                    <h5>/* stanje 2 */</h5>
+                    <p>
+                        <i>novi-selektor-za-promijenjenu-stvar</i> <code>{</code>
+                        <div class="uvlaka">
+                            <code>ista-svojstva: </code><em>nove-vrijednosti</em><code>;</code><br> ...
+                            <code>;</code><span class="flah"> / samo one promijenjene upute</span><br>
+                        </div>
+                        <code>}</code>
+                    </p>
+                </div>
+            </section>
+            <section>
+                <h4>interakcije</h4>
+                <p class="središnji" style="margin-top: 20%; font-size:6em;">
+                    <span class="zrno">&raquo;</span>
+                    <span id="VFinterakcije">Klikni me</span>
+                    <span class="zrno">&laquo;</span>
+                </p>
+            </section>
+            <section>
+                <h4><a href="https://www.w3schools.com/cssref/css3_pr_animation.asp" class="cb">CSS animacije</a></h4>
+                <div style="margin-top: 4em;">
+                    <h5>/* definicija */</h5>
+                    <p>
+                        <code>@keyframes</code> <em>ime-animacije</em> <code>{</code>
+                        <div class="uvlaka">
+                            <code>naznaka-perioda* {</code><em> CSS upute</em><code>; }</code><br>
+                            <code>naznaka-perioda {</code><em> CSS upute</em><code>; }</code><br> ...
+                            <code>;</code><span class="flah"> / svi koraci</span><br>
+                        </div>
+                        <code>}</code>
+                    </p><br><br>
+                    <h5>/* primjena */</h5>
+                    <p>
+                        <i>selektor</i> <code>{</code>
+                        <div class="uvlaka">
+                            <code>svojstva: </code><em>početne-vrijednosti</em><code>;</code><br> ...
+                            <code>;</code><span class="flah"> / sve upute</span><br>
+                            <code>animation: </code><i>ime-animacije</i> trajanje vremenska-funkcija odgoda broj-ponavljanja smijer-tijeka posljedica-animacije stanje-animacije<code>;</code> <span class="flah">/ dodati još uputa za koje god svojstvo i odvojiti ih zarezom</span><br>
+                        </div>
+                        <code>}</code>
+                    </p>
+                    <br><br>
+                    <p>
+                        <small class="flah">* naznaka-perioda: <b>from</b>&mdash;<b>to</b> ili <b>0%</b>&mdash;<b>100%</b> </small>
+                    </p>
+                </div>
+            </section>
+            <section>
+                <h4>animacije</h4>
+                <p class="središnji" style="margin-top: 20%; font-size:6em;">
+                    <span class="zrno">&raquo;</span>
+                    <span id="VFanimacija"><span>PRVI</span><span>DRUGI</span></span>
+                    <span class="zrno">&laquo;</span>
+                </p>
+            </section>
+            <section>
+                <h4>pristupačnost</h4>
+                <div id="VFaccess" class="središnji" style="font-stretch: 94; font-weight: 400; font-variation-settings: 'wdth' 130, 'wght' 80; background-color: rgba(160,160,180,0), color: rgba(0,0,0,.5)">
+                    <p>
+                        A variable font is a collection of master styles, with one central 'default' master (usually the Regular font style) and multiple registered “axes” which tie the central master to the other masters. For example, the Weight axis might connect a Light style
+                        master to the default style and through to the Bold style master. The individual styles that can be located along this axis are called instances.
+                    </p>
+                </div>
+
+                <input id="accessSlider" type="range" min="80" max="150" value="80">
+            </section>
+            <section class="puniEkran">
+                <figure>
+                    <img src="materijali/citljivost.png" />
+                    <figcaption>Čitljivost</figcaption>
+                </figure>
+            </section>
+            <section>
+                <h4>pristupačnost 2</h4>
+                <div class="središnji" style="">
+                    <p id="VFreadability">
+                        A variable font is a collection of master styles, with one central 'default' master (usually the Regular font style) and multiple registered “axes” which tie the central master to the other masters. For example, the Weight axis might connect a Light style
+                        master to the default style and through to the Bold style master. The individual styles that can be located along this axis are called instances.
+                    </p>
+                </div>
+            </section>
+            <section>
+                <h4>probe pisama (<a target="_blank" href="https://pypi.org/project/FontTools/">fonttools</a> ttx)</h4>
+                <p class="središnji" style="margin-top: 20%;">
+                    <span class="zrno">&raquo;</span>
+                    <a class="cb" href="./variabilni fontovi/index.html">VFGX</a>
+                    <!-- D:\cloud\OneDrive\OneDrive - Faculty of Graphic Arts of University of Zagreb\0_projekti\JavaScript-projekti\variabilni fontovi\index.html -->
+                    <span class="zrno">&laquo;</span>
+                </p>
+            </section>
+
+            <section>
+                <p class="zatvor">Hvala na pažnji!</p>
+            </section>
+        </article>
+
+        <!--//////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////-->
+
+        <!--//////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////-->
+
+
+        <!-- **************************************************** -->
+
+
+
+
+
+    </main>
+
+    <canvas id="kursor" width="100" height="300"></canvas>
+    <script src="pogon/kursorCanvas.js"></script>
+    <script src="pogon/ilustracije.js"></script>
+    <script src="pogon/navigacija.js"></script>
+</body>
+
+</html>
