@@ -91,7 +91,7 @@ function displayFont(fontName, desc, axis) {
         }
     };
 
-    xmlhttp.open("GET", "variabilni fontovi/font-info.json", true);
+    xmlhttp.open("GET", "font-info.json", true);
     xmlhttp.send();
 
     function getSiblings(elem) {
@@ -105,7 +105,7 @@ function displayFont(fontName, desc, axis) {
 
     var listeners = setInterval(function() {
         proba++;
-        console.log("Proba", proba);
+        // console.log("Proba", proba);
         let articles = document.getElementsByTagName("article");
         for (let i=0; i<articles.length; i++) {
             if (i==0) articles[i].classList.add("display");
